@@ -38,7 +38,7 @@ index hexa       coin
 2     0x80000002 Litecoin
 3     0x80000003 Dogecoin
 4     0x80000004 Reddcoin
-5     0x80000005 Darkcoin
+5     0x80000005 Dash (ex Darkcoin)
 6     0x80000006 Peercoin
 7     0x80000007 Namecoin
 8     0x80000008 Feathercoin
@@ -55,6 +55,16 @@ index hexa       coin
 19    0x80000013 Cannacoin
 20    0x80000014 DigiByte
 21    0x80000015 `Open Assets <https://github.com/OpenAssets/open-assets-protocol>`_
+22    0x80000016 Monacoin
+23    0x80000017 Clams
+24    0x80000018 Primecoin
+25    0x80000019 Neoscoin
+26    0x8000001a Jumbucks
+27    0x8000001b ziftrCOIN
+28    0x8000001c Vertcoin
+29    0x8000001d NXT
+30    0x8000001e Burst
+77    0x8000004d `DogecoinDark <https://github.com/doged/>`_
 ===== ========== ================================
 
 Coin types will be added only if there is a wallet implementing BIP-0044 for desired coin.
