@@ -18,7 +18,7 @@ Every sale referred by you can earn you up to 10% commission, depending on your 
 How do I become your affiliate?
 -------------------------------
 
-1. Apply for partnership via `our email <mailto:info@buytrezor.com>`_ or our `landing page <http://buytrezor.com/sales>`_ with details about your marketing experience, and your promotion channels. We'll review your application shortly.
+1. Apply for partnership via our `landing page <http://buytrezor.com/sales>`_ with details about your marketing experience, and your promotion channels. We'll review your application shortly.
 
 2. TREZOR users are the best source of recommendation and they love our product. That's why every BuyTrezor.com shopper automatically gets the chance to join our program. 
 
