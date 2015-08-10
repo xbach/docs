@@ -18,7 +18,7 @@ Every sale referred by you can earn you up to 10% commission, depending on your 
 How do I become your affiliate?
 -------------------------------
 
-1. Apply for partnership via `our email <mailto:info@buytrezor.com>`_ with details about your marketing experience, and your promotion channels. We'll review your application shortly.
+1. Apply for partnership via `our email <mailto:info@buytrezor.com>`_ or our `landing page <http://buytrezor.com/sales>`_ with details about your marketing experience, and your promotion channels. We'll review your application shortly.
 
 2. TREZOR users are the best source of recommendation and they love our product. That's why every BuyTrezor.com shopper automatically gets the chance to join our program. 
 
@@ -77,14 +77,14 @@ In our `Press Kit <https://github.com/satoshilabs/presskit/archive/master.zip>`_
 Which banners can I use?
 ------------------------
 
-You can `DOWNLOAD ALL BANNERS IN ZIP <https://buytrezor.com/static/shared/trezor_banners.zip>`_ and also use the banners we put up temporarily with some special promotion.
+You can `DOWNLOAD ALL BANNERS IN ZIP <https://buytrezor.com/static/shared/trezor_banners99.zip>`_ and also use the banners we put up temporarily with some special promotion.
 You can also create your own banners, but please send them to us for approval before you start using them. Thanks!
 
 **Preview of Set 1. Finally Easy & Secure - white**
 
-.. image:: images/banners_preview.png 
-	:alt: https://buytrezor.com/static/shared/trezor_banners.zip
-	:target: https://buytrezor.com/static/shared/trezor_banners.zip
+.. image:: images/banners_preview99.png 
+	:alt: https://buytrezor.com/static/shared/trezor_banners99.zip
+	:target: https://buytrezor.com/static/shared/trezor_banners99.zip
 
 
 I see some rewards but I didn't receive any BTC yet. Why?
