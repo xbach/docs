@@ -13,7 +13,7 @@ To make a purchase:
 
 1. Select the color of your TREZOR and click "Buy now".
 2. You will be taken to the Shopping Cart. If you wish to add more products, you can do it right there by changing the amounts and hitting "Recalculate".
-3. Optionally add DHL Express shipping by clicking the text link below the cart.
+3. Optionally switch DHL Express shipping to Standard Shipping by clicking the Standard Shipping tile below the cart.
 4. Proceed to entering your address and confirm with "Send order".
 5. You will be taken to a page with your bitcoin payment instructions.
 6. Once the payment is confirmed through the Bitcoin network, we'll start to process your order and let you know when your order has been shipped.
@@ -85,24 +85,25 @@ If your country is not listed in the Delivery Address Form, let us know at `info
 We will try to include it as soon as possible.
 
 
-How long it takes you to handle the order?
+How long does it take you to handle the order?
 ------------------------------------------
 
-As for the standard shipping we ship 3 times a week (Monday, Wednesday, Friday). If an order is made before 12:00 CET on the shipping day, we ship the order the same day. We have all items in stock and we never postpone the shipping without prior customer notification.
+We process orders with the DHL Express shipping every working day and with the standard shipping 3 times a week (Monday, Wednesday, Friday). If an order is made before 12:00 CET on the shipping day, we ship the order the same day. We have all items in stock and we never postpone the shipping without prior customer notification.
 
 
 What are the shipping options?
 ------------------------------
 
-**Standard worldwide shipping**
-
-Default shipping option. It is free of charge, but the traceability is limited.
-Delivery time may vary between 2 days to 6 weeks depending on your location and your national post.
-
 **DHL Express shipping** 
 
-You can also choose DHL Express shipping which costs $39 and it's fully traceable.
-Delivery time is usually 3-5 business days.
+Default shipping option. DHL Express shipping which costs $29 and it's fully traceable.
+Delivery time is usually 2-5 business days.
+
+**Standard worldwide shipping**
+
+You can also choose Standard shipping for $10 and the traceability is limited.
+Delivery time may vary between 5 days to 6 weeks depending on your location and your national post.
+
 
 
 Where can I follow my order (get a tracking number)?
