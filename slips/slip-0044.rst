@@ -67,6 +67,7 @@ index hexa       coin
 31    0x8000001f MonetaryUnit
 32    0x80000020 Zoom
 33    0x80000021 Vpncoin
+35    0x80000023 ShadowCash
 77    0x8000004d `DogecoinDark <https://github.com/doged/>`_
 ===== ========== ================================
 
