@@ -113,6 +113,8 @@ By logging into `BuyTREZOR.com/user/login <https://www.buytrezor.com/user/login/
 
 We will notify you of any significant change to your order by email as well.
 
+You can track the parcel sent via DHL `here <http://www.dhl.com/en/express/tracking.html>`_. Parcel sent via Standard shipping `here <https://www.ceskaposta.cz/en/trackandtrace>`_ and when it leaves the country of origin then continue to the website of postal service in your country.
+
 
 How do I know when my TREZOR is shipped?
 ----------------------------------------
