@@ -70,6 +70,7 @@ index hexa       coin
 34    0x80000022 `Canada eCoin <https://github.com/Canada-eCoin/>`_
 35    0x80000023 ShadowCash
 50    0x80000032 `Novacoin <https://github.com/novacoin-project/novacoin>`_
+64    0x80000040 `Open Chain <https://github.com/openchain/>`_
 77    0x8000004d `DogecoinDark <https://github.com/doged/>`_
 ===== ========== ================================
 
