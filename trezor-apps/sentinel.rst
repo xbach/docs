@@ -44,6 +44,7 @@ If your camera doesn't work, select Manual option instead and type the public ke
 related to the imported account.
 
 .. image:: images/sentinel01.png
+         :scale: 75 %
 
 You can get more infomation about particular transaction by simply selecting it from the list. To generate new receiving address, click on "+" icon at bottom right corner.
 If you need to watch another account, click on the settings icon at upper right corner and select Your XPUB and import a new account public key. 
