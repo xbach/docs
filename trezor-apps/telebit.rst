@@ -41,7 +41,7 @@ confirm the transaction on your TREZOR.
 .. image:: images/telebit08.png
 .. image:: images/telebit09.png
 
-To **receive funds from Telebit to TREZOR** select the receiving account and then select Move funds to TREZOR**. Enter the amount
+To **receive funds from Telebit to TREZOR** select the account to receive and then select Move funds to Trezor. Enter the amount
 and confirm the transaction.
 
 .. image:: images/telebit10.png

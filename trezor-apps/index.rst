@@ -50,7 +50,7 @@ e.g. creating invoices from your TREZOR accounts. Click on the name of a service
 Service                                              Feature(s)                            Description
 `Bitex <bitex.html>`_                                :icon:`lock`                          Real time bitcoin exchange.
 `Cashila <cashila.html>`_                            :icon:`lock`                          Payment processor. Pay your bills with Bitcoin.
-`Coinmap <coinmap.html>`_                            :icon:`lock`, :icon:`umbrella`        Map of bitcoin shops and businesses.
+`Coinmap <coinmap.html>`_                            :icon:`lock` :icon:`umbrella`         Map of bitcoin shops and businesses.
 `Coinpayments <coinpayments.html>`_                  :icon:`lock`                          Payment processor service supporting various cryptocurrencies.
 `CoinSimple <coinsimple.html>`_                      :icon:`lock`  	                       Bitcoin invoicing service and wallet connector.
 `Osclass <osclass.html>`_                            :icon:`lock`                          Open-source platform for easy creation of classifieds sites. 
