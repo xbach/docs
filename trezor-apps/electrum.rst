@@ -46,7 +46,7 @@ Resources
 ---------
 
 - `Website <https://www.electrum.org/>`_
-- `Download <https://electrum.org/#download>`_
+- `Download <https://electrum.org/#download>`_, last version supporting TREZOR in Windows is `here <https://download.electrum.org/electrum-2.3.2-setup.exe>`_ 
 - `Support <https://www.electrum.org/#community>`_
 - `User manual <https://electrum.orain.org/wiki/Main_Page>`_
 
