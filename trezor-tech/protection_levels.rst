@@ -11,14 +11,14 @@ WipeDevice            ✔
 FirmwareErase         ✔
 FirmwareUpload        ✔
 GetEntropy            ✔
-GetPublicKey                     ✔
+GetPublicKey                 ✔   ✔
 LoadDevice            ✔
 ResetDevice
 SignTx                ✔      ✔   ✔
 SimpleSignTx          ✔      ✔   ✔
 CipherKeyValue        ✔      ✔   ✔          (button only if ask_encrypt/ask_on_decrypt flag is set)
 ApplySettings         ✔      ✔
-GetAddress                       ✔
+GetAddress                   ✔   ✔
 SignMessage           ✔      ✔   ✔
 VerifyMessage         
 SignIdentity          ✔      ✔   ✔
