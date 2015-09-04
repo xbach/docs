@@ -21,6 +21,7 @@ ApplySettings         ✔      ✔
 GetAddress                       ✔
 SignMessage           ✔      ✔   ✔
 VerifyMessage         
+SignIdentity          ✔      ✔   ✔
 RecoveryDevice
 EstimateTxSize
 ===================== ====== === ========== ==============
