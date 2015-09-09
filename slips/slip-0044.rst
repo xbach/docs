@@ -71,6 +71,7 @@ index hexa       coin
 35    0x80000023 ShadowCash
 36    0x80000024 `ParkByte <https://github.com/parkbyte/>`_
 50    0x80000032 `Novacoin <https://github.com/novacoin-project/novacoin>`_
+60    0x8000003c `Ether <https://ethereum.org/ether>`_
 64    0x80000040 `Open Chain <https://github.com/openchain/>`_
 77    0x8000004d `DogecoinDark <https://github.com/doged/>`_
 ===== ========== ================================
