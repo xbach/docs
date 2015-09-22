@@ -106,8 +106,8 @@ What doesn't TREZOR protect against (yet)?
 Phishing
 --------
 
-If you wish to make a payment to someone on the Internet, you have to be able to figure out their bitcoin address.  If you cannot trust your computer, however, you cannot be sure that the bitcoin addresses being displayed on your screen are not being maliciously modified.  It's best to confirm the address via second channel (for example SMS, phone call or meeting in person).
+If you wish to make a payment to someone on the Internet, you need to know their bitcoin address. Unlike TREZOR, computers are not necessarily secure and it is possible that the bitcoin address displayed on your screen has been maliciously modified.
 
-For receiving funds, you can be sure you are providing **safe receiving addresses** by using `Show on TREZOR <../trezor-user/receivingpayments.html#receiving-payments>`_ feature. Using that you can check if the receiving address has not been changed on your potentially compromised computer.
+To be safe, we recommend confirming the recipient's bitcoin address through a second channel, such as SMS, a phone call, or an in-person meeting.
 
-Currently, TREZOR has no built in defence against phishing attacks.  In the future, we plan to support so-called Payment Protocol defined in `BIP-0070 <https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki>`_ which aims to replace addresses with signed messages containing name of the payee, address and requested amount. Using that method we'll be able to show the payee's name on the TREZOR's screen instead of a meaningless address.
+When **receiving funds**, you can guarantee that you are providing safe receiving addresses by using the `Show on TREZOR <../trezor-user/receivingpayments.html#receiving-payments>`_ feature. Using this feature you can easily check to see if the receiving address has not been changed on a potentially compromised computer.
