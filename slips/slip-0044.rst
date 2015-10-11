@@ -74,6 +74,7 @@ index hexa       coin
 50    0x80000032 `Novacoin <https://github.com/novacoin-project/novacoin>`_
 60    0x8000003c `Ether <https://ethereum.org/ether>`_
 64    0x80000040 `Open Chain <https://github.com/openchain/>`_
+69    0x80000045 `OKCash <https://github.com/okcashpro/>`_
 77    0x8000004d `DogecoinDark <https://github.com/doged/>`_
 ===== ========== ================================
 
