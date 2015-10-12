@@ -55,3 +55,8 @@ There is a growing number of wallets and online services, which you can use to *
 These apps cannot spend your coins but can check balances online or generate new receiving addresses for you. 
 
 To find out more about these apps, please look for wallets and services with "Watch-only mode" feature icon :icon:`eye-slash` in `TREZOR Apps <../trezor-apps/index.html>`_
+
+Which coins is TREZOR compatible with?
+--------------------------------------
+
+At this moment it is Bitcoin, Litecoin, Namecoin, Dogecoin, Dash and Testnet. Please check up to date list at our `repository <https://github.com/trezor/trezor-mcu/blob/b4728e6cf90bdab5df75857d25b291f5479c70c4/firmware/coins.c#L23>`_.
