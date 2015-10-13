@@ -41,7 +41,7 @@ Finally, enter your account password and complete the procedure.
 
 .. image:: images/cashila03.png
 
-From now, you will be able to Sign in with TREZOR and **never again worry that your password might be stolen by a keylogger**. Go ahead and try it!
+From now on, you will be able to Sign in with TREZOR and **do not worry that your password might be stolen by a keylogger ever again**. Go ahead and try it!
 
-In case you ever need to **unlink your TREZOR**, just go to Account > Pair Trezor and click on on Disable. 
+In case you ever need to **unlink your TREZOR**, just go to Account > Pair Trezor and click on Disable button. 
 You will get confirmation that your TREZOR link was removed. Of course, you can easily relink the device again whenever you want.
