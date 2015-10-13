@@ -6,9 +6,9 @@ Coinmap
 What is Coinmap?
 ----------------
 
-`Coinmap <https://coinmap.org>`_ is a map where you go to learn about bitcoin shops and businesses.
+`Coinmap <https://coinmap.org>`_ is a map where you can find bitcoin shops and businesses.
 It is also great tool for journalists who want to study and report on an adoption of bitcoin in real economy.
-Recently, brand new redesigned **Coinmap 2.0** has been released which allows for a fast creation of map venues 
+Recently, brand new redesigned **Coinmap 2.0** has been released which allows fast creation of map venues 
 and also user ratings and reporting. 
 
 Find out about bitcoin shops in your neighbourhood and on your travels! Let your customers know you accept bitcoin! 
@@ -42,7 +42,7 @@ If your device is locked, you will have to enter your PIN. Note, that PIN is nev
 
 .. image:: images/coinmap05.png
 
-When signed in, adding a new venue is a matter of seconds: Right click on the location where you want to plase new venue 
+When signed in, adding a new venue is a matter of seconds: Right click on the location where you want to place new venue 
 and select Add Venue. Then fill out name of your business and other details and click Save. That's it,
 you have just added your business to Coinmap.
 
