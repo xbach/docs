@@ -6,7 +6,7 @@ Bitex.la
 What is Bitex.la?
 -------------------------
 
-`Bitex.la <https://bitex.la>`_ is a bitcoin exchange, financial services and liquidity provider for Latin American region. 
+`Bitex.la <https://bitex.la>`_ is a bitcoin exchange, financial services and liquidity provider for the region of Latin America. 
 People can now be part of the global economy with the safety only TREZOR can provide with its passwordless and secure authentication. 
 Sign in with TREZOR and start buying, selling and trading bitcoin.
 
@@ -28,18 +28,18 @@ Connect your TREZOR to your computer and click Sign in with TREZOR.
 
 .. image:: images/bitex02.png
 
-You will be asked to confirm the action on your TREZOR.
+You will be asked to confirm the action on your TREZOR..
 
 .. image:: images/bitex03.png
 
-and authenticate with your PIN. Note, that PIN is never asked again until you disconect the device.
+..and authenticate with your PIN. Note, that PIN is never asked again until you disconect the device.
 
 .. image:: images/bitex04.png
 
-And you are done! From now, you will be able to Sign in with TREZOR to your Bitex.la account and never again worry that your password
+And you are done! From now on you will be able to Sign in with TREZOR to your Bitex.la account and never again worry that your password
 might be stolen by a keylogger. Go ahead and try it!
 
-Logout, go to the login page and select Sign-in with TREZOR.
+Log out, go to the login page and select Sign-in with TREZOR.
 
 .. image:: images/bitex05.png
 
@@ -51,7 +51,7 @@ And voila! You have just singed in to Bitex.la using TREZOR.
 
 .. image:: images/bitex07.png
 
-In case you ever need to unlink your TREZOR, you can do it easily in user preference section s.
+In case you ever need to unlink your TREZOR, you can do it easily in user preference section.
 After clicking on Unlink your TREZOR device.
 
 .. image:: images/bitex08.png
