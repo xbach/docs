@@ -1,6 +1,8 @@
 Labeling
 ========
 
+.. note:: This feature is currently in open beta testing phase and is available at `beta.mytrezor.com <https://beta.mytrezor.com>`_. 
+
 By connecting myTREZOR.com with Dropbox cloud storage, you can enjoy all these useful features:
 
 - **Rename accounts**
@@ -27,7 +29,7 @@ Set up labeling: Connect Dropbox with your TREZOR
 
 .. image:: images/labeling-dropboxlogin.png
 
-.. important:: When you log into your Dropbox account, there is a session cookie on Dropbox server valid for about 5 years! We recommend to log out of your Dropbox account manually after you finish working with myTREZOR.com or use Private window in your browser for the best possible privacy.
+.. important:: When you log into your Dropbox account, there is a session cookie on Dropbox server with access to myTREZOR folder valid for about 5 years! We recommend to log out of your Dropbox account manually after you finish working with myTREZOR.com or use Private window in your browser for the best possible privacy.
 
 4. Once logged in, TREZOR will ask for your permission to create a folder in your Dropbox where all the labels will be stored.
 
