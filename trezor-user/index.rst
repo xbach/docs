@@ -22,6 +22,7 @@ Contents
    advanced_settings
    advanced_features
    messages
+   labeling
    applications
    download
 
