@@ -73,6 +73,8 @@ index hexa       coin
 37    0x80000025 Pandacoin
 38    0x80000026 StartCOIN
 50    0x80000032 `Novacoin <https://github.com/novacoin-project/novacoin>`_
+54    0x80000036 `Templecoin <https://github.com/9cat/templecoin>`_
+55    0x80000037 `AIB <https://github.com/iobond/aib>`_
 60    0x8000003c `Ether <https://ethereum.org/ether>`_
 64    0x80000040 `Open Chain <https://github.com/openchain/>`_
 69    0x80000045 `OKCash <https://github.com/okcashpro/>`_
