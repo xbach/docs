@@ -23,6 +23,7 @@ Contents
    advanced_features
    messages
    labeling
+   homescreen
    applications
    download
 
