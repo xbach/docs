@@ -20,7 +20,7 @@ Goals
 ----------
 
 In myTREZOR web wallet, we need to save additional metadata, such as account labels or transaction labels.
-We had sever goals:
+We had several goals:
 
 1. data should be safely saved on a untrustworthy cloud service (such as Dropbox)
 2. usage should be effortless with secure hardware wallet
@@ -44,14 +44,17 @@ We then derive *account key* for every account. This key is a string -- because 
 
 From the account key, we derive both a filename and a symmetric encryption key. We then save the metadata to the fiven file, in an encrypted JSON.
 
-Deriving master key
+Design details
 ----
+
+Deriving master key
+~~~~
 
 We first get the master key by sending CipherKeyValue to hardware device with following parameters
 
-* path: `m/10015'/0'` (hardened path, see BIP32)
-* key: `Enable labeling?`
-* value: `fedcba98765432100123456789abcdeffedcba98765432100123456789abcdef` (byte sequence, here in hexadecimal)
+* path: :code:`m/10015'/0'` (hardened path, see BIP32)
+* key: :code:`Enable labeling?`
+* value: :code:`fedcba98765432100123456789abcdeffedcba98765432100123456789abcdef` (byte sequence, here in hexadecimal)
 * encrypt: true
 * ask_on_encrypt, ask_on_decrypt: true
 * iv: unset
@@ -61,78 +64,93 @@ CipherKeyValue will be defined in SLIP-0011.
 The master key should be 32 bytes (256 bits) long. It is treated as a pseudo-random byte sequence.
 
 Deriving account key
-----
+~~~~
 From the master key, we derive the account key for every account in the following way:
 
 First, we use the HMAC function:
 
-`HMAC-SHA256(master key, xpub)`
+:code:`HMAC-SHA256(master key, xpub)`
 
 where 
+
 * master key is a byte sequence, as defined in the previous section
 * xpub is a string, as defined in BIP32. For example:
-`xpub6BiVtCpG9fQPxnPmHXG8PhtzQdWC2Su4qWu6XW9tpWFYhxydCLJGrWBJZ5H6qTAHdPQ7pQhtpjiYZVZARo14qHiay2fvrX996oEP42u8wZy`
+:code:`xpub6BiVtCpG9fQPxnPmHXG8PhtzQdWC2Su4qWu6XW9tpWFYhxydCLJGrWBJZ5H6qTAHdPQ7pQhtpjiYZVZARo14qHiay2fvrX996oEP42u8wZy`
 
 Then, the result is converted to string using Base58Check encoding, as used in Bitcoin.
 
-The API key is either 49 or 50 characters long; if it's 50, the first character is "2" (see note below).
-
-Note: the metadata key sometimes begins with 2; that is, however, not a rule, but just a consequence of HMAC-SHA256 result length in base58 (with b58c checksum). It just often happens that the leftest b58 "digit" in the base58 computation is often (but not always) 1, which gets converted to 2.
+The API key is either 49 or 50 characters long.
 
 Deriving filename and password from account key
----
+~~~~
+
 We take the account key, *as a string*, and we use HMAC function to derive filename and password for metadata file. Every account has its own metadata file.
 
-First, we use the HMAC function
+* First, we use the HMAC function :code:`HMAC-SHA512(API key, constant)`, where 
 
-`HMAC-SHA512(API key, constant)`
+  * API key is a string (in base58c) from the previous section. 
+  
+    The API key is taken as a string, so third-party applications can use their own API keys.
 
-where 
-* API key is a string from the previous section, and
-* constant is `0123456789abcdeffedcba9876543210` (byte sequence, here in hexadecimal).
+  * constant is :code:`0123456789abcdeffedcba9876543210` (byte sequence, here in hexadecimal).
 
-The API key is taken as a string, so third-party applications can use their own API keys.
+* The result is 64 bytes/512 bits.
 
-The result is 64 bytes/512 bits.
+  * The first half is used to derive the filename. 
+    
+    The bytes are converted to hexadecimal, which is the used as a filename, with the extension ".mtdt". 
+    
+    We are using hexadecimal instead of base64/base58 because of the ambiguity on case-insensitive filesystems.
 
-The first half is used to derive the filename. The bytes are converted to hexadecimal, which is the used as a filename, with the extension ".mtdt". We are using hexadecimal instead of base64/base58 because of the ambiguity on case-insensitive filesystems.
+  * The second half is used as a key for further encryption, as a byte sequence.
 
-The second half is used as a key for encryption, using aes-256-gcm algorithm. It is used as a byte sequence. For the GCM algorithm, random 12 bytes are generated as a IV. GCM is used with the full 128-bit tag.
+* We are using aes-256-gcm algorithm for encryption.
 
-The file is encrypted using this algorithm, and then saved to the file. First 12 bytes of the file are the random IV. The next 16 bytes are the GCM authentication tag. The rest is the ciphertext.
+  * Random 12 bytes are generated as a IV
+  * GCM is used with the full 128-bit tag
+
+* The resulting file looks like this:
+
+  * first 12 bytes of the file are the random IV 
+  * the next 16 bytes are the GCM authentication tag
+  * the rest is the ciphertext
 
 Data format
-----
+~~~~
 The (decrypted) metadata are in following format:
 
 The file is a serialized JSON object with the following keys:
-* `version`: version of metadata format, for future backwards compatibility. The version is currently `1.0.0`.
-* `accountLabel`: label for the account, a string
-* `outputLabels`: labels for outputs, described further
-* `addressLabels`: labels for addresses, described further
 
-`outputLabels` has transaction hashes for keys, and for values it has object with output indexes for keys and output labels, as strings, for values. Output indexes start at 0.
+* :code:`version`: version of metadata format, for future backwards compatibility. The version is currently :code:`1.0.0`.
+* :code:`accountLabel`: label for the account, a string
+* :code:`outputLabels`: labels for outputs, described further
+* :code:`addressLabels`: labels for addresses, described further
 
-`addressLabels` has addresses (in traditional Base58Check encoding) for keys and their labels for values. Only receiving addresses are saved in this object.
+:code:`outputLabels` has transaction hashes for keys, and for values it has object with output indexes for keys and output labels, as strings, for values. Output indexes start at 0.
+
+:code:`addressLabels` has addresses (in traditional Base58Check encoding) for keys and their labels for values. Only receiving addresses are saved in this object.
 
 All labels can have any unicode letters. Empty string is treated in the software as having no label.
 
 An example object looks like this:
 
+
+.. code:: json
+
     {
-      version: "1.0.0",
-      accountLabel: "Saving account", // one file per account, so only 1 label needed
-      addressLabels: {
-        1JAd7XCBzGudGpJQSDSfpmJhiygtLQWaGL: "My receiving address",
-        1GWFxtwWmNVqotUPXLcKVL2mUKpshuJYo: ""  // equivalent to no label set or null
+      "version": "1.0.0",
+      "accountLabel": "Saving account", // one file per account, so only 1 label needed
+      "addressLabels": {
+        "1JAd7XCBzGudGpJQSDSfpmJhiygtLQWaGL": "My receiving address",
+        "1GWFxtwWmNVqotUPXLcKVL2mUKpshuJYo": ""  // equivalent to no label set or null
       },
-      outputLabels: {
-        350eebc1012ce2339b71b5fca317a0d174abc3a633684bc65a71845deb596539: {
-          0: "Money to Adam",
-          1: ""  // equivalent to no label set
+      "outputLabels": {
+        "350eebc1012ce2339b71b5fca317a0d174abc3a633684bc65a71845deb596539": {
+          "0": "Money to Adam",
+          "1": ""  // equivalent to no label set
         },
-        ebbd138134e2c8acfee4fd4edb6f7f9175ee7b4020bcc82aba9a13ce06fae85b: {
-          0: "Feeding bitcoin eater"
+        "ebbd138134e2c8acfee4fd4edb6f7f9175ee7b4020bcc82aba9a13ce06fae85b": {
+          "0": "Feeding bitcoin eater"
         }
       }
     }
@@ -145,14 +163,13 @@ Example
 Deriving master key
 ~~~~
 
-Following code requires Python2 and [python-trezor](https://github.com/trezor/python-trezor)
+Following code requires Python2 and python-trezor - https://github.com/trezor/python-trezor
 
-.. code::python
+.. code:: python
 
     from trezorlib.client import TrezorClient
     from trezorlib.transport_hid import HidTransport
     from binascii import hexlify, unhexlify
-
 
     # for more details on this, see python-trezor
     client = TrezorClient(HidTransport(HidTransport.enumerate()[0]))
@@ -176,7 +193,7 @@ For the "stress test" wallet, defined in SLIP-0014, the master key should be (in
 Deriving account key
 ~~~~
 
-.. code::python
+.. code:: python
 
     import hmac, hashlib, base58, binascii, sys
 
@@ -189,16 +206,16 @@ Deriving account key
     digest = hmac.new(master_key, xpub, hashlib.sha256).digest()
     print base58.b58encode_check(digest)
  
-For the "stress test" wallet, defined in SLIP-0015, and the first account (with the xpub `xpub6BiVtCpG9fQPxnPmHXG8PhtzQdWC2Su4qWu6XW9tpWFYhxydCLJGrWBJZ5H6qTAHdPQ7pQhtpjiYZVZARo14qHiay2fvrX996oEP42u8wZy`), the key should be::
+For the "stress test" wallet, defined in SLIP-0015, and the first account (with the xpub :code:`xpub6BiVtCpG9fQPxnPmHXG8PhtzQdWC2Su4qWu6XW9tpWFYhxydCLJGrWBJZ5H6qTAHdPQ7pQhtpjiYZVZARo14qHiay2fvrX996oEP42u8wZy`), the key should be::
 
     v5kCxSKLTsnwmgPBeaRyFDWeG9zXouF34L72763zjLrS4LWy8
 
 Deriving filename, decoding
-~~~
+~~~~
 
 Example for decryption, reading account key from STDIN and readin file from current directory
 
-.. code::python
+.. code:: python
 
     import hmac, hashlib, binascii, sys
     from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
@@ -236,28 +253,28 @@ Example for decryption, reading account key from STDIN and readin file from curr
 
     print data
 
-With the key `v5kCxSKLTsnwmgPBeaRyFDWeG9zXouF34L72763zjLrS4LWy8`, filename `08108c3a46882bb71a5df59f4962e02f89a63efb1cf5f32ded94694528be6cec.mtdt` and the data (in hex)
+With the key :code:`v5kCxSKLTsnwmgPBeaRyFDWeG9zXouF34L72763zjLrS4LWy8`, filename :code:`08108c3a46882bb71a5df59f4962e02f89a63efb1cf5f32ded94694528be6cec.mtdt` and the data (in hex)
 
-..
+.. code::
 
-    2cc3317476d76a1d7eda00e7ad95f31667453566a2491db38119b422a3ce
-    882cd436767ee8e9307c6d3f7f829db259f205e3d42e2fe1ee0bf2169474
-    9fc5a557a85aaa8469d7cb5561849e5b4cdd802e290b4db2cbbe6d0a27f9
-    7a18ce3ac275f02d746cb7d46ea50f14e6c74a24013b804dbc0f79593d28
-    6c5a1a3f2025953a159d3ae4c57aeee796fe44b8801bdabf9dc2c44094d8
-    aa2123b7c13ded158c4a84522dd332f1599bb6e6f30d600975f723924374
-    ad57ee07c58aa30864e29372b493dfd107ad80e8b2d63dc987a2c8714158
-    ae489db3f71cc51c8956d9233b539cdbf0cd37afd063bbaf39fc3ece6fe2
-    b6c1ca907527f36b06bb8e2c7e0e0ce7b7773db7df11b78c153c17363400
-    81cdf97f5f9469f1e8778dbf82abeb1a038a839e37d386b3e030f2edb5a4
-    43b62dd13a47cf5a00ec9e2f746355cec792e3504198ec0fd4fdf8de7e30
-    f8c0fd58552e1176225e9c54276b8f98668916d57ed43dbad6f8d570c050
-    d304423070ab1af8c669219e354bd2556aaad0e6c32eb68eff83e7d94d05
-    4d64d667d6cddc724ed2
+    d32a5831b74ba04cdf44309fbb96a1b464fe5d4a27d1e753c30602ba1947
+    3cca7d8734e8b9442dbd41d530c42e03fea59a5d38b21392f3e4a135eb07
+    009d5a8b9996055b7aff076918c4ed63ee49db56c5a6b069cac7f221f704
+    5af7197cdbb562ba004d7a6f06eb7cffd1dfb177fd652e66c2d05d944b58
+    85d6a104853a0d07e4cebff3513a2f6a1c8ff6f4f98ce222f3d601f1c796
+    d070b7523649e10242dfe78cb2db50e826dd18b1f65213f5c0748577ecc9
+    7b8e13ab9cd0c5fe7b76635717c64ad352064a3321df6bbfa2db8ef8c692
+    55ef9d8a8dfbce9c6ad3029bbdcf1b2bb04795fd96aa95d27e6ca1ed2658
+    bfb108b44dac2159184d6e3cabe341e2ec5d83756aeb8c408e92fe6ca3e6
+    3d4c0d644aa2648341506324574d205934c65f54979b1d684f7a2442e8d5
+    2149ed67449019e6091aa182afcaf5aa1fa8bf3114ee7b46e47b4c6648d1
+    d1355cefd10081be6e8c7bdf1b2ff14d8896b1ede811fa1aa2c024a6ebf3
+    6baf0a8d6afa2975bf551e8bc3f03117b42dc4cbe2a6bd700f2fda40c78a
+    48627ebc130286ba98
 
 we should get to file, similar to the one above. Similarly, this is the for encrypting
 
-.. code::python
+.. code:: python
 
     import hmac, hashlib, binascii, sys, os
     from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
@@ -275,7 +292,22 @@ we should get to file, similar to the one above. Similarly, this is the for encr
     filename = binascii.hexlify(filename_binary) + ".mtdt"
 
     # hardcoded
-    data = '{"accountLabels":"Saving account","addressLabels":{"1JAd7XCBzGudGpJQSDSfpmJhiygtLQWaGL":"My receiving address","1GWFxtwWmNVqotUPXLcKVL2mUKpshuJYo":""},"version":"1.0.0","outputLabels":{"350eebc1012ce2339b71b5fca317a0d174abc3a633684bc65a71845deb596539":{"0":"Money to Adam"},"ebbd138134e2c8acfee4fd4edb6f7f9175ee7b4020bcc82aba9a13ce06fae85b":{"0":"Feeding bitcoin eater"}}}'
+    data = """{
+        "accountLabel": "Saving account",
+        "addressLabels": {
+          "1JAd7XCBzGudGpJQSDSfpmJhiygtLQWaGL": "My receiving address",
+          "1GWFxtwWmNVqotUPXLcKVL2mUKpshuJYo": ""
+        },
+        "version": "1.0.0",
+        "outputLabels": {
+          "350eebc1012ce2339b71b5fca317a0d174abc3a633684bc65a71845deb596539": {
+            "0": "Money to Adam"
+          },
+          "ebbd138134e2c8acfee4fd4edb6f7f9175ee7b4020bcc82aba9a13ce06fae85b": {
+            "0": "Feeding bitcoin eater"
+          }
+        }
+      }"""
 
     backend = default_backend()
     cipherkey = digest[32:64]
