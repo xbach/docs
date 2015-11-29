@@ -1,0 +1,294 @@
+SLIP-0015 : Format for Bitcoin metadata and its encryption in HD wallets
+============================================
+
+::
+
+  Number:  SLIP-0015
+  Title:   Format for Bitcoin metadata and its encryption in HD wallets
+  Type:    Informational
+  Status:  Draft
+  Authors: Karel Bilek <kb@karelbilek.com>
+  Created: 2015-01-12
+
+Abstract
+----
+
+SLIP-0015 describes a format to save Bitcoin transaction metadata (labels to accounts, transactions) 
+in a secure way, with regard to HD wallets, especially (but not limited to) hardware HD wallets.
+
+Goals
+----------
+
+In myTREZOR web wallet, we need to save additional metadata, such as account labels or transaction labels.
+We had sever goals:
+
+1. data should be safely saved on a untrustworthy cloud service (such as Dropbox)
+2. usage should be effortless with secure hardware wallet
+3. we should allow other applications to use the files, even when they don't support hardware wallets in general
+
+Because we want effortless usage, we want users to be able to add metadata even when they don't have the device connected, or even when they don't actually own the device. 
+
+For this reason, we don't want to sign the changes on the secure device and we want to encrypt everything
+on an unsecure device, with the key in memory. 
+This has the unfortunate consequence of attacker being able to both read and edit metadata if he attacks 
+the unsecure device.
+
+However, we want at least prevent the cloud storage operator to be able to read the metadata. We want to hide 
+the metadata itself from the cloud storage operator, and even the XPUBs of the accounts for deniability.
+
+General design
+-------
+We first derive a *master key* from hardware device itself, which is shared for all accounts on the device.
+
+We then derive *account key* for every account. This key is a string -- because of the stated goal 3., we want to be able to import it into third party applications without HD wallets.
+
+From the account key, we derive both a filename and a symmetric encryption key. We then save the metadata to the fiven file, in an encrypted JSON.
+
+Deriving master key
+----
+
+We first get the master key by sending CipherKeyValue to hardware device with following parameters
+
+* path: `m/10015'/0'` (hardened path, see BIP32)
+* key: `Enable labeling?`
+* value: `fedcba98765432100123456789abcdeffedcba98765432100123456789abcdef` (byte sequence, here in hexadecimal)
+* encrypt: true
+* ask_on_encrypt, ask_on_decrypt: true
+* iv: unset
+
+CipherKeyValue will be defined in SLIP-0011.
+
+The master key should be 32 bytes (256 bits) long. It is treated as a pseudo-random byte sequence.
+
+Deriving account key
+----
+From the master key, we derive the account key for every account in the following way:
+
+First, we use the HMAC function:
+
+`HMAC-SHA256(master key, xpub)`
+
+where 
+* master key is a byte sequence, as defined in the previous section
+* xpub is a string, as defined in BIP32. For example:
+`xpub6BiVtCpG9fQPxnPmHXG8PhtzQdWC2Su4qWu6XW9tpWFYhxydCLJGrWBJZ5H6qTAHdPQ7pQhtpjiYZVZARo14qHiay2fvrX996oEP42u8wZy`
+
+Then, the result is converted to string using Base58Check encoding, as used in Bitcoin.
+
+The API key is either 49 or 50 characters long; if it's 50, the first character is "2" (see note below).
+
+Note: the metadata key sometimes begins with 2; that is, however, not a rule, but just a consequence of HMAC-SHA256 result length in base58 (with b58c checksum). It just often happens that the leftest b58 "digit" in the base58 computation is often (but not always) 1, which gets converted to 2.
+
+Deriving filename and password from account key
+---
+We take the account key, *as a string*, and we use HMAC function to derive filename and password for metadata file. Every account has its own metadata file.
+
+First, we use the HMAC function
+
+`HMAC-SHA512(API key, constant)`
+
+where 
+* API key is a string from the previous section, and
+* constant is `0123456789abcdeffedcba9876543210` (byte sequence, here in hexadecimal).
+
+The API key is taken as a string, so third-party applications can use their own API keys.
+
+The result is 64 bytes/512 bits.
+
+The first half is used to derive the filename. The bytes are converted to hexadecimal, which is the used as a filename, with the extension ".mtdt". We are using hexadecimal instead of base64/base58 because of the ambiguity on case-insensitive filesystems.
+
+The second half is used as a key for encryption, using aes-256-gcm algorithm. It is used as a byte sequence. For the GCM algorithm, random 12 bytes are generated as a IV. GCM is used with the full 128-bit tag.
+
+The file is encrypted using this algorithm, and then saved to the file. First 12 bytes of the file are the random IV. The next 16 bytes are the GCM authentication tag. The rest is the ciphertext.
+
+Data format
+----
+The (decrypted) metadata are in following format:
+
+The file is a serialized JSON object with the following keys:
+* `version`: version of metadata format, for future backwards compatibility. The version is currently `1.0.0`.
+* `accountLabel`: label for the account, a string
+* `outputLabels`: labels for outputs, described further
+* `addressLabels`: labels for addresses, described further
+
+`outputLabels` has transaction hashes for keys, and for values it has object with output indexes for keys and output labels, as strings, for values. Output indexes start at 0.
+
+`addressLabels` has addresses (in traditional Base58Check encoding) for keys and their labels for values. Only receiving addresses are saved in this object.
+
+All labels can have any unicode letters. Empty string is treated in the software as having no label.
+
+An example object looks like this:
+
+    {
+      version: "1.0.0",
+      accountLabel: "Saving account", // one file per account, so only 1 label needed
+      addressLabels: {
+        1JAd7XCBzGudGpJQSDSfpmJhiygtLQWaGL: "My receiving address",
+        1GWFxtwWmNVqotUPXLcKVL2mUKpshuJYo: ""  // equivalent to no label set or null
+      },
+      outputLabels: {
+        350eebc1012ce2339b71b5fca317a0d174abc3a633684bc65a71845deb596539: {
+          0: "Money to Adam",
+          1: ""  // equivalent to no label set
+        },
+        ebbd138134e2c8acfee4fd4edb6f7f9175ee7b4020bcc82aba9a13ce06fae85b: {
+          0: "Feeding bitcoin eater"
+        }
+      }
+    }
+
+(comments are of course not part of a valid JSON and are included here only for clarity)
+
+Example
+----
+
+Deriving master key
+~~~~
+
+Following code requires Python2 and [python-trezor](https://github.com/trezor/python-trezor)
+
+.. code::python
+
+    from trezorlib.client import TrezorClient
+    from trezorlib.transport_hid import HidTransport
+    from binascii import hexlify, unhexlify
+
+
+    # for more details on this, see python-trezor
+    client = TrezorClient(HidTransport(HidTransport.enumerate()[0]))
+
+    bip32_path = client.expand_path("10015'/0'")
+    masterkey = client.encrypt_keyvalue(
+        bip32_path,
+        "Enable labeling?",
+        unhexlify("fedcba98765432100123456789abcdeffedcba98765432100123456789abcdef"),
+        True,
+        True
+    )
+
+    print 'Key:', hexlify(masterkey)
+
+
+For the "stress test" wallet, defined in SLIP-0014, the master key should be (in hex)::
+
+    20c8bf0701213cdcf4c2f56fd0096c1772322d42fb9c4d0ddf6bb122d713d2f3
+
+Deriving account key
+~~~~
+
+.. code::python
+
+    import hmac, hashlib, base58, binascii, sys
+
+    # xpub of the first account
+    xpub = sys.argv(1)
+    # hexadecimal representation of the master key
+    master_hex = sys.argv(2)
+
+    master_key = binascii.unhexlify(master_hex)
+    digest = hmac.new(master_key, xpub, hashlib.sha256).digest()
+    print base58.b58encode_check(digest)
+ 
+For the "stress test" wallet, defined in SLIP-0015, and the first account (with the xpub `xpub6BiVtCpG9fQPxnPmHXG8PhtzQdWC2Su4qWu6XW9tpWFYhxydCLJGrWBJZ5H6qTAHdPQ7pQhtpjiYZVZARo14qHiay2fvrX996oEP42u8wZy`), the key should be::
+
+    v5kCxSKLTsnwmgPBeaRyFDWeG9zXouF34L72763zjLrS4LWy8
+
+Deriving filename, decoding
+~~~
+
+Example for decryption, reading account key from STDIN and readin file from current directory
+
+.. code::python
+
+    import hmac, hashlib, binascii, sys
+    from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+    from cryptography.hazmat.backends import default_backend
+
+    key = sys.argv[1]
+
+    constant_hex = "0123456789abcdeffedcba9876543210"
+    constant = binascii.unhexlify(constant_hex)
+    digest = hmac.new(key, constant, hashlib.sha512).digest()
+
+    filename_binary = digest[0:32]
+
+    # right now the file needs to be in the working directory
+    filename = binascii.hexlify(filename_binary) + ".mtdt"
+
+    backend = default_backend()
+    cipherkey = digest[32:64]
+
+    with open(filename, "rb") as f:
+        iv = f.read(12)
+        tag = f.read(16)
+        cipher = Cipher(algorithms.AES(cipherkey), modes.GCM(iv, tag), backend=backend)
+        decryptor = cipher.decryptor()
+        data = "";
+        while True:
+            block = f.read(16)
+            # data are not authenticated yet
+            if block:
+                data = data + decryptor.update(block)
+            else:
+                break
+        # throws exception when the tag is wrong
+        data = data + decryptor.finalize()
+
+    print data
+
+With the key `v5kCxSKLTsnwmgPBeaRyFDWeG9zXouF34L72763zjLrS4LWy8`, filename `08108c3a46882bb71a5df59f4962e02f89a63efb1cf5f32ded94694528be6cec.mtdt` and the data (in hex)
+
+..
+
+    2cc3317476d76a1d7eda00e7ad95f31667453566a2491db38119b422a3ce
+    882cd436767ee8e9307c6d3f7f829db259f205e3d42e2fe1ee0bf2169474
+    9fc5a557a85aaa8469d7cb5561849e5b4cdd802e290b4db2cbbe6d0a27f9
+    7a18ce3ac275f02d746cb7d46ea50f14e6c74a24013b804dbc0f79593d28
+    6c5a1a3f2025953a159d3ae4c57aeee796fe44b8801bdabf9dc2c44094d8
+    aa2123b7c13ded158c4a84522dd332f1599bb6e6f30d600975f723924374
+    ad57ee07c58aa30864e29372b493dfd107ad80e8b2d63dc987a2c8714158
+    ae489db3f71cc51c8956d9233b539cdbf0cd37afd063bbaf39fc3ece6fe2
+    b6c1ca907527f36b06bb8e2c7e0e0ce7b7773db7df11b78c153c17363400
+    81cdf97f5f9469f1e8778dbf82abeb1a038a839e37d386b3e030f2edb5a4
+    43b62dd13a47cf5a00ec9e2f746355cec792e3504198ec0fd4fdf8de7e30
+    f8c0fd58552e1176225e9c54276b8f98668916d57ed43dbad6f8d570c050
+    d304423070ab1af8c669219e354bd2556aaad0e6c32eb68eff83e7d94d05
+    4d64d667d6cddc724ed2
+
+we should get to file, similar to the one above. Similarly, this is the for encrypting
+
+.. code::python
+
+    import hmac, hashlib, binascii, sys, os
+    from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+    from cryptography.hazmat.backends import default_backend
+
+    key = sys.argv[1]
+
+    constant_hex = "0123456789abcdeffedcba9876543210"
+    constant = binascii.unhexlify(constant_hex)
+    digest = hmac.new(key, constant, hashlib.sha512).digest()
+
+    filename_binary = digest[0:32]
+
+    # right now the file needs to be in the working directory
+    filename = binascii.hexlify(filename_binary) + ".mtdt"
+
+    # hardcoded
+    data = '{"accountLabels":"Saving account","addressLabels":{"1JAd7XCBzGudGpJQSDSfpmJhiygtLQWaGL":"My receiving address","1GWFxtwWmNVqotUPXLcKVL2mUKpshuJYo":""},"version":"1.0.0","outputLabels":{"350eebc1012ce2339b71b5fca317a0d174abc3a633684bc65a71845deb596539":{"0":"Money to Adam"},"ebbd138134e2c8acfee4fd4edb6f7f9175ee7b4020bcc82aba9a13ce06fae85b":{"0":"Feeding bitcoin eater"}}}'
+
+    backend = default_backend()
+    cipherkey = digest[32:64]
+
+    iv = os.urandom(12)
+    cipher = Cipher(algorithms.AES(cipherkey), modes.GCM(iv), backend=backend)
+    encryptor = cipher.encryptor()
+
+    ctext = encryptor.update(data) + encryptor.finalize()
+    tag = encryptor.tag
+
+    with open(filename, "wb") as f:
+        f.write(iv)
+        f.write(tag)
+        f.write(ctext)
+
