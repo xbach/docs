@@ -180,7 +180,7 @@ Deriving account key
 
 Example code, deriving an account key for master key, is in :code:`slip-0015/2_accountkey.py`. First argument of the script is xpub of the account, the second argument is the master key from previous step (in hexadecimal).
  
-For the "stress test" wallet, defined in SLIP-0015, and its first account (with the xpub :code:`xpub6BiVtCp...`), the key should be::
+For the "stress test" wallet, defined in SLIP-0014, and its first account (with the xpub :code:`xpub6BiVtCp...`), the key should be::
 
     v5kCxSKLTsnwmgPBeaRyFDWeG9zXouF34L72763zjLrS4LWy8
 
