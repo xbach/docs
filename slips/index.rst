@@ -17,6 +17,7 @@ Number                       Title                                              
 :doc:`SLIP-0012 <slip-0012>` Public key encryption using deterministic hierarchy                     Standard      Draft
 :doc:`SLIP-0013 <slip-0013>` Authentication using deterministic hierarchy                            Standard      Draft
 :doc:`SLIP-0014 <slip-0014>` Stress Test Deterministic Wallet                                        Informational Draft
+:doc:`SLIP-0015 <slip-0015>` Format for Bitcoin metadata and its encryption in HD wallets            Standard      Draft
 :doc:`SLIP-0044 <slip-0044>` Registered coin types for BIP-0044                                      Standard      Draft
 ============================ ======================================================================= ============= =========
 
@@ -28,6 +29,7 @@ Number                       Title                                              
    slip-0012
    slip-0013
    slip-0014
+   slip-0015
    slip-0044
 
 License
