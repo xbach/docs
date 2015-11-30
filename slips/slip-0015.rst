@@ -13,7 +13,7 @@ SLIP-0015 : Format for Bitcoin metadata and its encryption in HD wallets
 Abstract
 ----
 
-SLIP-0015 describes a format to save Bitcoin transaction metadata (labels to accounts, transactions) 
+SLIP-0015 describes a format to save Bitcoin transaction metadata (labels to accounts, transactions)
 in a secure way, with regard to HD wallets, especially (but not limited to) hardware HD wallets.
 
 Goals
@@ -26,14 +26,14 @@ We had several goals:
 2. usage should be effortless with secure hardware wallet
 3. we should allow other applications to use the files, even when they don't support hardware wallets in general
 
-Because we want effortless usage, we want users to be able to add metadata even when they don't have the device connected, or even when they don't actually own the device. 
+Because we want effortless usage, we want users to be able to add metadata even when they don't have the device connected, or even when they don't actually own the device.
 
 For this reason, we don't want to sign the changes on the secure device and we want to encrypt everything
-on an unsecure device, with the key in memory. 
-This has the unfortunate consequence of attacker being able to both read and edit metadata if he attacks 
+on an unsecure device, with the key in memory.
+This has the unfortunate consequence of attacker being able to both read and edit metadata if he attacks
 the unsecure device.
 
-However, we want at least prevent the cloud storage operator to be able to read the metadata. We want to hide 
+However, we want at least prevent the cloud storage operator to be able to read the metadata. We want to hide
 the metadata itself from the cloud storage operator, and even the XPUBs of the accounts for deniability.
 
 General design
@@ -73,7 +73,7 @@ First, we use the HMAC function:
 
 :code:`HMAC-SHA256(master key, xpub)`
 
-where 
+where
 
 * master key is a byte sequence, as defined in the previous section
 * xpub is a string, as defined in BIP32. For example:
@@ -88,20 +88,20 @@ Deriving filename and password from account key
 
 We take the account key, *as a string*, and we use HMAC function to derive filename and password for metadata file. Every account has its own metadata file.
 
-* First, we use the HMAC function :code:`HMAC-SHA512(API key, constant)`, where 
+* First, we use the HMAC function :code:`HMAC-SHA512(API key, constant)`, where
 
-  * API key is a string (in base58c) from the previous section. 
-  
+  * API key is a string (in base58c) from the previous section.
+
     The API key is taken as a string, so third-party applications can use their own API keys.
 
   * constant is :code:`0123456789abcdeffedcba9876543210` (byte sequence, here in hexadecimal).
 
 * The result is 64 bytes/512 bits.
 
-  * The first half is used to derive the filename. 
-    
-    The bytes are converted to hexadecimal, which is the used as a filename, with the extension ".mtdt". 
-    
+  * The first half is used to derive the filename.
+
+    The bytes are converted to hexadecimal, which is the used as a filename, with the extension ".mtdt".
+
     We are using hexadecimal instead of base64/base58 because of the ambiguity on case-insensitive filesystems.
 
   * The second half is used as a key for further encryption, as a byte sequence.
@@ -113,7 +113,7 @@ We take the account key, *as a string*, and we use HMAC function to derive filen
 
 * The resulting file looks like this:
 
-  * first 12 bytes of the file are the random IV 
+  * first 12 bytes of the file are the random IV
   * the next 16 bytes are the GCM authentication tag
   * the rest is the ciphertext
 
@@ -167,7 +167,7 @@ All the example code is in Python2.
 Deriving master key
 ~~~~
 
-Example code, deriving a master key from a connected TREZOR is in :code:`slip-0015/1_masterkey.py`. It requires python-trezor_ installed and TREZOR connencted
+Example code, deriving a master key from a connected TREZOR is in `1_masterkey.py <slip-0015/1_masterkey.py>`_. It requires python-trezor_ installed and TREZOR connencted
 
 .. _python-trezor: https://github.com/trezor/python-trezor
 
@@ -178,8 +178,8 @@ For the "stress test" wallet, defined in SLIP-0014, the master key should be (in
 Deriving account key
 ~~~~
 
-Example code, deriving an account key for master key, is in :code:`slip-0015/2_accountkey.py`. First argument of the script is xpub of the account, the second argument is the master key from previous step (in hexadecimal).
- 
+Example code, deriving an account key for master key, is in `2_accountkey.py <slip-0015/2_accountkey.py>`_. First argument of the script is xpub of the account, the second argument is the master key from previous step (in hexadecimal).
+
 For the "stress test" wallet, defined in SLIP-0014, and its first account (with the xpub :code:`xpub6BiVtCp...`), the key should be::
 
     v5kCxSKLTsnwmgPBeaRyFDWeG9zXouF34L72763zjLrS4LWy8
@@ -187,7 +187,7 @@ For the "stress test" wallet, defined in SLIP-0014, and its first account (with 
 Deriving filename, decoding
 ~~~~
 
-Example code for decryption is in :code:`slip-0015/3_decrypt.py`. First and only argument is the account key from previous step. The file has to be in a current working directory (in myTREZOR, we use ~/Dropbox/Apps/TREZOR/ for saving the files).
+Example code for decryption is in `3_decrypt.py <slip-0015/3_decrypt.py>`_. First and only argument is the account key from previous step. The file has to be in a current working directory (in myTREZOR, we use ~/Dropbox/Apps/TREZOR/ for saving the files).
 
 With the key :code:`v5kCxSKLTsnwmgPBeaRyFDWeG9zXouF34L72763zjLrS4LWy8`, filename :code:`08108c3a46882bb71a5df59f4962e02f89a63efb1cf5f32ded94694528be6cec.mtdt` and the data (in hex)
 
@@ -208,6 +208,6 @@ With the key :code:`v5kCxSKLTsnwmgPBeaRyFDWeG9zXouF34L72763zjLrS4LWy8`, filename
     6baf0a8d6afa2975bf551e8bc3f03117b42dc4cbe2a6bd700f2fda40c78a
     48627ebc130286ba98
 
-we should get to file, similar to the one described above. 
+we should get to file, similar to the one described above.
 
-Similarly, in :code:`slip-0015/4_encrypt.py` there is an example code for encrypting.
+Similarly, in `4_encrypt.py <slip-0015/4_encrypt.py>`_ there is an example code for encrypting.
