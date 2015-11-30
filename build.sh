@@ -15,3 +15,9 @@ for i in $SUBDIRS; do
   rm -rf _build/
   cd ..
 done
+
+COPYDIRS="slips/slip-0015"
+
+for i in $COPYDIRS; do
+  cp -a $i _build/$i
+done
