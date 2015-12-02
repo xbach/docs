@@ -9,6 +9,9 @@ By clicking on "Account #1" you will see an empty Transactions tab.
 
 Now it's time to transfer your bitcoins to the safety of your TREZOR. Select the Receive tab to get your first TREZOR bitcoin address. A bitcoin address is a long string of numbers and letters. If you are transfering bitcoins from a mobile wallet, scan the `QR code`_ shown next to the address.
 
+Show on TREZOR
+--------------
+
 Watch out for the "eye" icon!
 It might help you avoid phishing attempts aimed at replacing your true receiving address. We call this feature "**Show on TREZOR**" as it displays the receiving address on your device.
 
