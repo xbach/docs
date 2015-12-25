@@ -7,7 +7,8 @@ SLIP-0010 : Universal private key derivation from master private key
   Title:   Universal private key derivation from master private key
   Type:    Standard
   Status:  Draft
-  Authors: SatoshiLabs <info@satoshilabs.com>
+  Authors: Pavol Rusnak <stick@satoshilabs.com>
+           Jochen Hoenicke <hoenicke@gmail.com>
   Created: 2015-12-25
 
 Abstract
