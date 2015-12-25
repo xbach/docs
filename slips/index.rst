@@ -13,6 +13,7 @@ Each SLIP should provide a concise technical specification of the feature and a 
 Number                       Title                                                                   Type          Status
 ============================ ======================================================================= ============= =========
 :doc:`SLIP-0000 <slip-0000>` SLIP Template                                                           Informational Accepted
+:doc:`SLIP-0010 <slip-0010>` Universal private key derivation from master private key                Standard      Draft
 :doc:`SLIP-0011 <slip-0011>` Symmetric encryption of key-value pairs using deterministic hierarchy   Standard      Draft
 :doc:`SLIP-0012 <slip-0012>` Public key encryption using deterministic hierarchy                     Standard      Draft
 :doc:`SLIP-0013 <slip-0013>` Authentication using deterministic hierarchy                            Standard      Draft
@@ -25,6 +26,7 @@ Number                       Title                                              
    :hidden:
 
    slip-0000
+   slip-0010
    slip-0011
    slip-0012
    slip-0013
