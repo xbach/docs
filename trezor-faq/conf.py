@@ -47,7 +47,7 @@ master_doc = 'index'
 module_name = 'trezor-faq'
 project = u'TREZOR Frequently Asked Questions'
 author = u'SatoshiLabs'
-copyright = u'2015, ' + author
+copyright = author
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
