@@ -11,9 +11,12 @@ $( document ).ready(function() {
     });
     $(document).on('click', "[data-toggle='rst-current-version']", function() {
       $("[data-toggle='rst-versions']").toggleClass("shift-up");
-    });  
+    });
     // Make tables responsive
     $("table.docutils:not(.field-list)").wrap("<div class='wy-table-responsive'></div>");
+    // Add 'Back to top' links
+    $("<p class='back_to_top'><a href='#top'>Back to top</a></p>").insertBefore(".section h2")
+    $("<a id='top'></a>").insertBefore(".document");
 });
 
 window.SphinxRtdTheme = (function (jquery) {
