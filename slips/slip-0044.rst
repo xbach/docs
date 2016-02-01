@@ -87,6 +87,9 @@ index hexa       coin
 79    0x8000004f `ClubCoin <https://clubcoin.co/>`_
 80    0x80000050 `RichCoin <https://richcoin.us/>`_
 81    0x80000051 `Potcoin <http://potcoin.com/>`_
+82    0x80000052 Quarkcoin
+83    0x80000053 Terracoin 
+84    0x80000054 Gridcoin 
 ===== ========== ================================
 
 Coin types will be added only if there is a wallet implementing BIP-0044 for desired coin.
