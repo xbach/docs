@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SUBDIRS="slips trezor-apps trezor-faq trezor-tech trezor-user"
+SUBDIRS="trezor-apps trezor-faq trezor-tech trezor-user"
 
 rm -rf _build/
 mkdir _build
@@ -14,10 +14,4 @@ for i in $SUBDIRS; do
   mv _build/html/* ../_build/$i/
   rm -rf _build/
   cd ..
-done
-
-COPYDIRS="slips/slip-0015"
-
-for i in $COPYDIRS; do
-  cp -a $i _build/$i
 done
