@@ -10,7 +10,7 @@ What is Strip4bit?
 Strip4bit is an adult site allowing users **to create account with TREZOR** and login privately in a secure way **without ever needing email or password**.
 
 Resources
----------
+^^^^^^^^^
 
 - `Website <https://strip4bit.com>`_
 

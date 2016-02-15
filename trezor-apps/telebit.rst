@@ -12,7 +12,7 @@ but faster and more secure, meaning your messages can’t be spied on. With Tele
 TREZOR device and your Telegram account.
 
 Resources
----------
+^^^^^^^^^
 
 - `Website <http://www.telebit.org>`_
 - `Download for Android <https://play.google.com/store/apps/details?id=com.nxb.telebit>`_

@@ -17,14 +17,10 @@ Be alerted about new Coinmap additions in your country via this `Twitter feed <h
 .. image:: images/coinmap03.png
 
 Resources
----------
+^^^^^^^^^
 
-- `Venue feed on Twitter <https://twitter.com/coinmap_feed>`_
-- `Twitter <https://twitter.com/thecoinmap>`_
-- `Reddit <https://www.reddit.com/r/CoinMap>`_
-- `Facebook <https://www.facebook.com/coinmap>`_
 - `Website <https://coinmap.org>`_
-
+- `Twitter feed <https://twitter.com/coinmap_feed>`_, `Twitter <https://twitter.com/thecoinmap>`_, `Reddit <https://www.reddit.com/r/CoinMap>`_, `Facebook <https://www.facebook.com/coinmap>`_
 
 TREZOR User Manual
 ------------------

@@ -8,6 +8,27 @@ What is myTREZOR?
 
 `myTREZOR <https://mytrezor.com>`_ is a state of the art TREZOR client wallet by SatoshiLabs. It has all the capabilities for configuring and managing TREZOR you need.
 
+Resources
+^^^^^^^^^
+
+- `Website <https://mytrezor.com>`_
+- `User manual <../trezor-user/settingup.html>`_
+- `Support (email) <mailto: support@bitcointrezor.com>`_
+- `Blog <http://satoshilabs.com/news>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/BitcoinTrezor>`_, `Reddit <http://www.reddit.com/r/TREZOR/>`_
+
+TREZOR User Manual
+------------------
+
+Before you can start using TREZOR with online client wallets and services like myTREZOR, you have to download and install browser Bitcoin TREZOR Plugin.
+When finished myTREZOR will ask you to connect your TREZOR.
+After you enter your PIN and passphrase, all your accounts with transaction history will automatically load.
+Find out more about `how to use myTREZOR here <../trezor-user/settingup.html>`_
+
+.. image:: images/mytrezor00.png
+
+Properties and Features
+-----------------------
+
 =================================================== =================== ===========================================================================================================
 Wallet Property                                                         Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
@@ -15,7 +36,7 @@ Wallet Property                                                         Descript
 :icon:`money` Coin(s)                   			✔                   Bitcoin
 :icon:`language` Languages                          ✔                   English                   
 :icon:`book` Address Book                                               Manage contact list of receiving and sending addresses
-:icon:`comment` Labelling                			 					Add comments and labels to accounts and transactions
+:icon:`comment` Labelling                			✔ 					Add comments and labels to accounts and transactions
 =================================================== =================== ===========================================================================================================
 
 =================================================== =================== ===========================================================================================================
@@ -41,28 +62,3 @@ Trezor Feature                                                          Descript
 :icon:`lock` Wallet Encryption                                          Wallet can be decrypted and opened using TREZOR only
 :icon:`lock` Sign in with TREZOR                                        TREZOR is used for online authentication without using username and password
 =================================================== =================== ===========================================================================================================
-
-Resources
----------
-
-- `Website <https://mytrezor.com>`_
-- `User manual <../trezor-user/settingup.html>`_
-- `Support (email) <mailto: support@bitcointrezor.com>`_
-- `Blog <http://satoshilabs.com/news>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/BitcoinTrezor>`_, `Reddit <http://www.reddit.com/r/TREZOR/>`_
-
-TREZOR User Manual
-------------------
-
-Before you can start using TREZOR with online client wallets and services like myTREZOR, you have to download and install browser Bitcoin TREZOR Plugin.
-
-.. image:: images/mytrezor02.jpg
-
-When finished myTREZOR will ask you to connect your TREZOR.
-
-.. image:: images/mytrezor00.png
-
-After you enter your PIN and passphrase, all your accounts with transaction history will automatically load.
-
-.. image:: images/mytrezor01.png
-
-Find out more about `how to use myTREZOR here <../trezor-user/settingup.html>`_

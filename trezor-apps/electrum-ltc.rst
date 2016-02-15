@@ -1,36 +1,28 @@
-Encompass
-=========
+Electrum-LTC
+=============
 
-.. image:: images/encompass_logo.jpg
+.. image:: images/electrum-ltc_logo.png
 
-What is Encompass?
+What is Electrum-LTC?
 ------------------
 
-`Encompass <https://maza.club/encompass>`_ is a multicurrency lightweight desktop wallet for Windows, Linux and Android OS, based on Electrum.
+`Electrum-LTC <https://electrum-ltc.org>`_ 
+is a Litecoin lightweight desktop wallet for Windows, Linux and Mac OS based on Electrum.
 
 Resources
 ^^^^^^^^^
 
-- `Website <https://maza.club/encompass>`_
-- `Source code <https://github.com/mazaclub/encompass>`_
-- `Dowload <https://github.com/mazaclub/encompass/releases>`_
+- `Website and Downloads <https://electrum-ltc.org>`_
+- `Source code <https://github.com/pooler/electrum-ltc>`_
 
 TREZOR User Manual
 ------------------
 
-Setting TREZOR with Encompass
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Encompass is a fork of `Electrum <electrum.html#trezor-user-manual>`_ wallet and works much like it. 
+Electrum-LTC is a fork of `Electrum <electrum.html#trezor-user-manual>`_ wallet and works much like it. 
 To import your public account keys, connect your TREZOR, start Encompass and select Create wallet and Hardware wallet as Wallet type.
 If you already have another wallet, select New Wallet from File menu first.
 
-Switching between coins
-^^^^^^^^^^^^^^^^^^^^^^^
-
-To swith to another coin, select Change currency from Wallet menu.
-
-.. image:: images/encompass01.png
+.. image:: images/electrum-ltc01.png
 
 Properties and Features
 -----------------------
@@ -38,8 +30,8 @@ Properties and Features
 =================================================== =================== ===========================================================================================================
 Wallet Property                                                         Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
-:icon:`laptop` Platform                 			✔                   Windows, Linux, OSX, Android
-:icon:`money` Coin(s)                   			✔                   Bitcoin, Litecoin, DASH
+:icon:`laptop` Platform                 			✔                   Windows, Linux, OSX
+:icon:`money` Coin(s)                   			✔                   Litecoin
 :icon:`language` Languages                          ✔                   English                   
 :icon:`book` Address Book                           ✔                   Manage contact list of receiving and sending addresses
 :icon:`comment` Labelling                			✔					Add comments and labels to accounts and transactions

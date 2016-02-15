@@ -9,6 +9,34 @@ What is Coinprism?
 `Coinprism <https://www.coinprism.com/>`_ is a web colored coin wallet. Use the Bitcoin blockchain with any kind of asset beside Bitcoin like Stocks, Currencies, Smart properties etc.
 For more information on Colored coins (Open Assets) click `here <https://coinprism.desk.com/customer/portal/articles/1451842-what-are-colored-coins->`_.
 
+Resources
+^^^^^^^^^
+
+- `Website <https://www.coinprism.com>`_
+- `Support <https://coinprism.desk.com>`_, `Blog <http://blog.coinprism.com>`_
+
+TREZOR User Manual
+------------------
+
+To import address from TREZOR, sign into your Coinprism account and create a new color address. Select TREZOR Wallet as Address Type, connect your TREZOR and click Load from TREZOR. After you public account key is loaded, select Trezor address ID to load and click Create.
+
+.. image:: images/coinprism01.png
+
+When spending from TREZOR address, go to Send coins, select TREZOR address, fill receving address and amount and click Send.
+
+.. image:: images/coinprism02.png
+
+You will be asked to connected your TREZOR, enter your PIN, check transaction details on display before clicking Sign.
+
+.. image:: images/coinprism04.png
+
+After signing, your transaction will be listed as unconfirmed in transaction list.
+
+.. image:: images/coinprism06.png
+
+Properties and Features
+-----------------------
+
 =================================================== =================== ====================================================================================================================================
 Wallet Property                                                         Description
 ----------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------
@@ -43,29 +71,3 @@ Trezor Feature                                                          Descript
 :icon:`lock` Wallet Encryption                                          Wallet can be decrypted and opened using TREZOR only
 :icon:`lock` Sign in with TREZOR                                        TREZOR is used for online authentication without using username and password
 =================================================== =================== ===========================================================================================================
-
-Resources
----------
-
-- `Website <https://www.coinprism.com>`_
-- `Support <https://coinprism.desk.com>`_
-- `Blog <http://blog.coinprism.com>`_
-
-TREZOR User Manual
-------------------
-
-To import address from TREZOR, sign into your Coinprism account and create a new color address. Select TREZOR Wallet as Address Type, connect your TREZOR and click Load from TREZOR. After you public account key is loaded, select Trezor address ID to load and click Create.
-
-.. image:: images/coinprism01.png
-
-When spending from TREZOR address, go to Send coins, select TREZOR address, fill receving address and amount and click Send.
-
-.. image:: images/coinprism02.png
-
-You will be asked to connected your TREZOR, enter your PIN, check transaction details on display before clicking Sign.
-
-.. image:: images/coinprism04.png
-
-After signing, your transaction will be listed as unconfirmed in transaction list.
-
-.. image:: images/coinprism06.png

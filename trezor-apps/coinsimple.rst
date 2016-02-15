@@ -15,9 +15,7 @@ Resources
 ---------
 
 - `Website <https://coinsimple.com>`_
-- `Support <https://coinsimple.com/support>`_
-- `FAQ <https://coinsimple.com/faq/#what-is-coinsimple>`_
-- `Blog <https://coinsimple.com/blog>`_
+- `Support <https://coinsimple.com/support>`_, `FAQ <https://coinsimple.com/faq/#what-is-coinsimple>`_, `Blog <https://coinsimple.com/blog>`_
 
 TREZOR User Manual
 ------------------

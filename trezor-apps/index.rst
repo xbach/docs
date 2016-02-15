@@ -3,40 +3,44 @@ TREZOR Apps
 
 .. image:: images/chapter02.jpg
 
-Except for `myTrezor.com <https://mytrezor.com>`_, you can use your TREZOR device with increasing number of independent **bitcoin wallets and online services**. We call them **TREZOR Apps**. 
+Except for `myTREZOR <https://mytrezor.com>`_, you can use your TREZOR device with increasing number of independent bitcoin wallets and online services. We call them **TREZOR Apps**. 
 
 Using TREZOR With Bitcoin and Altcoin Wallets 
 ---------------------------------------------
 
-Click on the wallet's name for more information.
+The following **client wallets** let you connect TREZOR and work with it. They don't actually hold any private keys, instead they display balances and help you to manage transactions.
 
-==================================================== ======================== ====================== ====================== ======================= ====================== ====================== ====================== ====================== ======================
+==================================================== ======================== ====================== ====================== ======================= ====================== ======================= ====================== ====================== ====================== ======================
 Supported TREZOR features
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Wallet                                               :icon:`cog`              :icon:`life-ring`      :icon:`exchange`       :icon:`user-secret`     :icon:`bars`           :icon:`eye-slash`      :icon:`eye`            :icon:`upload`         :icon:`fire`           
-`Coinprism <coinprism.html>`_                                                                        ✔                      ✔                                              
-`Chrome extension <extension.html>`_                 ✔                        ✔                                             ✔                                                                                            ✔                      ✔
-`Electrum <electrum.html>`_                          ✔                                               ✔                      ✔                       ✔                      ✔                      ✔
-`Encompass <encompass.html>`_                        ✔                                               ✔                      ✔                       ✔                      ✔                      ✔
-`MultiBit HD <multibit.html>`_                       ✔                                               ✔                                                                     ✔                                                                    ✔                   
-`Mycelium <mycelium.html>`_                                                                          ✔                      ✔                       ✔                      ✔
-`myTREZOR <mytrezor.html>`_                          ✔                        ✔                      ✔                      ✔                       ✔                      ✔                      ✔                      ✔                      ✔
-`Sentinel <sentinel.html>`_                                                                                                                                                ✔
-==================================================== ======================== ====================== ====================== ======================= ====================== ====================== ====================== ====================== ======================
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Wallet                                               :icon:`cog`              :icon:`life-ring`      :icon:`exchange`       :icon:`users`           :icon:`user-secret`    :icon:`bars`            :icon:`eye-slash`      :icon:`eye`            :icon:`upload`         :icon:`fire`          
+`Coinprism <coinprism.html>`_                                                                        ✔                                              ✔                                              
+`Copay <copay.html>`_	                                                                             ✔                      ✔                       ✔                      ✔                       ✔                                              
+`Chrome Extension <extension.html>`_                 ✔                        ✔                                                                     ✔                                                                                            ✔                      ✔
+`Electrum <electrum.html>`_                          ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
+`Electrum-DASH <electrum-dash.html>`_                ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
+`Electrum-LTC <electrum-ltc.html>`_                  ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
+`Encompass <encompass.html>`_                        ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
+`GreenAddress <greenaddress.html>`_	                                                                                        ✔                       ✔                      ✔
+`MultiBit HD <multibit.html>`_                       ✔                                               ✔                                                                                             ✔                                                                    ✔                   
+`Mycelium <mycelium.html>`_                                                                          ✔                                              ✔                      ✔                       ✔
+`myTREZOR <mytrezor.html>`_                          ✔                        ✔                      ✔                                              ✔                      ✔                       ✔                      ✔                      ✔                      ✔
+`Sentinel <sentinel.html>`_                                                                                                                                                ✔                       ✔
+==================================================== ======================== ====================== ====================== ======================= ====================== ======================= ====================== ====================== ====================== ======================
 
 LEGEND |
 :icon:`cog` Basic Setup |
 :icon:`life-ring` Safe Recovery |
-:icon:`exchange` Standard transactions |
+:icon:`exchange` Personal wallets |
+:icon:`users` Shared wallets |
 :icon:`user-secret` Hidden Wallets With Passphrase |
 :icon:`bars` Multiple Accounts |
 :icon:`eye-slash` Watch-only mode |
 :icon:`eye` Show on TREZOR |
 :icon:`upload` Update Firmware |
-:icon:`fire` Wipe device |
+:icon:`fire` Wipe device | 
 
 .. :icon:`th` Smart PIN Matrix |
-.. :icon:`users` Multisig transactions |
 
 Using TREZOR With Online Services
 ---------------------------------
@@ -49,18 +53,18 @@ e.g. creating invoices from your TREZOR accounts. Click on the name of a service
 ==================================================== ===================================== ==============================================================================================
 Service                                              Feature(s)                            Description
 `Bitex <bitex.html>`_                                :icon:`lock`                          Real time bitcoin exchange.
-`Cashila <cashila.html>`_                            :icon:`lock`                          Payment processor. Pay your bills with Bitcoin.
+`Cashila <cashila.html>`_                            :icon:`lock` :icon:`exchange`         Payment processor. Pay your Euro bills with Bitcoin.
 `Coinmap <coinmap.html>`_                            :icon:`lock` :icon:`umbrella`         Map of bitcoin shops and businesses.
 `Coinpayments <coinpayments.html>`_                  :icon:`lock`                          Payment processor service supporting various cryptocurrencies.
-`CoinSimple <coinsimple.html>`_                      :icon:`lock`  	                       Bitcoin invoicing service and wallet connector.
 `Osclass <osclass.html>`_                            :icon:`lock`                          Open-source platform for easy creation of classifieds sites. 
 `Strip4Bit <strip4bit.html>`_                        :icon:`lock` :icon:`umbrella`         Adult site allowing users to sign up privately in a secure way. 
 `Telebit <telebit.html>`_                            :icon:`exchange`                      Android wallet coupled to Telegram Messenger
+`Wordpress <wordpress.html>`_                        :icon:`lock`                          Blog hosting and publishing platform.
 ==================================================== ===================================== ==============================================================================================
 
-.. `Wordpress <wordpress.html>`_                        :icon:`lock`                          Blog hosting and publishing platform.
-.. `Drupal CMS <drupal.html>`_                          :icon:`lock`                          Content management platform.
-.. `Slush pool <slush-pool.html>`_                      :icon:`lock`, :icon:`umbrella`        The first mining pool ever and inventor of mining concept.
+.. `Drupal CMS <drupal.html>`_                       :icon:`lock`                          Content management platform.
+.. `Slush pool <slush-pool.html>`_                   :icon:`lock`, :icon:`umbrella`        The first mining pool ever and inventor of mining concept.
+.. `CoinSimple <coinsimple.html>`_                   :icon:`lock`  	                       Bitcoin invoicing service and wallet connector.
 
 LEGEND | 
 :icon:`lock` `Sign in with TREZOR <../trezor-tech/api-connect.html>`_ | 
@@ -73,32 +77,24 @@ Recovering Funds without TREZOR Device
 
 In case your TREZOR device gets lost or damaged, you can access your bitcoins fast using your :download:`paper backup <../trezor-user/images/recovery_card.pdf>` and one of the following wallets:
  
+- `Copay <https://copay.io>`_ (Linux, Windows, OSX, Android, iOS, Windows phone)
 - `Electrum <https://electrum.org/#download>`_ (Linux, Windows, OSX, Android)
 - `Encompass <https://maza.club/encompass>`_ (Linux, Windows, Android)
-- `MultiBit HD <https://beta.multibit.org>`_ (Linux, Windows, OSX) - only the first account from myTREZOR will be accessible
+- `MultiBit HD <https://multibit.org>`_ (Linux, Windows, OSX) - only the first account from myTREZOR will be accessible
 - `Mycelium <https://itunes.apple.com/ca/app/mycelium-bitcoin-wallet/id943912290>`_ (iOS) - currently support 12 word recovery only
 - `Mycelium <https://play.google.com/store/apps/details?id=com.mycelium.wallet>`_ (Android)
 - `Wallet32 <https://play.google.com/store/apps/details?id=com.bonsai.wallet32>`_ (Android)
 
-Ongoing Integrations
---------------------
-
+.. Ongoing Integrations
+.. --------------------
 .. image:: images/photo04.png
-
-Are you actively working on adding TREZOR support to your application? Get in touch with us via integration@satoshilabs.com. We will gladly include you in the following list.
-
-- `Coinkite <https://coinkite.com>`_ - Standard and multisig wallet planned
-- `Copay <https://copay.io>`_ - Multisig wallet support planned
-- `Coyno <https://beta.coyno.com/>`_ - Watch-only wallet service in beta phase
-- `Drupal CMS <https://www.drupal.org>`_ - Sign in with TREZOR work in progress
-- `Slush pool <http://mining.bitcoin.cz/home/>`_ - Sign in with TREZOR work in progress
-- `Wordpress <https://wordpress.org>`_ - Sign in with TREZOR work in progress
-
+.. Are you actively working on adding TREZOR support to your application? Get in touch with us via integration@satoshilabs.com. We will gladly include you in the following list.
+.. - `Coinkite <https://coinkite.com>`_ - Standard and multisig wallet planned
+.. - `Coyno <https://beta.coyno.com/>`_ - Watch-only wallet service in beta phase
+.. - `Drupal CMS <https://www.drupal.org>`_ - Sign in with TREZOR work in progress
+.. - `Slush pool <http://mining.bitcoin.cz/home/>`_ - Sign in with TREZOR work in progress
 .. - `Bitstock <https://www.bitstock.com>`_ - Sign in with TREZOR planned
-.. - `Armory <https://bitcoinarmory.com>`_ - Wallet support planned
 .. - `Bitstamp <https://www.bitstamp.net>`_ - Sign in with TREZOR planned
-.. - `GreenAddress <https://greenaddress.it/>`_ - Multisig wallet support work in progress
-
 
 License
 -------
@@ -120,9 +116,12 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    coinmap
    coinpayments 
    coinprism 
-   coinsimple 
+   copay
    electrum 
+   electrum-dash
+   electrum-ltc
    encompass 
+   greenaddress
    multibit 
    mycelium 
    mytrezor
@@ -130,5 +129,6 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    sentinel
    strip4bit
    telebit
+   wordpress
   
    

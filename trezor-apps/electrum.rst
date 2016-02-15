@@ -8,6 +8,30 @@ What is Electrum?
 
 `Electrum <https://electrum.org/>`_ is a lightweight desktop wallet for Windows, Linux, OS X and Android OS. 
 
+Resources
+^^^^^^^^^
+
+- `Website <https://www.electrum.org/>`_
+- `Download <https://electrum.org/#download>`_, `Source code <https://github.com/spesmilo/electrum>`_
+- `User manual <https://electrum.orain.org/wiki/Main_Page>`_, `Support <https://www.electrum.org/#community>`_
+
+TREZOR User Manual
+------------------
+
+To import your TREZOR public account keys, connect your device, start Electrum and select Create wallet and Hardware wallet as Wallet type. 
+If you already have another wallet, select New Wallet from File menu first.
+
+.. image:: images/electrum01.png
+
+After all your public keys are imported and wallet transaction history is synced, you will be able to see transactions history and all your account addresses.
+
+.. image:: images/electrum03.png
+
+.. image:: images/electrum04.png
+
+Properties and Features
+-----------------------
+
 =================================================== =================== ===========================================================================================================
 Wallet Property                                                         Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
@@ -41,24 +65,3 @@ Trezor Feature                                                          Descript
 :icon:`lock` Wallet Encryption                                          Wallet can be decrypted and opened using TREZOR only
 :icon:`lock` Sign in with TREZOR                                        TREZOR is used for online authentication without using username and password
 =================================================== =================== ===========================================================================================================
-
-Resources
----------
-
-- `Website <https://www.electrum.org/>`_
-- `Download <https://electrum.org/#download>`_, last version supporting TREZOR in Windows is `here <https://download.electrum.org/electrum-2.3.2-setup.exe>`_ 
-- `Support <https://www.electrum.org/#community>`_
-- `User manual <https://electrum.orain.org/wiki/Main_Page>`_
-
-TREZOR User Manual
-------------------
-
-To import your public account keys into Electrum wallet, select Create wallet and Hardware wallet as Wallet type.
-
-.. image:: images/electrum01.png
-
-After all your public keys are imported and wallet transaction history is synced, you will be able to see transactions history and all your account addresses.
-
-.. image:: images/electrum03.png
-
-.. image:: images/electrum04.png

@@ -11,14 +11,14 @@ Thanks to `TREZOR Connect plugin <http://market.osclass.org/plugins/security/tre
 enable their users to login securely without password.
 
 Sites using TREZOR Connect plugin
----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Do you have classifieds site running on Osclass platform with TREZOR Connect enabled? Let us know about it at integration@satoshilabs.com, we will gladly include link to your site here.
 
 .. image:: images/osclass06.jpg
 
 Resources
----------
+^^^^^^^^^
 
 - `Website <https://osclass.org>`_
 - `Plugin download <http://market.osclass.org/plugins/security/trezor-connect_242>`_

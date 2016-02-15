@@ -1,5 +1,5 @@
 Coinpayments
-===================
+============
 
 .. image:: images/coinpayments_logo.png
 
@@ -12,7 +12,7 @@ Merchants can now safely manage their accounts thanks to `Sign in with TREZOR <.
 feature allowing for passwordless and secure authentication.
 
 Resources
----------
+^^^^^^^^^
 
 - `Website <https://coinpayments.net>`_
 - `Support <https://coinpay.freshdesk.com/support/home>`_
