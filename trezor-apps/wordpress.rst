@@ -7,7 +7,7 @@ Wordpress
 What is Wordpress?
 ------------------
 
-`Wordpress <https://wordpress.org>`_ is web software you can use to create a website or blog. 
+`Wordpress <https://wordpress.org/plugins/trezor-connect-plugin>`_ is web software you can use to create a website or blog. 
 
 Thanks to **TREZOR Connect Plugin** by SatoshiLabs, administrators can now install Sign in with TREZOR 
 feature with just a few clicks and enjoy passwordless and secure authentication to their Wordpress backend.
@@ -19,6 +19,8 @@ Resources
 - `Souce code <https://github.com/trezor/trezor-wordpress-plugin>`_
 - `Support (email) <mailto: support@bitcointrezor.com>`_
 - `Blog <http://satoshilabs.com/news>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/BitcoinTrezor>`_, `Reddit <http://www.reddit.com/r/TREZOR/>`_
+
+.. image:: images/wordpress00.png
 
 TREZOR User Manual
 ------------------
