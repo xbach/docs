@@ -78,7 +78,7 @@ Recovering Funds without TREZOR Device
 
 In case your TREZOR device gets lost or damaged, you can access your bitcoins fast using your :download:`paper backup <../trezor-user/images/recovery_card.pdf>` and one of the following wallets:
  
-- `ArcBit <http://arcbit.io> (iOS)
+- `ArcBit <http://arcbit.io>`_ (iOS)
 - `Copay <https://copay.io>`_ (Linux, Windows, OSX, Android, iOS, Windows phone)
 - `Electrum <https://electrum.org/#download>`_ (Linux, Windows, OSX, Android)
 - `Encompass <https://maza.club/encompass>`_ (Linux, Windows, Android)
