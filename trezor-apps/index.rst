@@ -14,6 +14,7 @@ The following **client wallets** let you connect TREZOR and work with it. They d
 Supported TREZOR features
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Wallet                                               :icon:`cog`              :icon:`life-ring`      :icon:`exchange`       :icon:`users`           :icon:`user-secret`    :icon:`bars`            :icon:`eye-slash`      :icon:`eye`            :icon:`upload`         :icon:`fire`          
+`ArcBit <arcbit.html>`_                                                                                                                                                                            ✔                       ✔
 `Coinprism <coinprism.html>`_                                                                        ✔                                              ✔                                              
 `Copay <copay.html>`_	                                                                             ✔                      ✔                       ✔                      ✔                       ✔                                              
 `Chrome Extension <extension.html>`_                 ✔                        ✔                                                                     ✔                                                                                            ✔                      ✔
@@ -77,6 +78,7 @@ Recovering Funds without TREZOR Device
 
 In case your TREZOR device gets lost or damaged, you can access your bitcoins fast using your :download:`paper backup <../trezor-user/images/recovery_card.pdf>` and one of the following wallets:
  
+- `ArcBit <http://arcbit.io> (iOS)
 - `Copay <https://copay.io>`_ (Linux, Windows, OSX, Android, iOS, Windows phone)
 - `Electrum <https://electrum.org/#download>`_ (Linux, Windows, OSX, Android)
 - `Encompass <https://maza.club/encompass>`_ (Linux, Windows, Android)
@@ -110,6 +112,7 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    :hidden:
    :maxdepth: 1
    
+   arcbit
    bitex
    extension
    cashila
