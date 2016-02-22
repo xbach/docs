@@ -3,7 +3,11 @@ TREZOR Apps
 
 .. image:: images/chapter02.jpg
 
-Except for `myTREZOR <https://mytrezor.com>`_, you can use your TREZOR device with increasing number of independent bitcoin wallets and online services. We call them **TREZOR Apps**. 
+Except for `myTREZOR <https://mytrezor.com>`_, you can use your TREZOR device with increasing number of independent bitcoin wallets and online services. We call them **TREZOR Apps**:
+
+- `TREZOR Wallets <index.html#using-trezor-with-bitcoin-and-altcoin-wallets>`_
+- `Online Services <index.html#using-trezor-with-online-services>`_
+- `Recovering Funds <index.html#recovering-funds-without-trezor-device>`_
 
 Using TREZOR With Bitcoin and Altcoin Wallets 
 ---------------------------------------------
@@ -54,6 +58,7 @@ e.g. creating invoices from your TREZOR accounts. Click on the name of a service
 ==================================================== ===================================== ==============================================================================================
 Service                                              Feature(s)                            Description
 `Bitex <bitex.html>`_                                :icon:`lock`                          Real time bitcoin exchange.
+`Bitwala <bitwala.html>`_                            :icon:`exchange`                      Payment processor. Pay your Euro bills with Bitcoin.
 `Cashila <cashila.html>`_                            :icon:`lock` :icon:`exchange`         Payment processor. Pay your Euro bills with Bitcoin.
 `Coinmap <coinmap.html>`_                            :icon:`lock` :icon:`umbrella`         Map of bitcoin shops and businesses.
 `Coinpayments <coinpayments.html>`_                  :icon:`lock`                          Payment processor service supporting various cryptocurrencies.
@@ -80,12 +85,12 @@ In case your TREZOR device gets lost or damaged, you can access your bitcoins fa
  
 - `ArcBit <http://arcbit.io>`_ (iOS)
 - `Copay <https://copay.io>`_ (Linux, Windows, OSX, Android, iOS, Windows phone)
-- `Electrum <https://electrum.org/#download>`_ (Linux, Windows, OSX, Android)
+- `Electrum <https://electrum.org/#download>`_ (Linux, Windows, OSX, Android), `recovery manual <https://www.buybitcoinworldwide.com/kb/restore-trezor-seed-electrum>`_
 - `Encompass <https://maza.club/encompass>`_ (Linux, Windows, Android)
-- `MultiBit HD <https://multibit.org>`_ (Linux, Windows, OSX) - only the first account from myTREZOR will be accessible
-- `Mycelium <https://itunes.apple.com/ca/app/mycelium-bitcoin-wallet/id943912290>`_ (iOS) - currently support 12 word recovery only
-- `Mycelium <https://play.google.com/store/apps/details?id=com.mycelium.wallet>`_ (Android)
+- `MultiBit HD <https://multibit.org>`_ (Linux, Windows, OSX) - only the first account can be accessed, passphrase not supported
+- `Mycelium <https://play.google.com/store/apps/details?id=com.mycelium.wallet>`_ (Android), `recovery manual <https://www.buybitcoinworldwide.com/kb/restore-trezor-seed-mycelium-android>`_
 - `Wallet32 <https://play.google.com/store/apps/details?id=com.bonsai.wallet32>`_ (Android)
+.. - `Mycelium <https://itunes.apple.com/ca/app/mycelium-bitcoin-wallet/id943912290>`_ (iOS), only 12 word recovery is supported
 
 .. Ongoing Integrations
 .. --------------------
@@ -114,6 +119,7 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    
    arcbit
    bitex
+   bitwala
    extension
    cashila
    coinmap

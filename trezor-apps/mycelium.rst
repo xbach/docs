@@ -22,7 +22,7 @@ Before you can start using Mycelium with your TREZOR, make sure you have an OTG 
 Using TREZOR with Mycelium is pretty straighforward.
 
 Importing account from TREZOR
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------
 
 To import a TREZOR account into Mycelium, go to Accounts tab, select Add New Account (key icon) > Advanced > Trezor.
 Now, connect your TREZOR via OTG cable and confirm the access. Enter your TREZOR PIN (and also passphrase, if you have previously enabled passphrase feature) 
@@ -43,8 +43,8 @@ If you need to import more accounts, repeat the steps above. To import a new emp
 Without TREZOR device connected, imported accounts work in **watch-only mode**. You can check total balance, transaction history and display next unsused receiving address,
 but **you cannot send any transaction**.
 
-Sending transaction from imported TREZOR account
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Sending transaction from imported account
+-----------------------------------------
 
 To send transaction from TREZOR account you need to connect your TREZOR. Select Send from Balance tab and enter recipient address and amount. 
 Hit the Send button, check the transaction on TREZOR screen and confirm it.
@@ -54,14 +54,14 @@ Hit the Send button, check the transaction on TREZOR screen and confirm it.
 .. image:: images/mycelium09.png
 
 Sending transaction from TREZOR directly
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------
 
 You can also send transaction directly from TREZOR using Mycelium without importing it first. Simply connect your TREZOR and select **Cold Storage** from app menu 
 and choose Trezor. After Mycelium loads your TREZOR accounts, select the one you want to spend from, enter recipient address and amount and finalize the transaction
 by checking and confirming it on TREZOR.
 
 Importing watch-only accounts from MyTrezor
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------
 
 If you want to use Mycelium as a watch-only wallet for your TREZOR, you can import accounts directly from MyTrezor without connecting the device.
 
