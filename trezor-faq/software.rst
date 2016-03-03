@@ -6,7 +6,7 @@ What is a recovery seed, a PIN and encryption passphrase and the difference betw
 
 **Recovery seed** is a mnemonic code made of 12, 18 or 24 words depending on your choice. This seed is generated the first time you run TREZOR and will help you recovering it's contents (private keys, bitcoin balance and transaction history) into a new device if you lose your TREZOR. 
 
-**PIN** is a number that you set when you first run TREZOR. It protects TREZOR against being used by unauthorized persons. We have invented a secure way of entering the PIN so it can’t be keylogged and misused.
+**PIN** is a number that you set when you first run TREZOR. It protects TREZOR against being used by unauthorized persons. We have invented a `secure way <../trezor-user/enteringyourpin.html>`_ of entering the PIN so it can’t be keylogged and misused.
 
 **Encryption passphrase** can be set on top of the PIN. This protects the device in case of seizure. It's using military-grade encryption of the seed on TREZOR storage, so even torturing the device in a laboratory won't leak your private keys.
 
