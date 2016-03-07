@@ -7,7 +7,7 @@ What is Bitwala?
 -------------------------
 
 `Bitwala <https://bitwa.la>`_ is a Bitcoin payment service - Pay your EUR bills using bitcoin. Fast, easy and secure. No bank account required.
-Thanks to `the support for TREZOR <http://about.bitwa.la/bitwala-is-introducing-trezor>`_, paying your Euro bills securely is now even easier then ever before.
+Thanks to `the support for TREZOR <http://about.bitwa.la/bitwala-is-introducing-trezor>`_, paying your Euro bills securely is now even easier than ever before.
 
 Resources
 ^^^^^^^^^
@@ -25,7 +25,7 @@ With Bitwala, users gain a convenient new way to transfer bitcoins directly from
 Pay with TREZOR feature will be appreciated by all users who would like to pay bills with bitcoins or cash out in a simple manner:
 
 1) Log into Biwala account.
-2) Create a bill, email pay or PayPal payment
+2) Create a bill, email pay or PayPal payment.
 3) Click on the "Pay with Trezor" button.
 4) Connect your TREZOR and follow the instructions.
 5) Authenticate to your TREZOR with PIN.
