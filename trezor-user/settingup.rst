@@ -1,9 +1,9 @@
 Setting up your TREZOR device
 =============================
 
-The TREZOR works with almost any computer that has a USB port and an internet connection.  To allow |myTrezor| wallet to communicate with the TREZOR you need to install a piece of software called the TREZOR bridge.  If you go to the |myTrezor| website you should see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.
+The TREZOR works with almost any computer that has a USB port and an internet connection.  To allow the |myTrezor| wallet to communicate with the TREZOR you need to install a piece of software called the TREZOR bridge.  If you go to the |myTrezor| website you should see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.
 
-.. note:: We also provide `Chrome extension <https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj>`_, which works on all platforms. However, Linux users need to perform additional configuration of their system, please see :doc:`Setting up Chrome extension on Linux <settingupchromeonlinux>`.
+.. note:: We also provide a `Chrome extension <https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj>`_, which works on all platforms. However, Linux users need to perform additional configuration of their system, please see :doc:`Setting up Chrome extension on Linux <settingupchromeonlinux>`.
 
 Once you've got the TREZOR bridge installed go to |myTrezor| again.  This time you should see a web page welcoming you and asking for a device label:
 
