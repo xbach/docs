@@ -3,7 +3,7 @@ Homescreen
 
 .. note:: This feature is currently in open beta testing phase and is available at `beta.mytrezor.com <https://beta.mytrezor.com>`_. 
 
-Personalize your TREZOR's homescreen easily. There are several ways how to do that:
+Personalize your TREZOR's homescreen easily. There are several ways to do it:
 
 - `1. Upload your own homescreen picture`_ or 
 - `2. Use TREZOR Homescreen Editor`_ to upload and edit any picture or 
@@ -48,7 +48,7 @@ Done!
 
 .. image:: images/homescreen-gallery.png 
 
-The most simple way to change your homescreen is to use some of the pictures in our gallery. 
+The simplest way to change your homescreen is to use a picture in our gallery. 
 
 - 1. Select your desired picture in the gallery 
 - 2. Click the **Set as Homescreen** button in the preview area. You will be asked to confirm the action on your TREZOR device.

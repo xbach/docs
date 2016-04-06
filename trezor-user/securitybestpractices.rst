@@ -4,13 +4,13 @@ Security best practices
 Choose a good PIN
 -----------------
 
-TREZOR's PIN based security system is a powerful tool to keep your bitcoin's safe.  If your TREZOR is stolen, the only thing between the thief and your bitcoins is your PIN and/or passphrase.  **It is imperative that you choose a good PIN!**
+TREZOR's PIN based security system is a powerful tool to keep your bitcoins safe.  If your TREZOR is stolen, the only thing between the thief and your bitcoins is your PIN and/or passphrase.  **It is imperative that you choose a good PIN!**
 
-An `analysis in 2012 <http://www.datagenetics.com/blog/september32012/>`_ showed that 11% of PINs used were 1234.  Do not use the PIN 1234 to secure your TREZOR.  Do not use any pin which contains a series of repeated numbers or a counting sequence.
+An `analysis in 2012 <http://www.datagenetics.com/blog/september32012/>`_ showed that 11% of PINs used were 1234.  Do not use the PIN 1234 to secure your TREZOR.  Do not use any PIN which contains a series of repeated numbers or a counting sequence.
 
 .. hint::
 
-   The numbers displayed on the TREZOR's screen when it requests a new PIN are in random order.  You can use them as the basis for your PIN, if you don't have any better ideas.  For example, you can use the first two rows when you are shown the matrix for the first time.
+   The numbers displayed on the TREZOR's screen when it requests a new PIN are in a random order.  You can use them as the basis for your PIN, if you don't have any better ideas.  For example, you can use the first two rows when you are shown the matrix for the first time.
 
 If you have trouble remembering your PIN, write it on your recovery card.
 
@@ -19,7 +19,7 @@ Keep your recovery seed safe from
 
 - Theft
 
- If you do not use a passphrase, your recovery seed is all that is needed to access your bitcoins.  The physical security of your recovery seed is much more important than the physical security of your TREZOR.  If your TREZOR is stolen, the likely hood is that the thieves will be unable to crack your PIN and that your bitcoins are safe.  However, if your recovery seed is stolen your bitcoins can be accessed quite easily.
+ If you do not use a passphrase, your recovery seed is all that is needed to access your bitcoins.  The physical security of your recovery seed is much more important than the physical security of your TREZOR.  If your TREZOR is stolen, the likelihood is that the thieves will be unable to crack your PIN and that your bitcoins are safe.  However, if your recovery seed is stolen your bitcoins can be accessed quite easily.
 
  Only ever keep your recovery seed on paper.  Never store it on your computer.
 

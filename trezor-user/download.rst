@@ -12,9 +12,9 @@ You can download the TREZOR Bridge `here <https://mytrezor.s3.amazonaws.com/brid
 TREZOR Chrome Extension
 -----------------------
 
-Chrome extension (available for download `here <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_) is a convenient way of using TREZOR with `Google Chrome <http://www.google.com/chrome/>`_ browser without the need of installing proprietary software on your computer. 
+The Chrome extension (available for download `here <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_) is a convenient way of using TREZOR with the `Google Chrome <http://www.google.com/chrome/>`_ browser without the need to install proprietary software on your computer. 
 
-For more detailed description of how it works and how to install it please visit following `article <http://doc.satoshilabs.com/trezor-user/settingupchromeonlinux.html>`_ in our user manual or `GitHub repository <https://github.com/trezor/trezor-chrome-extension>`_.
+For a more detailed description of how it works and how to install it please visit the following `article <http://doc.satoshilabs.com/trezor-user/settingupchromeonlinux.html>`_ in our user manual or `GitHub repository <https://github.com/trezor/trezor-chrome-extension>`_.
 
 
 Seed recovery card

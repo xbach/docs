@@ -33,7 +33,7 @@ You may also use the "More please +" button to create more receiving addresses. 
 Confirming that a payment has been received
 -------------------------------------------
 
-When someone makes a payment to you, you will see a green(incoming) transaction appear in the transactions pane.
+When someone makes a payment to you, you will see a green (incoming) transaction appear in the transactions pane.
 
 .. image:: images/tx-incoming-unconfirmed.png
 
