@@ -3,7 +3,7 @@ Filling out your recovery card
 
 If you have set your device label successfully you will now see a message on your TREZOR's screen prompting you to write down the seed.
 
-Your seed is a list of secret set of words that you will use to recover your money in case you ever lose your TREZOR.
+Your seed is a secret list of words that you will use to recover your money in case you ever lose your TREZOR.
 
 Now you should get out the recovery card that came with your TREZOR and fill out the blanks with the words you see on your screen.
 
@@ -19,4 +19,4 @@ Once you have done so, you're ready to start using your TREZOR device!
 
 .. hint:: You can print more :download:`recovery cards <images/recovery_card.pdf>` and store them at different physical locations.
 
-Now that your recovery seed is sound and safe on your recovery card, you can continue to :doc:`Basic Settings <basic-settings>`.
+Now that your recovery seed is safe and sound on your recovery card, you can continue to :doc:`Basic Settings <basic-settings>`.
