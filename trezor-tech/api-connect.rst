@@ -1,6 +1,8 @@
 TREZOR Connect API
 ==================
 
+(note: more technical and less obsolete documentation of Trezor Connect API can be found `on github <https://github.com/trezor/connect>`_)
+
 Add TREZOR Login to Your Website or App
 
 .. image:: images/connect-login.png
