@@ -13,7 +13,7 @@ If you lose your TREZOR or if your TREZOR somehow gets destroyed you may have to
 
 What do you need to start your TREZOR recovery:
 
- - A new or :doc:`wiped<advanced_settings> TREZOR
+ - A new or :doc:`wiped<advanced_settings>` TREZOR
  - Your filled out TREZOR recovery card
  - A computer with the TREZOR bridge installed
 
