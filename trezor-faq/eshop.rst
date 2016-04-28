@@ -33,7 +33,7 @@ At the moment no other payment methods are accepted at BuyTREZOR.com. However ge
 
 1. Buy from local traders:
 
-- `LocalBitcoins.com <https://localbitcoins.com>`_
+- `LocalBitcoins.com <https://localbitcoins.com/?ch=4cp1>`_
 - `Mycelium Local Trader app <https://mycelium.com/localtrader>`_
 
 2. ATM:
@@ -42,9 +42,10 @@ At the moment no other payment methods are accepted at BuyTREZOR.com. However ge
 
 3. Buy from exchange:
 
-- `Circle.com <https://Circle.com>`_
-- `Coinbase.com <https://Coinbase.com>`_
+- `Coinbase.com <https://www.coinbase.com/join/satoshilabs>`_
+- `Coinmama.com <https://www.coinmama.com/?ref=Satoshilabs>`_
 - `Coinjar.com <https://Coinjar.com>`_
+- `Circle.com <https://Circle.com>`_
 - `Expresscoin.com <https://Expresscoin.com>`_
 
 4. Finding other means of exchange in your area
