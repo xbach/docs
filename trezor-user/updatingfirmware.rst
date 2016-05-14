@@ -1,11 +1,11 @@
 Updating your TREZOR's firmware
 ===============================
 
-Occasionally you may plug in your TREZOR to see a banner telling you that you need an update.
+Occasionally when you plug in your TREZOR you may see a banner telling you that you need an update.
 
 .. image:: images/updateneeded.png
 
-That means its time to update your TREZORs firmware!
+That means it is time to update your TREZOR's firmware!
 
 Doing so is easy.
 
@@ -15,7 +15,7 @@ Without closing the myTREZOR website, unplug your TREZOR.  Now press down both b
 
 .. image:: images/clawupdateplugin.jpg
 
-Once you have plugged in your TREZOR you'll see a dialog on the myTREZOR.com website asking you if you want to update.
+Once you have plugged in your TREZOR you'll see a dialog on the myTREZOR.com website asking if you want to update.
 
 .. image:: images/doyouwanttoupdate.png
 

@@ -1,4 +1,4 @@
-Transfering money to your TREZOR
+Transferring money to your TREZOR
 =================================
 
 If you already have bitcoins in a wallet somewhere, you can send bitcoins to your TREZOR simply by sending them to one of the addresses listed on your Account page as described in :doc:`receiving payments<receivingpayments>`.

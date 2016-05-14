@@ -7,7 +7,7 @@ In order to make payments, go to the account page in myTREZOR and press send.  Y
 
 **1. Enter the destination address**
 
-You can type in a destination address for your transaction and the value of coins which are about to be sent. Now you can choose to insert the amount in Bitcoins or any other world currency (actual exchange rate is provided by CoinDesk).
+You can type in a destination address for your transaction and the value of coins which are about to be sent. Now you can choose to insert the amount in bitcoins or any other world currency (actual exchange rate is provided by CoinDesk).
 
 If the address you want to send to is on someone's cell phone, you might not want to type in the full address.   Chances are though, that they'll also be able to show you the QR code for their account.  You can scan a QR code with myTREZOR simply by pressing the scan QR code button in the address field and holding a picture of the QR code up to your computer's web cam.
 
@@ -25,7 +25,7 @@ The first time you make a payment with your TREZOR after plugging your TREZOR in
 
 **3. Confirm the transaction on your TREZOR**
 
-Once you have press send and entered your PIN, you will be asked to confirm your transaction.  Check the amount of the transaction and the destination address.  If the amount and address are correct, press the right button on your TREZOR to confirm.  If they are wrong, press 'cancel'.  If they are wrong, it may mean that your computer has been infected with a virus and you can be happy that your bitcoins are safe in your TREZOR, and not already stolen.
+Once you have pressed send and entered your PIN, you will be asked to confirm your transaction.  Check the amount of the transaction and the destination address.  If the amount and address are correct, press the right button on your TREZOR to confirm.  If they are wrong, press 'cancel'.  If they are wrong, it may mean that your computer has been infected with a virus and you can be happy that your bitcoins are safe in your TREZOR, and not already stolen.
 
 .. image:: images/trezor-tx1.jpg
 

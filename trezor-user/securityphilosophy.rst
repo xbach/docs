@@ -34,4 +34,4 @@ Limiting the attack surface: no battery, WiFi, Bluetooth, fingerprint reader, NF
 
 Any time a computer has to deal with untrusted information there is a risk that the computer will be infected with malware.  The TREZOR is no exception.  In order to limit the attack surface against the TREZOR, TREZOR communicates solely through a simple USB protocol.  There is no WiFi or Bluetooth, no camera for scanning QR-codes.  There's not even a fingerprint reader for identifying the user.  This is all because we want the TREZOR to be as secure as possible.  The fewer devices the TREZOR talks to, and the simpler its communication protocol is, the less likely it is to get infected.
 
-The TREZOR also has no battery.  When its unplugged its off and your bitcoins are safe from cyber attack.
+The TREZOR also has no battery.  When it's unplugged it's off and your bitcoins are safe from cyber attack.

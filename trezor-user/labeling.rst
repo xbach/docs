@@ -10,7 +10,7 @@ By connecting myTREZOR.com with Dropbox cloud storage, you can enjoy all these u
 - **Comment transactions**
 
 This is a great way to organize your bitcoin wallet and keep a memory of your transaction activity.
-Moreover, all your private data are ultimately secured and easily available from any computer. Every single information you add is automatically **encrypted by a key derived from TREZOR device** and uploaded to your personal Dropbox folder. 
+Moreover, all your private data are ultimately secured and easily available from any computer. All the information you add is automatically **encrypted by a key derived from your TREZOR device** and uploaded to your personal Dropbox folder. 
 
 .. image:: images/labeling-example.png 
 
@@ -21,7 +21,7 @@ Set up labeling: Connect Dropbox with your TREZOR
 
 .. image:: images/labeling-connecttodropbox.png
 
-2. Click on the “Continue” button in a pop-up window that appears.
+2. Click on the **Continue** button in a pop-up window that appears.
 
 .. image:: images/labeling-connecttodropbox2.png
 
@@ -35,7 +35,7 @@ Set up labeling: Connect Dropbox with your TREZOR
 
 .. image:: images/labeling-dropboxapproval.png
 
-5. Finally, enable labeling on your TREZOR device. This will encrypt the files with your private key derived from TREZOR.
+5. Finally, enable labeling on your TREZOR device. This will encrypt the files with your private key derived from your TREZOR.
 
 .. image:: images/labeling-allowlabeling.png
 
@@ -69,7 +69,7 @@ Let’s say you want to send money to two separate addresses (Alice and Bob) in 
 
 .. image:: images/labeling-send.png
 
-When you switch back to “Transactions” tab, you will see one transaction with two commented addresses (outputs). You can change each of the comments separately.
+When you switch back to the “Transactions” tab, you will see one transaction with two commented addresses (outputs). You can change each of the comments separately.
 
 .. image:: images/labeling-transactions2.png
 
@@ -77,6 +77,6 @@ When you switch back to “Transactions” tab, you will see one transaction wit
 How do TREZOR and Dropbox work together?
 ----------------------------------------
 
-If you are interested how it works in the background, it's actually quite simple! MyTREZOR will create a folder “/apps/trezor/” in your Dropbox and store labels for every TREZOR account in separated file. You can back up those files and use them to restore all the labels in case you lost access to your Dropbox account!
+If you are interested how it works in the background, it's actually quite simple! MyTREZOR will create a folder “/apps/trezor/” in your Dropbox and store labels for each TREZOR account in a separate file. You can back up those files and use them to restore all the labels in case you lose access to your Dropbox account!
 
-Files and encrypted by AES-256 function using the TREZOR private key derived for this single purpose. It's also not possible to use Dropbox to reveal your payment history, your actual account balance or to rebuild your recovery seed!
+Files are encrypted with AES-256 using a private key derived from your TREZOR for this single purpose. It's also not possible to use Dropbox to reveal your payment history, your actual account balance or to rebuild your recovery seed!

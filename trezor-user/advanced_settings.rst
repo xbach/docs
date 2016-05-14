@@ -1,7 +1,7 @@
 Advanced settings
 =================
 
-There are several advanced settings that can be configured after setting up your TREZOR device.  For the most part, these settings can be accessed by pressing the "Advanced settings" button right after you have plugged your TREZOR.
+There are several advanced settings that can be configured after setting up your TREZOR device.  For the most part, these settings can be accessed by pressing the **Advanced settings** button right after you have plugged your TREZOR.
 
 .. image:: images/welcometosetup-advanced.png
 

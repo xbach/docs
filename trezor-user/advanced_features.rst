@@ -12,11 +12,11 @@ Your TREZOR can manage multiple bitcoin accounts.  This allows for easier tracki
 
 If you frequently send bitcoins between accounts then it may become clear that you are the owner of both.  For this reason, we consider this privacy feature to be useful mainly to advanced users.
 
-Creating a new account is easy.  Just press the add account button at the bottom of your accounts list:
+Creating a new account is easy.  Just press the **Add account** button at the bottom of your accounts list:
 
 .. image:: images/add-account-button.png
 
-.. note:: The add account button will be disabled until you have sent some bitcoins to your last account.
+.. note:: The **Add account** button will be disabled until you have sent some bitcoins to your last account.
 
 Wiping your TREZOR device
 -------------------------
