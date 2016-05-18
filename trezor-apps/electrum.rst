@@ -6,7 +6,7 @@ Electrum
 What is Electrum?
 ------------------
 
-`Electrum <https://electrum.org/>`_ is a lightweight desktop wallet for Windows, Linux, OS X and Android OS. 
+`Electrum <https://electrum.org/>`_ is a lightweight desktop wallet for Windows, Linux, OS X and Android OS.
 
 Resources
 ^^^^^^^^^
@@ -18,7 +18,7 @@ Resources
 TREZOR User Manual
 ------------------
 
-To import your TREZOR public account keys, connect your device, start Electrum and select Create wallet and Hardware wallet as Wallet type. 
+To import your TREZOR public account keys, connect your device, start Electrum and select Create wallet and Hardware wallet as Wallet type.
 If you already have another wallet, select New Wallet from File menu first.
 
 .. image:: images/electrum01.png
@@ -37,7 +37,7 @@ Wallet Property                                                         Descript
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
 :icon:`laptop` Platform                 			✔                   Windows, Linux, OSX, Android
 :icon:`money` Coin(s)                   			✔                   Bitcoin
-:icon:`language` Languages                          ✔                   English                   
+:icon:`language` Languages                          ✔                   English
 :icon:`book` Address Book                           ✔                   Manage contact list of receiving and sending addresses
 :icon:`comment` Labelling                			✔					Add comments and labels to accounts and transactions
 =================================================== =================== ===========================================================================================================

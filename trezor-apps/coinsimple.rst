@@ -7,8 +7,8 @@ What is CoinSimple?
 -------------------------
 
 `CoinSimple <https://coinsimple.com>`_ is an online Bitcoin invoincing service and wallet connector which offers passwordless login with TREZOR.
-Get the benefits of a Bitcoin payment processor and a secure & private watch-only wallet in one. 
-Connect your CoinSimple account to your TREZOR account of your choice and begin invoicing your customers. 
+Get the benefits of a Bitcoin payment processor and a secure & private watch-only wallet in one.
+Connect your CoinSimple account to your TREZOR account of your choice and begin invoicing your customers.
 You can see all open and closed invoices in one glance. See more details `here <https://coinsimple.com/faq/#what-is-coinsimple>`_
 
 Resources
@@ -28,13 +28,13 @@ The following dialog will appear.
 
 .. image:: images/coinsimple02a.png
 
-Open new tab in your browsers and go to `myTREZOR.com <https://mytrezor.com>`_. Connect your TREZOR. 
+Open new tab in your browsers and go to `myTREZOR.com <https://mytrezor.com>`_. Connect your TREZOR.
 In Basic settings copy selected account public key into the clipboard. And paste it into CoinSimple dialog into the first field.
 We recommend you to create brand new account for this purpose (although you can also use one of your non-empty accounts if you want).
 
 .. image:: images/coinsimple-mytrezor01.png
 
-For verification, go back to myTREZOR and copy the first receiving account address and paste into the second field. 
+For verification, go back to myTREZOR and copy the first receiving account address and paste into the second field.
 
 .. image:: images/coinsimple-mytrezor02.png
 
@@ -67,7 +67,7 @@ You can also quickly check current status of your payments in the Invoice sectio
 TREZOR Connect Manual
 ---------------------
 
-Before you can Sign in with TREZOR, you have to link your device to the account. 
+Before you can Sign in with TREZOR, you have to link your device to the account.
 Go to User Settings and scroll down to TREZOR Login section.
 
 .. image:: images/coinsimple10.png

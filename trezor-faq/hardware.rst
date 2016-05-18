@@ -5,7 +5,7 @@ What are the technical parameters of the case?
 ----------------------------------------------
 
 TREZOR case has dimensions of approx. 59 x 30 x 6 mm. It is made of a reinforced plastic providing a great durability.
-  
+
 
 Can I plug TREZOR into USB 3.0 (blue) port?
 -------------------------------------------
@@ -55,4 +55,4 @@ Yes, TREZOR is just as any other type of common electronics, so no harm should b
 Is TREZOR heat & cold resistant, waterproof?
 --------------------------------------------
 
-Yes, but we advise you not to expose TREZOR to temperatures lower than -20°C or higher than +60°C  (-4F +140F). The device is NOT waterproof. 
+Yes, but we advise you not to expose TREZOR to temperatures lower than -20°C or higher than +60°C  (-4F +140F). The device is NOT waterproof.

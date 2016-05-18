@@ -7,9 +7,9 @@ Add TREZOR Login to Your Website or App
 
 .. image:: images/connect-login.png
 
-TREZOR Connect is a platform for easy integration of **Login with TREZOR** into websites or applications. 
+TREZOR Connect is a platform for easy integration of **Login with TREZOR** into websites or applications.
 
-TREZOR is known as the most secure bitcoin hardware wallet. TREZOR Connect expands its application to the most secure user authentication device. It allows a **password-less login immune to keyloggers or phishing** that provides a simple fluid interface for users with basic computer skills. 
+TREZOR is known as the most secure bitcoin hardware wallet. TREZOR Connect expands its application to the most secure user authentication device. It allows a **password-less login immune to keyloggers or phishing** that provides a simple fluid interface for users with basic computer skills.
 
 Within the first 4 months since official release, the device was embraced by users in over 70 countries and greatly reviewed by security experts as `the most sophisticated authenticator device in the world <http://www.coindesk.com/whats-next-bitcoin-wallet-security>`_
 

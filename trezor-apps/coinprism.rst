@@ -42,7 +42,7 @@ Wallet Property                                                         Descript
 ----------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------
 :icon:`laptop` Platform                 			✔                   Web, Android
 :icon:`money` Coin(s)                   			✔                   Bitcoin, Colored coins (Open Assets)
-:icon:`language` Languages                          ✔                   English                   
+:icon:`language` Languages                          ✔                   English
 :icon:`book` Address Book                           ✔                   Manage contact list of receiving and sending addresses
 :icon:`comment` Labelling                			✔					Add comments and labels to accounts and transactions
 =================================================== =================== ====================================================================================================================================

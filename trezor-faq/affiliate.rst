@@ -20,7 +20,7 @@ How do I become your affiliate?
 
 1. Apply for partnership via our `landing page <http://buytrezor.com/sales>`_ with details about your marketing experience, and your promotion channels. We'll review your application shortly.
 
-2. TREZOR users are the best source of recommendation and they love our product. That's why every BuyTrezor.com shopper automatically gets the chance to join our program. 
+2. TREZOR users are the best source of recommendation and they love our product. That's why every BuyTrezor.com shopper automatically gets the chance to join our program.
 
 
 Where are the Affiliate Conditions?
@@ -82,7 +82,7 @@ You can also create your own banners, but please send them to us for approval be
 
 **Preview of Set 1. Finally Easy & Secure - white**
 
-.. image:: images/banners_preview99.png 
+.. image:: images/banners_preview99.png
 	:alt: https://buytrezor.com/static/shared/trezor_banners.zip
 	:target: https://buytrezor.com/static/shared/trezor_banners.zip
 
@@ -91,7 +91,7 @@ I see some rewards but I didn't receive any BTC yet. Why?
 ---------------------------------------------------------
 
 Your reward has to reach the Payout Threshold in order to be processed.
-Current Payout Threshold is 0.1 BTC. 
+Current Payout Threshold is 0.1 BTC.
 
 Also, the rewards are waiting for at least 35 days to get `Confirmed <https://www.buytrezor.com/user/profile/affiliate/#what-are-confirmed-rewards>`_.
 
@@ -116,6 +116,6 @@ We are waiting for 35 days because the clients have a no questions asked return 
 What are Total pending or Unconfirmed Rewards?
 ----------------------------------------------
 
-**Unconfirmed Rewards** are Rewards for Orders waiting for 35 days to reach their maturity and turn to Confirmed Rewards. After turning Confirmed, they can be sent to your Payout address. 
+**Unconfirmed Rewards** are Rewards for Orders waiting for 35 days to reach their maturity and turn to Confirmed Rewards. After turning Confirmed, they can be sent to your Payout address.
 
 **Total Pending Rewards** is a sum of Confirmed and Unconfirmed Rewards that accumulate on Affiliate's Account waiting for your payout date.

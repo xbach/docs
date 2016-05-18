@@ -4,12 +4,12 @@ Chrome extension
 What is TREZOR Chrome extension?
 --------------------------------
 
-Thanks to `TREZOR Chrome extension <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_ 
-you can **access TREZOR management functionality independently of your particular wallet solution**. These features include device initialization, 
-wipe, recovery and others like changing PIN and setting up hidden wallet with passphrase. The extension has all the features for configuring 
+Thanks to `TREZOR Chrome extension <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_
+you can **access TREZOR management functionality independently of your particular wallet solution**. These features include device initialization,
+wipe, recovery and others like changing PIN and setting up hidden wallet with passphrase. The extension has all the features for configuring
 your device as myTREZOR wallet has while it **runs even on computer offline**.
 
-Beside the management features, TREZOR Chrome extension serves as the communication layer between your device and online wallets and services. 
+Beside the management features, TREZOR Chrome extension serves as the communication layer between your device and online wallets and services.
 This means that with the extension already on your computer, you don't have to install anything else (neither plugin nor bridge) when you want to use TREZOR online,
 supposing you are using Chrome browser.
 
@@ -24,17 +24,17 @@ Resources
 TREZOR User Manual
 ------------------
 
-Before you can start managing your TREZOR device, you have to install the extension. Start your Chrome browser, go to 
+Before you can start managing your TREZOR device, you have to install the extension. Start your Chrome browser, go to
 `Chrome Web Store <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_,
 click on Add to Chrome and confirm the action.
 
 .. image:: images/extension00.png
 
-When window with TREZOR Chrome extension icon appears, right click on it and select Create Shortcuts to be able to quickly launch 
-the extension from desktop or application menu. If you don't create shortcut now, you can access the extension later by 
+When window with TREZOR Chrome extension icon appears, right click on it and select Create Shortcuts to be able to quickly launch
+the extension from desktop or application menu. If you don't create shortcut now, you can access the extension later by
 opening new browser tab and clicking on Apps button.
 
-.. note:: If you are running Linux, there is one more step to do. Please follow instructions `here <../trezor-user/settingupchromeonlinux.html>`_ 
+.. note:: If you are running Linux, there is one more step to do. Please follow instructions `here <../trezor-user/settingupchromeonlinux.html>`_
 
 The TREZOR Chrome extension runs in a separate window and you will be asked to connect your device first. After you connect and go through TREZOR `initialization <../trezor-user/settingup.html>`_, you will be able to manage your device on two separate tabs.
 On Basic tab, you can set the name of your TREZOR and change your PIN.
@@ -55,7 +55,7 @@ Properties and Features
 Software Property                                                       Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
 :icon:`laptop` Platform                 			✔                   desktop & mobile using Chrome extension
-:icon:`language` Languages                          ✔                   English                   
+:icon:`language` Languages                          ✔                   English
 =================================================== =================== ===========================================================================================================
 
 =================================================== =================== ===========================================================================================================

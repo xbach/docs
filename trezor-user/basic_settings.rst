@@ -20,7 +20,7 @@ To see a detailed description on how to choose and enter your PIN see :doc:`Ente
 Total Balance
 -------------
 
-The total balance of the entire wallet is visible here. Entire wallet means all accounts and addresses. 
+The total balance of the entire wallet is visible here. Entire wallet means all accounts and addresses.
 
 .. note:: If you have set up multiple wallets using passphrases, only the balance of the current wallet (using the current passphrase) is visible. More details about using passphrases are in :doc:`Advanced Settings <advanced_settings>`.
 

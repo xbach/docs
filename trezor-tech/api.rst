@@ -19,7 +19,7 @@ TREZOR Connect is an easy way to add TREZOR functionality to your website. We ma
 
 `You can read a detailed information on our github page <https://github.com/trezor/connect>`_, or more general information about the first use-case below:
 
-.. toctree:: 
+.. toctree::
    :maxdepth: 2
 
    api-connect
@@ -84,7 +84,7 @@ Low-level HID API
 
 Developers can directly "talk" to TREZOR using USB HID API and Protobufs.
 
-We recommend this approach only to developers that really know what they are doing (or want to write more high-level TREZOR libraries). Developers need to directly interact with messages to and from TREZOR and have to reimplement workflows, that are already present in the other APIs. 
+We recommend this approach only to developers that really know what they are doing (or want to write more high-level TREZOR libraries). Developers need to directly interact with messages to and from TREZOR and have to reimplement workflows, that are already present in the other APIs.
 
 For more info on low-level API, see:
 

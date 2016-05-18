@@ -21,7 +21,7 @@ TREZOR User Manual
 Setting TREZOR with Encompass
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Encompass is a fork of `Electrum <electrum.html#trezor-user-manual>`_ wallet and works much like it. 
+Encompass is a fork of `Electrum <electrum.html#trezor-user-manual>`_ wallet and works much like it.
 To import your public account keys, connect your TREZOR, start Encompass and select Create wallet and Hardware wallet as Wallet type.
 If you already have another wallet, select New Wallet from File menu first.
 
@@ -40,7 +40,7 @@ Wallet Property                                                         Descript
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
 :icon:`laptop` Platform                 			✔                   Windows, Linux, OSX, Android
 :icon:`money` Coin(s)                   			✔                   Bitcoin, Litecoin, DASH
-:icon:`language` Languages                          ✔                   English                   
+:icon:`language` Languages                          ✔                   English
 :icon:`book` Address Book                           ✔                   Manage contact list of receiving and sending addresses
 :icon:`comment` Labelling                			✔					Add comments and labels to accounts and transactions
 Trezor Feature                                                          Description

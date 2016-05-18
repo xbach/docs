@@ -7,7 +7,7 @@ How to buy a TREZOR?
 
 **BuyTREZOR.com is the #1 place to purchase a TREZOR device**.
 
-Orders at **BuyTREZOR.com** are typically processed the same or the next working day after receiving your payment. 
+Orders at **BuyTREZOR.com** are typically processed the same or the next working day after receiving your payment.
 
 To make a purchase:
 
@@ -23,7 +23,7 @@ How can I pay?
 --------------
 
 We accept Bitcoins as a payment method on this eshop.
-Our product prices are fixed in US dollars and converted to BTC at the Bitstamp exchange rate. 
+Our product prices are fixed in US dollars and converted to BTC at the Bitstamp exchange rate.
 
 
 I don't have any bitcoins. Can I pay with credit card, PayPal or wire transfer?
@@ -95,7 +95,7 @@ We process orders with the DHL Express shipping every working day and with the s
 What are the shipping options?
 ------------------------------
 
-**DHL Express shipping** 
+**DHL Express shipping**
 
 Default shipping option. DHL Express shipping which costs $29 and it's fully traceable.
 Delivery time is usually 2-5 business days.

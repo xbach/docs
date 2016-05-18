@@ -21,7 +21,7 @@ TREZOR User Manual
 Pay with TREZOR
 ^^^^^^^^^^^^^^^
 
-With Bitwala, users gain a convenient new way to transfer bitcoins directly from their Trezor wallet to a bank account of their choice. 
+With Bitwala, users gain a convenient new way to transfer bitcoins directly from their Trezor wallet to a bank account of their choice.
 Pay with TREZOR feature will be appreciated by all users who would like to pay bills with bitcoins or cash out in a simple manner:
 
 1) Log into Biwala account.

@@ -6,7 +6,7 @@ Electrum-Dash
 What is Electrum-Dash?
 ----------------------
 
-`Electrum-Dash <https://www.dash.org/news/electrum-dash-with-trezor-support-released>`_ 
+`Electrum-Dash <https://www.dash.org/news/electrum-dash-with-trezor-support-released>`_
 is a DASH lightweight desktop wallet for Windows, Linux and Mac OS based on Electrum.
 
 Resources
@@ -20,7 +20,7 @@ Resources
 TREZOR User Manual
 ------------------
 
-Electrum-Dash is a fork of `Electrum <electrum.html#trezor-user-manual>`_ wallet and works much like it. 
+Electrum-Dash is a fork of `Electrum <electrum.html#trezor-user-manual>`_ wallet and works much like it.
 To import your public account keys, connect your TREZOR, start Encompass and select Create wallet and Hardware wallet as Wallet type.
 If you already have another wallet, select New Wallet from File menu first.
 
@@ -34,7 +34,7 @@ Wallet Property                                                         Descript
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
 :icon:`laptop` Platform                 			✔                   Windows, Linux, OSX
 :icon:`money` Coin(s)                   			✔                   DASH
-:icon:`language` Languages                          ✔                   English                   
+:icon:`language` Languages                          ✔                   English
 :icon:`book` Address Book                           ✔                   Manage contact list of receiving and sending addresses
 :icon:`comment` Labelling                			✔					Add comments and labels to accounts and transactions
 Trezor Feature                                                          Description
