@@ -3,10 +3,10 @@ Password Manager
 
 Visit `TREZOR Password Manager <https://www.buytrezor.com/TREZOR_password_manager/>`_ pages to learn why you need to use this app.
 
-.. note:: TREZOR Password Manager is a Chrome extensio currently released for public beta testing here: `TREZOR Password Manager <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ Chrome/Chromium extension. 
+.. note:: TREZOR Password Manager is a Chrome extension currently released for public beta testing here: `TREZOR Password Manager <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ Chrome/Chromium extension. 
 
 Set up TREZOR Password Manager:
-------------------------
+-------------------------------
 
 You only need to perform this setup once. TREZOR Password Manager works with Chrome and cross-platform on your OSX, Windows and Linux. 
 
@@ -36,7 +36,7 @@ Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/deta
 
 .. image:: images/pm-dropboxapproval2.png
 
-**4. Connect Your TREZOR device and enter your PIN. Learn hwo to enter PIN with TREZOR :doc:`enteringyourpin`**
+**4. Connect Your TREZOR device and enter your PIN. Learn how to enter PIN with TREZOR :doc:`enteringyourpin`**
 
 .. images:: images/pm-connectdevice.png
 
@@ -72,7 +72,7 @@ If you wish to edit an existing tag, just click on its name and edit or remove t
 
 
 Add a Password Entry
--------
+--------------------
 
 To add a new password please click "Add entry" on the top of the page. 
 
@@ -81,8 +81,8 @@ To add a new password please click "Add entry" on the top of the page.
 **URL**: Enter the login URL of the service.
 **Title**: Keep the same as URL or rename if needed (e.g. to identify several accounts with the same service.)
 **Username**:
-**Password**: Note that you can generate a new stron password.
-**Tags**: seelect from tag list below the field.
+**Password**: Note that you can generate a new strong password.
+**Tags**: select from tag list below the field.
 **Secret note**: Does not appear in the passwords preview and can be used for example to store your 2FA tokens.
 
 If you wish to change the order of the entries, it's possible to sort it by date or name!
@@ -91,7 +91,7 @@ If you wish to change the order of the entries, it's possible to sort it by date
 
 
 Manage your bookmarks with TREZOR Password Manager
--------
+--------------------------------------------------
 
 Simply "Add Entry" and fill in the URL and Title. Consider adding a tag "bookmarks" for faster search.
 
@@ -138,7 +138,7 @@ There are some shortcuts available as well to improve the user experience.
 
 **Shift + Alt + F** fills in username and password to the login form of a website (that you have stored previously with TREZOR Password Manager).
 
-Remember to have your TREZOR connected, otherwise it won't work. (Hint: the little blue square in the corner of the Password Manager extension icon indicates your device is connected).
+Remember to have your TREZOR connected, otherwise it won't work. (Hint: the little blue square in the corner of the Password Manager extension icon indicates your device is connected and credentials are stored for current site).
 
 .. image:: images/pm-loginknownsite.png
 
