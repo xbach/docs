@@ -43,7 +43,7 @@ Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/deta
 
 .. images:: images/pm-connectdevicepin.png
 
-**5. Finally, enable Password Manager on your TREZOR device. This action will start encryption of your password files with your TREZOR.
+**5. Finally, enable Password Manager on your TREZOR device. This action will start encryption of your password files with your TREZOR.**
 
 .. image:: images/pm-connectdeviceapproval.png
 
@@ -78,12 +78,12 @@ To add a new password please click "Add entry" on the top of the page.
 
 .. image:: images/pm-newentry.png
 
-**URL**: Enter the login URL of the service.
-**Title**: Keep the same as URL or rename if needed (e.g. to identify several accounts with the same service.)
-**Username**:
-**Password**: Note that you can generate a new strong password.
-**Tags**: select from tag list below the field.
-**Secret note**: Does not appear in the passwords preview and can be used for example to store your 2FA tokens.
+- **URL**: Enter the login URL of the service.
+- **Title**: Keep the same as URL or rename if needed (e.g. to identify several accounts with the same service.)
+- **Username**:
+- **Password**: Note that you can generate a new strong password.
+- **Tags**: select from tag list below the field.
+- **Secret note**: Does not appear in the passwords preview and can be used for example to store your 2FA tokens.
 
 If you wish to change the order of the entries, it's possible to sort it by date or name!
 
@@ -99,10 +99,10 @@ Simply "Add Entry" and fill in the URL and Title. Consider adding a tag "bookmar
 TREZOR Password Manager in Action
 ----------------------------------
 
-Open to login
-Copy username
-Copy password
-Edit
+- Open to login
+- Copy username
+- Copy password
+- Edit
 
 .. image:: images/pm-entryactions.png
 
