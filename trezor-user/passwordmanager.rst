@@ -1,56 +1,49 @@
 Password Manager
 ================
 
-Please visit `TREZOR Password Manager <https://www.buytrezor.com/TREZOR_password_manager/>`_ page to find out why you need to use this app!
+Visit `TREZOR Password Manager <https://www.buytrezor.com/TREZOR_password_manager/>`_ pages to learn why you need to use this app.
 
-.. note:: This feature is currently in open beta testing phase and is available via `TREZOR Password Manager <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ Chrome/Chromium extension. 
+.. note:: TREZOR Password Manager is a Chrome extensio currently released for public beta testing here: `TREZOR Password Manager <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ Chrome/Chromium extension. 
 
-Set up Password Manager:
+Set up TREZOR Password Manager:
 ------------------------
 
+You only need to perform this setup once. TREZOR Password Manager works with Chrome and cross-platform on your OSX, Windows and Linux. 
 
-**1. Install TREZOR Chrome extension**
+**1. Check if you have TREZOR Chrome extension (TCE)**
 
-If you are using TREZOR already, you might have it installed already. If not, please add the `TREZOR Chrome Extension <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_ into your browser. For more information please check :doc:`settingup` manual page.
+If you are using TREZOR already, chances are you have the TCE installed already. If not, please add the `TREZOR Chrome Extension <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_ to your browser. For more information please read the :doc:`settingup` manual page.
 
 
-**2. Install TREZOR Password Manager chrome extension**
+**2. Install TREZOR Password Manager Chrome extension (TPM)**
 
 Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ Chrome/Chromium extension into your browser. Then click on the TREZOR icon in the top right corner of your browser.
 
 
 **3. Connect your Dropbox account with TREZOR**
 
-3.1. Click on the Sign in with Dropbox button.
+3.1. Click on the Sign in with Dropbox button and log into your Dropbox account. If you don't have any, create one, it’s free.
 
 .. image:: images/pm-connecttodropbox.png
-
-3.2. Log into your Dropbox account. If you don't have any, create one, it’s free.
 
 .. image:: images/pm-dropboxlogin.png
 
 .. important:: When you log into your Dropbox account, there is a session cookie on Dropbox server with access to myTREZOR folder valid for about 5 years! We recommend to log out of your Dropbox account manually after you finish working with myTREZOR.com or use Private window in your browser for the best possible privacy.
 
-3.3. Once logged in, TREZOR will ask for your permission to create a folder in your Dropbox where all the passwords will be stored.
+3.2. Give your TREZOR permission to create a folder in your Dropbox to store all the passwords in and confirm using the Dropbox account.
 
 .. image:: images/pm-dropboxapproval.png
 
-3.4. Confirm using the Dropbox account
-
 .. image:: images/pm-dropboxapproval2.png
 
+**4. Connect Your TREZOR device and enter your PIN. Learn hwo to enter PIN with TREZOR :doc:`enteringyourpin`**
 
-**4. Connect TREZOR device**
+.. images:: images/pm-connectdevice.png
 
-4.1. TREZOR Password Manager will ask you to connect the device.
 
-.. image:: images/pm-connectdevice.png
+.. images:: images/pm-connectdevicepin.png
 
-4.2. Then you will be asked to enter your PIN. If you have troubles with it's concept, please refer to :doc:`enteringyourpin` manual page.
-
-.. image:: images/pm-connectdevicepin.png
-
-4.3. Finally, enable Password Manager on your TREZOR device. This will encrypt the files with your private key derived from your TREZOR.
+**5. Finally, enable Password Manager on your TREZOR device. This action will start encryption of your password files with your TREZOR.
 
 .. image:: images/pm-connectdeviceapproval.png
 
@@ -61,69 +54,78 @@ Congratulations! You are ready to use TREZOR Password Manager.
 Tags
 ----
 
-Tags are used to filter entries instead of tree structure. You can create, edit and remove tags as you wish. Before you start to use TREZOR Password Manager, thing carefully about how many passwords you want to store and how to create sufficient and scalable tag structure. You can always filter more tags by using search bar.
+Tags are used to filter and find entries easily. You can create, edit and remove tags as you wish. 
 
-You can see overview of your tags in the left pane. It's possible to edit name and icon of the tag or create a new one. Let's start with creating a new one. 
+You can see overview of your tags in the left pane. You can edit the name and the icon of the tag. But let's start with creating a new tage first. 
 
 .. image:: images/pm-newtag.png
 
 1. click to Add tag button on the bottom of the list of your tags.
 2. Write down the name.
-3. By using those little blue arrows you can switch between couple of icons.
-4. When you are done, please click on the Save button.
+3. Switch between the list of available icons by using little blue arrows.
+4. When done, click "Save".
 
-If you wish to edit existing tag, just click on the tag name and three dots will apeear on the right. Click on them and you will find two options: Edit tag and Remove tag.
+If you wish to edit an existing tag, just click on its name and edit or remove the tag navigating through the three dots on the right.
 
 .. image:: images/pm-edittag.png
 
 
 
-Entries
+Add a Password Entry
 -------
 
-To add an entry please click on the Add entry on the top of the page. 
+To add a new password please click "Add entry" on the top of the page. 
 
 .. image:: images/pm-newentry.png
 
-You can enter for example "facebook.com" or "http://www.facebook.com" or even copypaste some weird long link into URL field. You will always see the entry by what you fill into Title field. Please keep in mind you can generate passwords by clicking on the two arrows button next to the password field. Add propriate tags and if you need, you can add so called Secret note (can be used for storing 2FA tokens etc.). When you are done please hit the Save button.
+**URL**: Enter the login URL of the service.
+**Title**: Keep the same as URL or rename if needed (e.g. to identify several accounts with the same service.)
+**Username**:
+**Password**: Note that you can generate a new stron password.
+**Tags**: seelect from tag list below the field.
+**Secret note**: Does not appear in the passwords preview and can be used for example to store your 2FA tokens.
 
-It's also possible to use TREZOR Password Manager to keep your bookmarks! (In such case it's enough to fill just URL and title when creating entry)
-
-If you wish to change the order of the entries, it's possible to sort it only by date or name!
+If you wish to change the order of the entries, it's possible to sort it by date or name!
 
 .. image:: images/pm-entryordering.png
 
 
-
-Actions
+Manage your bookmarks with TREZOR Password Manager
 -------
 
-There is few possible actions available at each entry
+Simply "Add Entry" and fill in the URL and Title. Consider adding a tag "bookmarks" for faster search.
+
+
+TREZOR Password Manager in Action
+----------------------------------
+
+Open to login
+Copy username
+Copy password
+Edit
 
 .. image:: images/pm-entryactions.png
 
 
-**1. Open and Login**
+**1. Open to login**
 
-Most common and used action will be Open & Login. If you click on the entry name and you filled username and password, you will be asked to confirm the action on your TREZOR. 
+Click on the entry name and a new tab with pre-filled user credentials will open. You will be asked to confirm this action on your TREZOR first. 
 
-.. note:: Please keep in mind the entry name works the same way as any other link so it depends on your browser settings or mouse button you use to click if the link will open in the same or new tab
+.. note:: Please keep in mind that opening a new tab depends on your browser or mouse settings and therefore your Password Manager might behave differently. 
 
 .. image:: images/pm-openandloginapproval.png
 
-After you approve the action, the site will be opened and login and password will prefill into the proper fields.
-
 **2. Copy username**
 
-You can copy username into clipboard by clicking on it
+One click to copy the username into the clipboard.
 
 **3. Copy password**
 
-The same is possible with password. You will be asked to confirm the action on your TREZOR device.
+One click to copy the username into the clipboard. You will be asked to confirm the action on your TREZOR device.
 
 **4. Edit entry**
 
-Here you can edit entry (entry removal is accessible in the entry details). You will be asked to confirm the action on your TREZOR device.
+In order to edit an entry you will need to confirm the action on your TREZOR device.
 
 
 
@@ -132,25 +134,28 @@ Shortcuts
 
 There are some shortcuts available as well to improve the user experience.
 
+**Shift + Alt + U** restarts the TREZOR Password Manager extension.
 
-**Shift + Alt + F**
+**Shift + Alt + F** fills in username and password to the login form of a website (that you have stored previously with TREZOR Password Manager).
 
-This shortcut fills login and password on the sites which you previously saved your credentials in your TREZOR Password Manager for. You need to have the Password Manager extension on and connected with your TREZOR. Then you can see little blue square in the corner of the Password Manager extension icon, see the picture below.
+Remember to have your TREZOR connected, otherwise it won't work. (Hint: the little blue square in the corner of the Password Manager extension icon indicates your device is connected).
 
 .. image:: images/pm-loginknownsite.png
-
-When you see such icon, press Shift + Alt + F, you will be asked to confirm the action on your TREZOR device and your credentials will be filled in the proper field.
-
-
-**Shift + Alt + U**
-
-Pressing Shift + Alt + U restarts the TREZOR Password Manager extension.
 
 
 
 How do TREZOR and Dropbox work together?
 ----------------------------------------
 
-If you are interested how it works in the background, it's actually quite simple! MyTREZOR will create a folder “/Apps/TREZOR Password Manager/” in your Dropbox and store labels for each TREZOR account in a separate file. You can back up those files and use them to restore all the labels in case you lose access to your Dropbox account!
+It's quite simple. TREZOR Password Manager creates a folder “/Apps/TREZOR Password Manager/” in your Dropbox and stores each password entry in a separate file and encrypted by your TREZOR device. 
 
-Files are encrypted with AES-256 using a private key derived from your TREZOR for this single purpose. It's also not possible to use Dropbox to reveal list of your passwords, your actual logins & passwords or to rebuild your recovery seed!
+We recommend you to back up those Dropbox files for the case you'd lose access to your Dropbox.
+
+All files are encrypted with AES-256 using a private key derived from your TREZOR. In no way it is possible for anyone else to access the list of your passwords nor to make any edits!
+
+
+Planned Improvements
+--------------------
+
+After the beta version testing, we will be adding the Import/Export feature and Shared database for team collaboration.
+We will also address a more convenient login to your Dropbox account. 
