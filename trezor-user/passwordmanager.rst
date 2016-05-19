@@ -8,19 +8,22 @@ Please visit `TREZOR Password Manager <https://www.buytrezor.com/TREZOR_password
 Set up Password Manager:
 ------------------------
 
-1. Install TREZOR Chrome extension
+
+**1. Install TREZOR Chrome extension**
 
 If you are using TREZOR already, you might have it installed already. If not, please add the `TREZOR Chrome Extension <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_ into your browser. For more information please check :doc:`settingup` manual page.
 
-2. Install TREZOR Password Manager chrome extension
+
+**2. Install TREZOR Password Manager chrome extension**
 
 Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ Chrome/Chromium extension into your browser. Then click on the TREZOR icon in the top right corner of your browser.
 
-3. Connect your Dropbox account with TREZOR
+
+**3. Connect your Dropbox account with TREZOR**
 
 3.1. Click on the Sign in with Dropbox button.
 
-.. image:: images/pm_connecttodropbox.png
+.. image:: images/pm-connecttodropbox.png
 
 3.2. Log into your Dropbox account. If you don't have any, create one, it’s free.
 
@@ -36,7 +39,7 @@ Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/deta
 
 .. image:: images/pm-dropboxapproval2.png
 
-4. Connect TREZOR device
+**4. Connect TREZOR device**
 
 4.1. TREZOR Password Manager will ask you to connect the device.
 
@@ -51,6 +54,7 @@ Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/deta
 .. image:: images/pm-connectdeviceapproval.png
 
 Congratulations! You are ready to use TREZOR Password Manager.
+
 
 
 Tags
@@ -72,6 +76,7 @@ If you wish to edit existing tag, just click on the tag name and three dots will
 .. image:: images/pm-edittag.png
 
 
+
 Entries
 -------
 
@@ -88,6 +93,7 @@ If you wish to change the order of the entries, it's possible to sort it only by
 .. image:: images/pm-entryordering.png
 
 
+
 Actions
 -------
 
@@ -96,7 +102,9 @@ There is few possible actions available at each entry
 .. image:: images/pm-entryactions.png
 
 
-1. Most common and used action will be Open & Login. If you click on the entry name and you filled username and password, you will be asked to confirm the action on your TREZOR. 
+**1. Open and Login**
+
+Most common and used action will be Open & Login. If you click on the entry name and you filled username and password, you will be asked to confirm the action on your TREZOR. 
 
 .. note:: Please keep in mind the entry name works the same way as any other link so it depends on your browser settings or mouse button you use to click if the link will open in the same or new tab
 
@@ -104,11 +112,18 @@ There is few possible actions available at each entry
 
 After you approve the action, the site will be opened and login and password will prefill into the proper fields.
 
-2. You can copy username into clipboard by clicking on it
+**2. Copy username**
 
-3. The same is possible with password
+You can copy username into clipboard by clicking on it
 
-4. Here you can edit entry (entry removal is accessible in the entry details)
+**3. Copy password**
+
+The same is possible with password. You will be asked to confirm the action on your TREZOR device.
+
+**4. Edit entry**
+
+Here you can edit entry (entry removal is accessible in the entry details). You will be asked to confirm the action on your TREZOR device.
+
 
 
 Shortcuts
@@ -116,8 +131,8 @@ Shortcuts
 
 There are some shortcuts available as well to improve the user experience.
 
-Shift + Alt + F
-===============
+
+**Shift + Alt + F**
 
 This shortcut fills login and password on the sites which you previously saved your credentials in your TREZOR Password Manager for. You need to have the Password Manager extension on and connected with your TREZOR. Then you can see little blue square in the corner of the Password Manager extension icon, see the picture below.
 
@@ -125,10 +140,11 @@ This shortcut fills login and password on the sites which you previously saved y
 
 When you see such icon, press Shift + Alt + F, you will be asked to confirm the action on your TREZOR device and your credentials will be filled in the proper field.
 
-Shift + Alt + U
-===============
+
+**Shift + Alt + U**
 
 Pressing Shift + Alt + U restarts the TREZOR Password Manager extension.
+
 
 
 How do TREZOR and Dropbox work together?
