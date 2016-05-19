@@ -24,6 +24,7 @@ Contents
    messages
    labeling
    homescreen
+   passwordmanager
    applications
    download
 
