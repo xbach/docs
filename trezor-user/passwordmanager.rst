@@ -91,7 +91,12 @@ If you wish to change the order of the entries, it's possible to sort it only by
 Actions
 -------
 
-Most common and used action will be Open & Login. If you click on the entry name and you filled username and password, you will be asked to confirm the action on your TREZOR. 
+There is few possible actions available at each entry
+
+.. image:: images/pm-entryactions.png
+
+
+1. Most common and used action will be Open & Login. If you click on the entry name and you filled username and password, you will be asked to confirm the action on your TREZOR. 
 
 .. note:: Please keep in mind the entry name works the same way as any other link so it depends on your browser settings or mouse button you use to click if the link will open in the same or new tab
 
@@ -99,6 +104,31 @@ Most common and used action will be Open & Login. If you click on the entry name
 
 After you approve the action, the site will be opened and login and password will prefill into the proper fields.
 
+2. You can copy username into clipboard by clicking on it
+
+3. The same is possible with password
+
+4. Here you can edit entry (entry removal is accessible in the entry details)
+
+
+Shortcuts
+---------
+
+There are some shortcuts available as well to improve the user experience.
+
+Shift + Alt + F
+===============
+
+This shortcut fills login and password on the sites which you previously saved your credentials in your TREZOR Password Manager for. You need to have the Password Manager extension on and connected with your TREZOR. Then you can see little blue square in the corner of the Password Manager extension icon, see the picture below.
+
+.. image:: images/pm-loginknownsite.png
+
+When you see such icon, press Shift + Alt + F, you will be asked to confirm the action on your TREZOR device and your credentials will be filled in the proper field.
+
+Shift + Alt + U
+===============
+
+Pressing Shift + Alt + U restarts the TREZOR Password Manager extension.
 
 
 How do TREZOR and Dropbox work together?
