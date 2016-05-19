@@ -39,15 +39,16 @@ Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/deta
 
 .. image:: images/pm-dropboxapproval2.png
 
+
 **4. Connect TREZOR device**
 
 4.1. TREZOR Password Manager will ask you to connect the device.
 
-.. images:: images/pm-connectdevice.png
+.. image:: images/pm-connectdevice.png
 
 4.2. Then you will be asked to enter your PIN. If you have troubles with it's concept, please refer to :doc:`enteringyourpin` manual page.
 
-.. images:: images/pm-connectdevicepin.png
+.. image:: images/pm-connectdevicepin.png
 
 4.3. Finally, enable Password Manager on your TREZOR device. This will encrypt the files with your private key derived from your TREZOR.
 
