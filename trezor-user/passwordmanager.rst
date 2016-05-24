@@ -151,11 +151,9 @@ It's quite simple. TREZOR Password Manager creates a folder “/Apps/TREZOR Pass
 
 We recommend you to back up those Dropbox files for the case you'd lose access to your Dropbox.
 
-All files are encrypted with AES-256 using a private key derived from your TREZOR. In no way it is possible for anyone else to access the list of your passwords nor to make any edits!
-
+All files are `encrypted using keys derived from your TREZOR <https://github.com/satoshilabs/slips/blob/master/slip-0016.md>`_. In no way it is possible for anyone else to access your passwords nor to make any edits!
 
 Planned Improvements
 --------------------
 
-After the beta version testing, we will be adding the Import/Export feature and Shared database for team collaboration.
-We will also address a more convenient login to your Dropbox account. 
+In the future we plan to add the Import/Export feature and a direct login to Dropbox with TREZOR. 
