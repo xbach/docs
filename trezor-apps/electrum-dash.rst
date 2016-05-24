@@ -1,27 +1,27 @@
-Electrum-Dash
+Electrum-DASH
 =============
 
 .. image:: images/electrum-dash_logo.png
 
-What is Electrum-Dash?
+What is Electrum-DASH?
 ----------------------
 
-`Electrum-Dash <https://www.dash.org/news/electrum-dash-with-trezor-support-released>`_
+`Electrum-DASH <https://www.dash.org/news/electrum-dash-with-trezor-support-released>`_
 is a DASH lightweight desktop wallet for Windows, Linux and Mac OS based on Electrum.
 
 Resources
 ^^^^^^^^^
 
 - `Website <https://www.dash.org/news/electrum-dash-with-trezor-support-released>`_
-- `Dowload <https://www.dash.org/downloads>`_ (scroll down to Electrum-Dash)
+- `Download <https://www.dash.org/downloads>`_ (scroll down to Electrum-DASH)
 - `Source code <https://github.com/dashpay/electrum-dash>`_
 - `Online guide <https://dashpay.atlassian.net/wiki/display/DOC/Using+Trezor+with+Dash>`_
 
-TREZOR User Manual
+TREZOR for DASH - User Manual
 ------------------
 
-Electrum-Dash is a fork of `Electrum <electrum.html#trezor-user-manual>`_ wallet and works much like it.
-To import your public account keys, connect your TREZOR, start Encompass and select Create wallet and Hardware wallet as Wallet type.
+Electrum-DASH is a fork of `Electrum <electrum.html#trezor-user-manual>`_ wallet and works much like it.
+To protect and manage your DASH with TREZOR, connect your TREZOR device to the computer, start Electrum-DASH, select Create wallet and Hardware wallet as Wallet type.
 If you already have another wallet, select New Wallet from File menu first.
 
 .. image:: images/electrum-dash01.png
