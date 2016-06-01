@@ -1,0 +1,67 @@
+Weblate.org - Tool for translating
+==================================
+
+1. Register & Log in
+--------------------
+
+Please register at `hosted.weblate.org <https://hosted.weblate.org>`_. Then continue to `SatoshiLabs project <https://hosted.weblate.org/projects/satoshilabs/>`_ and choose subproject.
+
+
+2. Choose language
+------------------
+
+Choose your language. In this example we are going to use Chinese.
+
+.. important:: Please keep in mind the language you are selecting is actually the language you are going to translate **INTO**, not **FROM**. You will be always translating from English.
+
+.. image:: images/weblate-language.png
+
+
+3. Translate
+------------
+
+.. note:: We recommend to write down notes while translating so you know how you translated specific words and the translation stays consistent during the whole process. This comes really handy later as we can speak from our own experience.
+
+.. important:: In some languages might be an option to choose between "official" and "unofficial" way of speach. We do prefer the more official way.
+
+Please translate each string as exactly as possible, but main point is to keep the original meaning.
+
+It's in the context of User Interface so it might be necessary to check the website relevant to the project for exact place where the string is used and see the whole context. If you are not exactly sure how to translate string please check the “Needs review” option and click Save. We will review those strings.
+
+You will also find strings which contain placeholders and HTML tags. In that case use the Copy button on the right side to copy the whole string and translate only things placed out of those placeholders (for example following string):
+
+  <b>%(key)s</b> changed from <b>%(old)s</b> to <b>%(new)s</b>
+
+Please translate the **changed from** and **to** only. Placement of these special strings in sentence does not matter as long as you keep them spelled properly. If your language does require some specific word sequence, you may shuffle them.
+
+It's easy to translate plaintext strings, however if you find strings with placeholders or html tags, we do suggest to Copy the string first and then rewrite words / phrases which should be translated
+
+.. image:: images/weblate-copy.png
+
+In case of any issues, difficulties or questions please check the `Weblate Documentation <https://docs.weblate.org/en/latest/>`_ or contact us at `support@bitcointrezor.com <mailto:support@bitcointrezor.com>`_
+
+
+
+
+myTREZOR Translation
+====================
+
+Website: `myTREZOR.com <https://www.mytrezor.com>`_
+
+Languages
+---------
+
+* Chinese
+* Czech
+* French
+* German
+* Japanese
+* Slovak
+* Spanish
+
+Furthermore if you are willing to translate myTREZOR.com into any other language please do not hesitate to contact us via email `support@bitcointrezor.com <mailto:support@bitcointrezor.com>`_ with subject “myTREZOR translation”. Provide your registered email and the language you would like to translate. We will add the language and notify you.
+
+Reward
+------
+
+For the complete translation of one language we do offer limited edition color version of TREZOR or $100 worth of Bitcoin.
