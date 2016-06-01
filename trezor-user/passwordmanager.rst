@@ -1,7 +1,7 @@
 Password Manager
 ================
 
-Visit `TREZOR Password Manager <https://www.buytrezor.com/TREZOR_password_manager/>`_ pages to learn why you need to use this app.
+Visit `TREZOR Password Manager <https://passwords.mytrezor.com>`_ pages to learn why you need to use this app.
 
 .. note:: TREZOR Password Manager is a Chrome extension currently released for public beta testing here: `TREZOR Password Manager <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ Chrome/Chromium extension. 
 
