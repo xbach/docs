@@ -11,6 +11,7 @@ myTREZOR.com stops responding:
 
 You can unplug your TREZOR at any time except during the update procedure.  There is no risk of data loss.
 
+
 myTREZOR.com shows broken or confusing account information
 ----------------------------------------------------------
 
@@ -39,13 +40,14 @@ If you see:
 
 ::
 
-    Firmware seems broken.
+    Firmware appears to be broken.
 
-    Please try to reflash the device.
+    Unplug your TREZOR and see our support page at mytrezor.com.
 
 1. :doc:`Run the update again<updatingfirmware>`.
 2. Done.  Your TREZOR should now work again.
+3. If it still doesn't work please try different USB cable and proceed to step 1.
 
-If you see firmware related errors any other time, and you have not uploaded unofficial firmware to your TREZOR device, contact TREZOR support.
+If you see firmware related errors any other time, and you have not uploaded unofficial firmware to your TREZOR device, contact `TREZOR support <mailto:support@bitcointrezor.com>`_.
 
 
