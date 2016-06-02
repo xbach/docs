@@ -1,7 +1,7 @@
 Emergency situations
 ====================
 
-Sometimes it can happen, that your recovery seed or TREZOR device get compromised. Do not worry, we have prepared emergency scenarios for such cases. In any case please read the :doc:`Security Best Practices<securitybestpractices>` and seriously think about `using passphrase <http://doc.satoshilabs.com/trezor-user/advanced_settings.html#using-passphrase-encrypted-seeds>`_ for the new setup before proceeding any further.
+Sometimes it can happen, that your recovery seed gets compromised or your TREZOR gets lost. Do not worry, we have prepared emergency scenarios for such cases. In any case please read the :doc:`Security Best Practices<securitybestpractices>` and seriously think about `using passphrase <http://doc.satoshilabs.com/trezor-user/advanced_settings.html#using-passphrase-encrypted-seeds>`_ for the new setup before proceeding any further.
 
 Now let's have a look what it your situation and what you can do.
 
