@@ -1,8 +1,6 @@
 Labeling
 ========
 
-.. note:: This feature is currently in open beta testing phase and is available at `beta.mytrezor.com <https://beta.mytrezor.com>`_. 
-
 By connecting myTREZOR.com with Dropbox cloud storage, you can enjoy all these useful features:
 
 - **Rename accounts**
