@@ -17,6 +17,7 @@ Contents
    updatingfirmware
    recovery
    troubleshooting
+   emergency
    securitybestpractices
    securityphilosophy
    advanced_settings
