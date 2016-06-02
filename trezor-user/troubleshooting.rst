@@ -1,6 +1,24 @@
 Troubleshooting
 ===============
 
+Here you can find most common issues and how to solve them.
+
+
+TREZOR Bridge (trezord)
+-----------------------
+
+Bridge reinstall problem (Windows) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you see following
+
+::
+
+    Output folder: C:\Program Files (x86)\TREZOR Bridge 
+    Can't write: C:\Program Files (x86)\TREZOR Bridge\libcrypto-10.dll
+
+Please uninstall the previous version of TREZOR Bridge first and delete all remaining files, then install the new version.
+
 
 myTREZOR.com stops responding:
 ------------------------------
@@ -23,8 +41,9 @@ myTREZOR.com shows broken or confusing account information
 Firmware update went wrong
 --------------------------
 
-If you see:
-^^^^^^^^^^^
+
+Unofficial firmware
+^^^^^^^^^^^^^^^^^^^
 
 ::
 
@@ -35,8 +54,9 @@ If you see:
 1. :doc:`Run the update again<updatingfirmware>`.
 2. Done. Your TREZOR should now work again.
 
-If you see:
-^^^^^^^^^^^
+
+Broken firmware
+^^^^^^^^^^^^^^^
 
 ::
 
@@ -48,6 +68,10 @@ If you see:
 2. Done.  Your TREZOR should now work again.
 3. If it still doesn't work please try different USB cable and proceed to step 1.
 
-If you see firmware related errors any other time, and you have not uploaded unofficial firmware to your TREZOR device, contact `TREZOR support <mailto:support@bitcointrezor.com>`_.
+
+Contact support
+---------------
+
+If you encountered any other problem or suggested solutions didn't solve your issue, please contact our `Customer Support <mailto:support@bitcointrezor.com>`_.
 
 
