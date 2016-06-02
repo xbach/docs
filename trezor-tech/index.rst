@@ -14,6 +14,7 @@ Contents
    resources
    feature_list
    protection_levels
+   translating
 
 License
 -------
