@@ -1,8 +1,6 @@
 Homescreen
 ==========
 
-.. note:: This feature is currently in open beta testing phase and is available at `beta.mytrezor.com <https://beta.mytrezor.com>`_.
-
 Personalize your TREZOR's homescreen easily. There are several ways to do it:
 
 - `1. Upload your own homescreen picture`_ or
