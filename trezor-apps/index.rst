@@ -136,6 +136,7 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    mytrezor
    osclass
    sentinel
+   sshagent
    strip4bit
    telebit
    wordpress
