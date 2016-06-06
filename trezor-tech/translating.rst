@@ -64,4 +64,4 @@ Furthermore if you are willing to translate myTREZOR.com into any other language
 Reward
 ------
 
-For the complete translation of one language we do offer limited edition color version of TREZOR or $100 worth of Bitcoin.
+For the complete translation of one language we offer a limited 2-color version of TREZOR or $100 worth of Bitcoin.
