@@ -60,3 +60,5 @@ Which coins are currently supported?
 ------------------------------------
 
 At this moment it is Bitcoin, Litecoin, Namecoin, Dogecoin, Dash and Testnet. Please check up to date list at our `repository <https://github.com/trezor/trezor-mcu/blob/b4728e6cf90bdab5df75857d25b291f5479c70c4/firmware/coins.c#L23>`_.
+
+Please check the `TREZOR Apps <../trezor-apps/index.html>`_ for detailed information about the wallets supporting TREZOR
