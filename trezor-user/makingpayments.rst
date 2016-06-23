@@ -13,11 +13,21 @@ If the address you want to send to is on someone's cell phone, you might not wan
 
 .. image:: images/send-scan-qrcode.png
 
+It's also simple to send the maximum possible amount from the current account. Just press the "arrow" button in the BTC field (see image below)
+
+.. image:: images/send-max.png
+
 You can send bitcoins to multiple addresses with one transaction by pressing the '+' button in the right hand corner of the Send page. You can also choose to add multiple transactions by clicking on the "Import from CSV" button.
 
 .. image:: images/send-multisend.png
 
-This is both convenient and saves you money in transaction fees.
+This is both convenient and saves you money in transaction fees, which you can now also set manually. There is 4 different levels of priority (high, normal, economy, low) and the fee amount and estimated confirmation time is based on `bitcoinfees.21.co <http://bitcoinfees.21.co>`_ service.
+
+.. image:: images/send-fees.png
+
+In case you have enabled :doc:`Labeling <labeling>` you will also see "Comment" row, where you can write a comment for the current transaction. Please find more information about how the Labeling works in the link above.
+
+.. image:: images/send-comment.png
 
 **2. Enter your PIN**
 
