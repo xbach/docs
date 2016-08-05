@@ -1,13 +1,13 @@
 Weblate.org - Tool for translating
 ==================================
 
-1. Register & Log in
+1. Register
 --------------------
 
-Please register at `hosted.weblate.org <https://hosted.weblate.org>`_. Then continue to `SatoshiLabs project <https://hosted.weblate.org/projects/satoshilabs/>`_ and choose subproject.
+Please register by sending a request email to `support@bitcointrezor.com <mailto:support@bitcointrezor.com>`_ with subject “Translation myTrezor (Language)”. Should we need your help, we would ask you to register at `Weblate.com <https://hosted.weblate.com>`_ and provide you with access to the translation project of myTrezor.
 
 
-2. Choose language
+2. Enter Weblate & Choose language
 ------------------
 
 Choose your language. In this example we are going to use Chinese.
@@ -24,7 +24,7 @@ Choose your language. In this example we are going to use Chinese.
 
 .. important:: In some languages might be an option to choose between "official" and "unofficial" way of speach. We do prefer the more official way.
 
-Please translate each string as exactly as possible, but main point is to keep the original meaning.
+Please translate each string as exactly as possible, but main point is to keep the **original meaning**.
 
 It's in the context of User Interface so it might be necessary to check the website relevant to the project for exact place where the string is used and see the whole context. If you are not exactly sure how to translate string please check the “Needs review” option and click Save. We will review those strings.
 
@@ -51,15 +51,15 @@ Website: `myTREZOR.com <https://www.mytrezor.com>`_
 Languages
 ---------
 
-* Chinese
-* Czech
+* Chinese (simplified and traditional)
+* Hindi
 * French
-* German
-* Japanese
+* Portuguese
+* Russian
 * Slovak
 * Spanish
 
-Furthermore if you are willing to translate myTREZOR.com into any other language please do not hesitate to contact us via email `support@bitcointrezor.com <mailto:support@bitcointrezor.com>`_ with subject “myTREZOR translation”. Provide your registered email and the language you would like to translate. We will add the language and notify you.
+
 
 Reward
 ------
