@@ -4,7 +4,7 @@ Weblate.org - Tool for translating
 1. Register
 --------------------
 
-Please register by sending a request email to `support@bitcointrezor.com <mailto:support@bitcointrezor.com>`_ with subject “Translation myTrezor (Language)”. Should we need your help, we would ask you to register at `Weblate.org <https://hosted.weblate.org>`_ and provide you with access to the translation project of myTrezor.
+Please register by sending a request email to `support@bitcointrezor.com <mailto:support@bitcointrezor.com>`_ with the subject “Translation myTrezor (Language)”. Should we need your help, we would ask you to register at `Weblate.org <https://hosted.weblate.org>`_ and provide you with access to the translation project of myTrezor.
 
 
 2. Log into Weblate & Choose language
