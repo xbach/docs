@@ -50,10 +50,12 @@ myTREZOR Translation
 
 Website: `myTREZOR.com <https://www.mytrezor.com>`_
 
-Languages
+Languages To Be Translated
 ---------
 
 * Chinese (simplified and traditional)
+* Dutch
+* Greek
 * Hindi
 * French
 * Portuguese
@@ -61,6 +63,13 @@ Languages
 * Slovak
 * Spanish
 
+Languages Translated
+---------
+
+* Czech
+* German
+* Japanese
+* Polish
 
 
 Reward
