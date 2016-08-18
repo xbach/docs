@@ -1,11 +1,43 @@
 Setting up your TREZOR device
 =============================
 
-The TREZOR works with almost any computer that has a USB port and an internet connection.  To allow the |myTrezor| wallet to communicate with the TREZOR you need to install a piece of software called the TREZOR bridge.  If you go to the |myTrezor| website you should see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.
+The TREZOR works with almost any computer that has a USB port or with Android devices with USB Host support. 
+
+There are four options to initialize the TREZOR device. 
+
+1. Online at mytrezor.com
+-------------------------
+
+To allow the |myTrezor| wallet to communicate with the TREZOR you need to install a piece of software called the TREZOR Bridge.  If you go to the |myTrezor| website you should see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.
 
 .. note:: We also provide a `Chrome extension <https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj>`_, which works on all platforms. However, Linux users need to perform additional configuration of their system, please see :doc:`Setting up Chrome extension on Linux <settingupchromeonlinux>`.
 
-Once you've got the TREZOR bridge installed go to |myTrezor| again.  This time you should see a web page welcoming you and asking for a device label:
+Once you've got the TREZOR Bridge or TREZOR Chrome extension installed go to |myTrezor| again.  
+
+2. TREZOR Chrome extension
+--------------------------
+
+`TREZOR Chrome extension <https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj>`_ can be used cross platforms, however only with Chrome based browsers. Please note that Linux users need to perform additional configuration of their system, please see :doc:`Setting up Chrome extension on Linux <settingupchromeonlinux>`. After you successfully install the extension please open the `Apps tab <chrome://apps/>`_ and double click on the TREZOR Extension.
+
+
+3. TREZOR Manager for Android
+-----------------------------
+
+You can also set up TREZOR with our `TREZOR Manager <https://play.google.com/store/apps/details?id=io.trezor.app>`_, which can be found in Google Play store. Your phone has to support the USB Host (USB On The Go - OTG) and you need to use the OTG cable (you can buy one as a TREZOR accessory directly at `BuyTREZOR.com eshop <https://www.buytrezor.com/>`_.
+
+
+4. Offline with Python tools
+----------------------------
+
+This procedure is only for advanced users! We do not recommend to use it unless you have some experience with command line and Python. If you wish to proceed further anyway please visit our `Github repository <https://github.com/trezor/python-trezor>`_.
+
+
+TREZOR Setup
+------------
+
+The process of actual device setup is pretty much the same when using mytrezor.com, Chrome extension or TREZOR Manager for Android. Let's go through it when setting up at mytrezor.com..
+
+This time you should see a web page welcoming you and asking for a device label:
 
 .. image:: images/welcometosetup.png
 
