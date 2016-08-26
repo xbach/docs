@@ -26,6 +26,7 @@ Contents
    labeling
    homescreen
    passwordmanager
+   sshlogin
    applications
    download
 
