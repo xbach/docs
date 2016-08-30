@@ -16,23 +16,27 @@ How to Setup TREZOR as a U2F key?
 
 In this short tutorial, we will use Dropbox as the example, however all services should have a similar setup procedure.
 
-In Settings, click on ‘Add’ to setup TREZOR as your U2F Security Key
+1. In Settings, click on ‘Add’ to setup TREZOR as your U2F Security Key
 
 .. image:: images/u2f-dropbox1.png
 
-Plug in your TREZOR
+
+2. Plug in your TREZOR
 
 .. image:: images/u2f-dropbox2.png
 
-Wait for the prompt on your TREZOR
+
+3. Wait for the prompt on your TREZOR
 
 .. image:: images/u2f-dropbox3.png
 
-Confirm after checking
+
+4. Confirm after checking
 
 .. image:: images/u2f-dropbox4.jpg
 
-Done! You can start using TREZOR to log into Dropbox alongside with a simple password.
+
+5. Done! You can start using TREZOR to log into Dropbox alongside with a simple password.
 
 .. image:: images/u2f-dropbox5.png
 
@@ -43,14 +47,16 @@ Using TREZOR as a U2F Key
 We are using GitHub as an example, but all services should have similar login procedures.
 
 
-Login as usual
+1. Login as usual
 
 .. image:: images/u2f-github1.png
 
-Plug in TREZOR
+
+2. Plug in TREZOR
 
 .. image:: images/u2f-github2.png
 
-The device will not ask you for your PIN. Your login credentials for the service serve as the first factor. Your TREZOR as the second factor.
+
+3. The device will not ask you for your PIN. Your login credentials for the service serve as the first factor. Your TREZOR as the second factor.
 
 .. image:: images/u2f-github3.jpg
