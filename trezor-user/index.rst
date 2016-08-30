@@ -26,6 +26,7 @@ Contents
    labeling
    homescreen
    passwordmanager
+   u2f
    sshlogin
    applications
    download
