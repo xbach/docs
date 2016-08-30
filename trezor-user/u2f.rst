@@ -1,6 +1,8 @@
 Two-factor Authentication (U2F)
 ===============================
 
+.. image:: images/u2f.png
+
 Two-factor authentication (2FA) is currently the most common way how you can protect your online accounts from unauthorized access. In addition to what you know (your username and password), you use something that only you have — a phone, an app or a specialized hardware token, in order to login securely.
 
 However, some methods of 2FA are inherently insecure. The most popular 2FA implementation, Time-based One-Time Password (TOTP), popularized by its use on Google Auth services, transmits the shared secret (master key) over the internet during the setup process. This weakness has been recognized by major players who created FIDO Alliance and defined new, more secure standards such as U2F.
