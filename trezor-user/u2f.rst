@@ -1,5 +1,5 @@
-Two-factor Authentication (U2F)
-===============================
+Two-factor Authentication with U2F
+==================================
 
 .. image:: images/u2f.png
 
