@@ -47,7 +47,7 @@ Using TREZOR as a U2F Key
 We are using GitHub as an example, but all services should have similar login procedures.
 
 
-1. Login as usual
+1. Log in as usual
 
 .. image:: images/u2f-github1.png
 
