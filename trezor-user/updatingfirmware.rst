@@ -25,4 +25,6 @@ Press "Yes, update"
 
 Now press the right button on your TREZOR to confirm the update.  Wait a few minutes while the update runs.  Once it's done you can unplug and replug your TREZOR to finish the update.
 
+.. note:: **Windows Users:** If the system does not recognize the device after the update, go to *Device Manager* and force the drivers to update. With FIDO implemented, Windows regards TREZOR as a new device, and sometimes drivers do not update automatically.
+
 .. note:: If the update somehow fails or you accidentally unplug your TREZOR during the update there is no need to worry.  Run the update over again by plugging your TREZOR in with both buttons pressed down.  You will need to :doc:`forget your old device<forgetting>` and run :doc:`TREZOR recovery<recovery>`.
