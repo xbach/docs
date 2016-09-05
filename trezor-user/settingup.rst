@@ -25,6 +25,8 @@ Once you've got the TREZOR Bridge or TREZOR Chrome extension installed go to |my
 
 You can also set up TREZOR with our `TREZOR Manager <https://play.google.com/store/apps/details?id=io.trezor.app>`_, which can be found in Google Play store. Your phone has to support the USB Host (USB On The Go - OTG) and you need to use the OTG cable (you can buy one as a TREZOR accessory directly at `BuyTREZOR.com eshop <https://www.buytrezor.com/>`_.
 
+Please see our step by step manual :doc:`how to set up TREZOR with TREZOR Manager for Android <android>`.
+
 
 4. Offline with Python tools
 ----------------------------
