@@ -28,6 +28,7 @@ Contents
    passwordmanager
    u2f
    sshlogin
+   android
    applications
    download
 
