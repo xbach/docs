@@ -54,10 +54,7 @@ Languages To Be Translated
 ---------
 
 * Chinese (simplified and traditional)
-* Dutch
-* Greek
 * Hindi
-* French
 * Portuguese
 * Russian
 * Slovak
@@ -67,7 +64,10 @@ Languages Translated
 ---------
 
 * Czech
+* Dutch
+* French
 * German
+* Greek
 * Japanese
 * Polish
 
