@@ -69,8 +69,8 @@ Broken firmware
 3. If it still doesn't work please try different USB cable and proceed to step 1.
 
 
-Windows OS: myTREZOR.com doesn't recognize TREZOR after update to firmware 1.4.0 or later
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Windows OS: myTREZOR.com doesn't recognize TREZOR after update to firmware 1.4.0 or higher
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If the system does not recognize the device after the firmware update, go to the Device Manager and force the drivers to update. With FIDO implemented, Windows regards TREZOR as a new device, and sometimes the drivers do not update automatically.
 
