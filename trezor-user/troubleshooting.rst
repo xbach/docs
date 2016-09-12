@@ -92,7 +92,7 @@ Windows 8 & 10:
 
 In one rare case this didn't help and it has been solved in the following way:
 
-1. Go to Control Panel \ All Control Panel Items \ Devices and Printers
+1. Go to Control Panel / All Control Panel Items / Devices and Printers
 2. Click on it and check if you see message: "Needs troubleshooting"
 3. Perform the troubleshooting
 4. Restart the computer
