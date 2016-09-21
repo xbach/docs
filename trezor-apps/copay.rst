@@ -96,6 +96,12 @@ if you use other client wallet then Copay with your TREZOR. Here is how you do i
 
 After a while, your account transaction history will synchronize. You may import any number of your TREZOR accounts this way.
 
+How to Restore Your TREZOR Seed Using Copay
+-------------------------------------------
+
+For recovery procedure please follow this step by step manual: `How to Restore Your TREZOR Seed Using Copay <https://99bitcoins.com/restore-trezor-seed-copay/>`_ made by Ofir from 99bitcoins.com.
+
+
 Properties and Features
 -----------------------
 
