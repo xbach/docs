@@ -69,6 +69,8 @@ You can manage your TREZOR device in Preferences and Tools tab.
 
 .. image:: images/multibit17.png
 
+For recovery procedure please follow this step by step manual: `How to Restore Your TREZOR Seed Using MultiBit HD <https://99bitcoins.com/restore-trezor-seed-multibit-hd/>`_ made by Ofir from 99bitcoins.com.
+
 Properties and Features
 -----------------------
 
