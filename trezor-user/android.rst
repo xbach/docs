@@ -13,24 +13,23 @@ You can download the TREZOR Manager app from `Google Play Store <https://play.go
 
 
 TREZOR setup with TREZOR Manager
-================================
+--------------------------------
 
-First Look
-----------
+**First Look**
 
 Download and install the application from the Play Store. Open the app and then plug in your TREZOR with an OTG cable and the device should prompt you to allow USB access. In case you have initialized your TREZOR previously, simply enter the PIN and you will be brought to the homescreen of the app.
 
 .. image:: images/android-manager1.png
 
-Initialize Your TREZOR
-----------------------
+
+**Initialize Your TREZOR**
 
 If your TREZOR is new, then the app will offer you to start the setup process. Similarly to what you would have to do on a computer, you will go through the same process on your phone.
 
 .. image:: images/android-manager2.png
 
-Entering PIN
-------------
+
+**Entering PIN**
 
 The PIN entry follows TREZOR security standards — the PIN pad is obfuscated and position of numbers randomized. but since the phone has a touch screen, PIN input is much more convenient. In the exact same manner as everywhere else, PIN matrix changes every time there is a new PIN prompt.
 
@@ -41,15 +40,14 @@ After you set your new PIN, you will be prompted to record the Recovery seed. Se
 The 24-words represent your “master key” in a worldly language. If someone else has all the words and knows their correct order, they will have access to your account! Read more about the Recovery seed and its security in our blog post.
 
 
-Seed Recovery
--------------
+**Seed Recovery**
 
 The Android app also supports the recovery of your TREZOR. The process is simple, as the app guides you step by step until you finalize the initialization. Have your Recovery seed with you, as you need to enter all of it. The order will be shuffled, as is common for TREZOR security practices.
 
 .. image:: images/android-manager3.png
 
-Wipe and update firmware
-------------------------
+
+**Wipe and update firmware**
 
 You can also easily wipe an initialized device with TREZOR Manager. The option is available directly from the homescreen.
 The process to update the firmware is exactly the same as on a computer: plug the TREZOR into the phone with both buttons pressed to start the update process. The phone will automatically offer you to update the firmware.
@@ -60,12 +58,12 @@ Left: Wipe Device Prompt; Right: Firmware Upgrade
 
 
 TREZOR + Mycelium
-=================
+-----------------
 
 In Mycelium, you can import TREZOR as another Account or use your TREZOR as Cold Storage. With the former, Mycelium imports the XPUB of your TREZOR wallet, which allows the app to see the your account balance. If you decide to import your account, you will only need to plug in your TREZOR whenever you want to spend your coins. With the Cold Storage option, however, you will need to plug in your TREZOR whenever you want to use it, and Mycelium will not have an access to your account information.
 
-Import as Account
------------------
+
+**Import as Account**
 
 The process is straightforward, you may follow our guide here to make it easier. Steps are marked by red rectangles.
 
@@ -73,8 +71,8 @@ The process is straightforward, you may follow our guide here to make it easier.
 
 .. image:: images/android-mycelium2.png
 
-Use as Cold Storage
--------------------
+
+**Use as Cold Storage**
 
 .. image:: images/android-mycelium3.png
 
