@@ -18,7 +18,7 @@ Just how easy (or hard) is it to get some bitcoins out of a stolen TREZOR?
 Brute forcing the TREZOR PIN
 ----------------------------
 
-Your TREZOR is protected by a PIN code, which can be up to 10 digits between 1 and 9.  There are 6561 possible 4 digit PINs for the TREZOR.  If you choose a good PIN, it will take hundreds to thousands of guesses to guess your PIN.  Each time you enter a wrong PIN, the wait time increases by a power of 2.  After the first few failures, you have to wait several seconds before you'll be able to try another PIN.  Even just trying the `top 20 PINs <http://www.datagenetics.com/blog/september32012/>`_ would take about 6 days(150 hours). Trying 30 PINs would take around 17 years.  Trying 100 random PINs would take a VERY LONG time.
+Your TREZOR is protected by a PIN code, which can be up to 9 digits between 1 and 9.  There are 6561 possible 4 digit PINs for the TREZOR.  If you choose a good PIN, it will take hundreds to thousands of guesses to guess your PIN.  Each time you enter a wrong PIN, the wait time increases by a power of 2.  After the first few failures, you have to wait several seconds before you'll be able to try another PIN.  Even just trying the `top 20 PINs <http://www.datagenetics.com/blog/september32012/>`_ would take about 6 days(150 hours). Trying 30 PINs would take around 17 years.  Trying 100 random PINs would take a VERY LONG time.
 
 The number of PIN entry failures is stored in the TREZOR's memory.  This means that power cycling the TREZOR won't magically make the wait time go to zero again.  The best you can do by turning the TREZOR on and off again is make the timer start over again.
 
