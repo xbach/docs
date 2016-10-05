@@ -139,6 +139,7 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    sshagent
    strip4bit
    telebit
+   trezorandroidmanager
    wordpress
   
    
