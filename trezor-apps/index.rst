@@ -64,7 +64,6 @@ Service                                              Feature(s)                 
 `Coinpayments <coinpayments.html>`_                  :icon:`lock`                          Payment processor service supporting various cryptocurrencies.
 `Osclass <osclass.html>`_                            :icon:`lock`                          Open-source platform for easy creation of classifieds sites. 
 `Strip4Bit <strip4bit.html>`_                        :icon:`lock` :icon:`umbrella`         Adult site allowing users to sign up privately in a secure way. 
-`Telebit <telebit.html>`_                            :icon:`exchange`                      Android wallet coupled to Telegram Messenger
 `Wordpress <wordpress.html>`_                        :icon:`lock`                          Blog hosting and publishing platform.
 ==================================================== ===================================== ==============================================================================================
 
