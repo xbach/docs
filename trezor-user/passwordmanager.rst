@@ -40,10 +40,9 @@ Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/deta
 
 Learn how to enter PIN with TREZOR :doc:`enteringyourpin`
 
-.. images:: images/pm-connectdevice.png
+.. image:: images/pm-connectdevice.png
 
-
-.. images:: images/pm-connectdevicepin.png
+.. image:: images/pm-connectdevicepin.png
 
 **5. Finally, enable Password Manager on your TREZOR device. This action will start encryption of your password files with your TREZOR.**
 
