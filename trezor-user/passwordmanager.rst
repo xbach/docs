@@ -36,7 +36,9 @@ Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/deta
 
 .. image:: images/pm-dropboxapproval2.png
 
-**4. Connect Your TREZOR device and enter your PIN. Learn how to enter PIN with TREZOR :doc:`enteringyourpin`**
+**4. Connect Your TREZOR device and enter your PIN** 
+
+Learn how to enter PIN with TREZOR :doc:`enteringyourpin`
 
 .. images:: images/pm-connectdevice.png
 
