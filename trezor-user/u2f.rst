@@ -11,6 +11,8 @@ Starting with firmware 1.4.0, TREZOR officially supports the U2F specification. 
 
 One further improvement of TREZOR on top of U2F is that TREZOR users can truly verify what they are about to authorize via the on-device display. 
 
+.. note:: You can find a list of websites which support U2F at `dongleauth.info <http://www.dongleauth.info/>`_.
+
 How to Setup TREZOR as a U2F key?
 ---------------------------------
 
