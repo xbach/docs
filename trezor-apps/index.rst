@@ -118,6 +118,7 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    
    arcbit
    bitex
+   bitstamp
    bitwala
    extension
    cashila
