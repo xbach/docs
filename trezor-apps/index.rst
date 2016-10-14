@@ -58,6 +58,7 @@ e.g. creating invoices from your TREZOR accounts. Click on the name of a service
 ==================================================== ===================================== ==============================================================================================
 Service                                              Feature(s)                            Description
 `Bitex <bitex.html>`_                                :icon:`lock`                          Real time bitcoin exchange.
+`Bitstamp <bitstamp.html>`_                          :icon:`exchange`                      Real time bitcoin exchange.
 `Bitwala <bitwala.html>`_                            :icon:`exchange`                      Payment processor. Pay your Euro bills with Bitcoin.
 `Cashila <cashila.html>`_                            :icon:`lock` :icon:`exchange`         Payment processor. Pay your Euro bills with Bitcoin.
 `Coinmap <coinmap.html>`_                            :icon:`lock` :icon:`umbrella`         Map of bitcoin shops and businesses.
