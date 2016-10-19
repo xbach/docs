@@ -1,7 +1,7 @@
 Bitstamp
 ========
 
-.. image:: images/72.png
+.. image:: images/bitstamp.png
 
 What is Bitstamp?
 -----------------
