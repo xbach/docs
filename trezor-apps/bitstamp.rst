@@ -6,15 +6,14 @@ Bitstamp
 What is Bitstamp?
 -----------------
 
-`Bitstamp <https://www.bitstamp.net>`_ is a bitcoin exchange based in Luxembourg. It allows trading between FIAT currency and bitcoin cryptocurrency.
-
-Thanks to TREZOR, you can exchange your funds safely and more secure that ever before!
+`Bitstamp <https://www.bitstamp.net>`_ is a biggest European bitcoin exchange based in Luxembourg. It allows trading between FIAT currency and bitcoin cryptocurrency.
+Thanks to the support for TREZOR, you can exchange your funds safely and more secure that ever before!
 
 Resources
 ^^^^^^^^^
 
 - `Website <https://www.bitstamp.net>`_
-- `Docummentation <https://www.bitstamp.net/faq/>`_, `News <https://www.bitstamp.net/news/>`_, `Support <https://www.bitstamp.net/faq/>`_
+- `Documentation <https://www.bitstamp.net/faq/>`_, `News <https://www.bitstamp.net/news/>`_, `Support <mailto:support@bitstamp.net>`_
 
 TREZOR User Manual
 ------------------
