@@ -39,9 +39,9 @@ related to the account. You can see them by going to History in the main menu.
 
 You can also watch an individual address by selecting Import Watch Only Address.
 
-.. image:: images/arcbit03.PNG
-.. image:: images/arcbit02.PNG
-.. image:: images/arcbit01.PNG
+.. image:: images/arcbit03.png
+.. image:: images/arcbit02.png
+.. image:: images/arcbit01.png
 
 Properties and Features
 -----------------------
