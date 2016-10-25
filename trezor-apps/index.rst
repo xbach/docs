@@ -123,8 +123,7 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    extension
    cashila
    coinmap
-   coinpayments 
-   coinprism 
+   coinpayments  
    copay
    electrum 
    electrum-dash
