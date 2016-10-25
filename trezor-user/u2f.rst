@@ -62,3 +62,16 @@ We are using GitHub as an example, but all services should have similar login pr
 3. The device will not ask you for your PIN. Your login credentials for the service serve as the first factor. Your TREZOR as the second factor.
 
 .. image:: images/u2f-github3.jpg
+
+
+Restoring U2F Counter on TREZOR
+-------------------------------
+Restoring a seed on another TREZOR restores all the U2F keys too, as they are derived from one master key. However, due to the design of U2F, some services might implement a **counter** that records the number of sign-ins. When recovering a seed, or cloning a TREZOR, this counter will be off and might have to be **increased**, in order for the recovered TREZOR to work successfully with a service.
+
+You can increase the counter manually with `python-trezor <https://github.com/trezor/python-trezor>`_:
+
+``trezorctl set_u2f_counter $(date +%s)``
+
+This command will increase the counter to the current UNIX time. (As long as the counter is higher than the one recorded on provider’s side, login will be successful.)
+
+Relevant discussion: `Reddit Thread <https://www.reddit.com/r/TREZOR/comments/50h8r9/new_trezor_firmware_fidou2f_and_initial_ethereum/d74iw3b/>`_.
