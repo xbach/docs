@@ -25,7 +25,6 @@ Wallet                                               :icon:`cog`              :i
 `Electrum-DASH <electrum-dash.html>`_                ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `Electrum-LTC <electrum-ltc.html>`_                  ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `Encompass <encompass.html>`_                        ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
-`GreenAddress <greenaddress.html>`_	                                                                                        ✔                       ✔                      ✔
 `MultiBit HD <multibit.html>`_                       ✔                                               ✔                                                                                             ✔                                                                    ✔                   
 `Mycelium <mycelium.html>`_                                                                          ✔                                              ✔                      ✔                       ✔
 `myTREZOR <mytrezor.html>`_                          ✔                        ✔                      ✔                                              ✔                      ✔                       ✔                      ✔                      ✔                      ✔
@@ -129,7 +128,6 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    electrum-dash
    electrum-ltc
    encompass 
-   greenaddress
    multibit 
    mycelium 
    mytrezor
