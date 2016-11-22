@@ -152,7 +152,7 @@ Investigation can be initiated if your package meets at least one of the followi
 How does the investigation work and how long does it take?
 ----------------------------------------------------------
 
-Investigation process takes up to 6 weeks since your request due to processing time of post office in country of origin. Communication between you and us is essential during the investigation period to keep information on delivery status up to date. We send replacement product if package is not found or delivered within this period.
+Investigation process takes up to 6 weeks since your request due to processing time of post office in country of origin. Communication between you and us is essential during the investigation period to keep information on delivery status up to date. 
 
 
 I want to start the investigation. What should I do?
