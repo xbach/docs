@@ -154,7 +154,17 @@ We recommend you to back up those Dropbox files for the case you'd lose access t
 
 All files are `encrypted using keys derived from your TREZOR <https://github.com/satoshilabs/slips/blob/master/slip-0016.md>`_. In no way it is possible for anyone else to access your passwords nor to make any edits!
 
+Using TPM with Google Drive
+--------------------
+
+Recently, we've taken next step towards the better and diverse TPM manager by integrating the Google Drive. At first, our customers were forced to use or create a Dropbox account. Now, you can use either Dropbox or Google Drive instead. 
+
+.. image:: images/TPM_GDrive.gif
+
 Planned Improvements
 --------------------
 
 In the future we plan to add the Import/Export feature and a direct login to Dropbox with TREZOR. 
+
+
+
