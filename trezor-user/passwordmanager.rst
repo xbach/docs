@@ -38,6 +38,7 @@ Learn how to enter PIN with TREZOR :doc:`enteringyourpin`
 
 
 Congratulations! You are ready to use TREZOR Password Manager.
+To be more visual, we created some siple GIFs for you:
 
 .. image:: images/tpm_dropbox_final.gif
 
