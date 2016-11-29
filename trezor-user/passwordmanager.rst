@@ -39,6 +39,8 @@ Learn how to enter PIN with TREZOR :doc:`enteringyourpin`
 
 Congratulations! You are ready to use TREZOR Password Manager.
 
+.. image:: images/tpm_dropbox_final.gif
+
 Using TPM with Google Drive
 --------------------
 
