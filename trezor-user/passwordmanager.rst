@@ -8,7 +8,7 @@ Visit `TREZOR Password Manager <https://passwords.mytrezor.com>`_ pages to learn
 Set up TREZOR Password Manager:
 -------------------------------
 
-You only need to perform this setup once. TREZOR Password Manager works with Chrome and cross-platform on your OSX, Windows and Linux. 
+You only need to perform this setup once. TREZOR Password Manager works with Chrome and cross-platform on your OSX, Windows, and Linux. 
 
 **1. Check if you have TREZOR Chrome extension (TCE)**
 
@@ -24,7 +24,7 @@ Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/deta
 
 3.1. Click on the Sign in with Dropbox button and log into your Dropbox account. If you don't have any, create one, it’s free.
 
-.. important:: When you log into your Dropbox account, there is a session cookie on Dropbox server with access to myTREZOR folder valid for about 5 years! We recommend to log out of your Dropbox account manually after you finish working with myTREZOR.com or use Private window in your browser for the best possible privacy.
+.. important:: When you log into your Dropbox account, there is a session cookie on Dropbox server with access to myTREZOR folder valid for about 5 years! We recommend to log out of your Dropbox account manually after you finish working with myTREZOR.com or use a private window in your browser for the best possible privacy.
 
 3.2. Give your TREZOR permission to create a folder in your Dropbox to store all the passwords in and confirm using the Dropbox account.
 
@@ -38,7 +38,7 @@ Learn how to enter PIN with TREZOR :doc:`enteringyourpin`
 
 
 Congratulations! You are ready to use TREZOR Password Manager.
-To be more visual, we created some siple GIFs for you:
+To be more visual, we created some simple GIFs for you:
 
 .. image:: images/tpm_dropbox_final.gif
 
@@ -54,9 +54,9 @@ Connecting your TPM to Google Drive is not very different from the Dropbox.
 Tags
 ----
 
-Tags are used to filter and find entries easily. You can create, edit and remove tags as you wish. 
+Tags are used to filter and find entries easily. You can create, and remove tags as you wish. 
 
-You can see overview of your tags in the left pane. You can edit the name and the icon of the tag. But let's start with creating a new tage first. 
+You can see the overview of your tags in the left pane. You can edit the name and the icon of the tag. But let's start with creating a new page first. 
 
 .. image:: images/pm-newtag.png
 
@@ -125,7 +125,7 @@ One click to copy the username into the clipboard. You will be asked to confirm 
 
 **4. Edit entry**
 
-In order to edit an entry you will need to confirm the action on your TREZOR device.
+In order to edit an entry, you will need to confirm the action on your TREZOR device.
 
 
 
@@ -138,7 +138,7 @@ There are some shortcuts available as well to improve the user experience.
 
 **Shift + Alt + F** fills in username and password to the login form of a website (that you have stored previously with TREZOR Password Manager).
 
-Remember to have your TREZOR connected, otherwise it won't work. (Hint: the little blue square in the corner of the Password Manager extension icon indicates your device is connected and credentials are stored for current site).
+Remember to have your TREZOR connected, otherwise, it won't work. (Hint: the little blue square in the corner of the Password Manager extension icon indicates your device is connected and credentials are stored for current site).
 
 .. image:: images/pm-loginknownsite.png
 
@@ -151,13 +151,13 @@ It's quite simple. TREZOR Password Manager creates a folder “/Apps/TREZOR Pass
 
 We recommend you to back up those Dropbox files for the case you'd lose access to your Dropbox.
 
-All files are `encrypted using keys derived from your TREZOR <https://github.com/satoshilabs/slips/blob/master/slip-0016.md>`_. In no way it is possible for anyone else to access your passwords nor to make any edits!
+All files are `encrypted using keys derived from your TREZOR <https://github.com/satoshilabs/slips/blob/master/slip-0016.md>`_. In no way, it is possible for anyone else to access your passwords nor to make any edits!
 
 
 Planned Improvements
 --------------------
 
-In the future we plan to add the Import/Export feature and a direct login to Dropbox with TREZOR. 
+In the future, we plan to add the Import/Export feature and a direct login to Dropbox with TREZOR. 
 
 
 
