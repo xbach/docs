@@ -4,7 +4,7 @@ Refunds
 When can I claim a refund?
 --------------------------
 
-Basically you can claim a refund in 15 days upon the product is delivered to you.
+Basically, you can claim a refund within 15 days upon the product is delivered to you.
 
 
 What kind of refund can I claim?
@@ -19,7 +19,7 @@ There are two types of refund depending on the package condition:
 How do I claim a refund?
 ------------------------
 
-Only thing you need to do is to contact support via `info@buyTREZOR.com <mailto:info@buytrezor.com>`_ to initiate the Refund process. You will receive all the required information by email. You will also be asked to ship the product back to us.
+The only thing you need to do is to contact support via `info@buyTREZOR.com <mailto:info@buytrezor.com>`_ to initiate the Refund process. You will receive all the required information by email. You will also be asked to ship the product back to us.
 
 
 How long will it take?
