@@ -16,7 +16,7 @@ Now you should see bootloader screen if both buttons work properly. For more inf
 It doesn't work, how do I send it back?
 ---------------------------------------
 
-Basically only thing you need to do is to contact support via `info@buyTREZOR.com <mailto:info@buytrezor.com>`_ to initiate the RMA process. You will receive all the required information by email. We will do our best to troubleshoot the problem with you and you need to ship the product back to us for inspection if we didn't find any solution.
+Basically, the only thing you need to do is to contact support via `info@buyTREZOR.com <mailto:info@buytrezor.com>`_ to initiate the RMA process. You will receive all the required information by email. We will do our best to troubleshoot the problem with you and you need to ship the product back to us for inspection if we didn't find any solution.
 
 
 How long will the RMA process take?
@@ -28,11 +28,11 @@ We inspect all returned items when they arrive at our processing facility. It ca
 What can be a result?
 ---------------------
 
-It depends when exactly you have initiated the RMA process and on the product's condition. There are two basic statuses based on the time period between the product delivery to you and your initiation of the RMA process:
+It depends on when exactly you have initiated the RMA process and on the product's condition. There are two basic statuses based on the time period between the product delivery to you and your initiation of the RMA process:
 
 **Defective On Arrival (DOA)**
 
-You can get the most positive outcome if you test the device immediately upon it's delivery to you and report it's malfunction within **15 days since the delivery**. In such case we will consider your request as "Defective On Arrival". When it arrives back to us, we will inspect the product.
+You can get the most positive outcome if you test the device immediately upon it's delivery to you and report it's malfunction within **15 days since the delivery**. In such case, we will consider your request as "Defective On Arrival". When it arrives back to us, we will inspect the product.
 
 Possible outcomes:
 
