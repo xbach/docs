@@ -22,13 +22,13 @@ What kind of hardware specs does the TREZOR have?
   TREZOR is using a 120 MHz embedded ARM processor (Cortex M3 to be precise) with a custom developed system.
 
 **Screen**
-  Bright OLED - 128x64 pixels. Enough to hold six lines of text. Can display all the details you need to verify a transaction in a single screenfull.
+  Bright OLED - 128x64 pixels. Enough to hold six lines of text. Can display all the details you need to verify a transaction in a single screenful.
 
 **Case**
   Both TREZOR Classic and TREZOR Metallic will have a similar case with dimensions of approx. 60 x 30 x 6 mm. The Classic edition is made of a reinforced plastic providing great durability. The Metallic TREZOR is made of a polished CNC milled aluminum.
 
 **Safety and certifications**
-  The TREZOR is CE and RoHS certified, so it meets all quality, reliability and environmental standards. Its fine to take your TREZOR with you on the airplane. Like all modern electronics, the X-Rays won't hurt it.
+  The TREZOR is CE and RoHS certified, so it meets all quality, reliability, and environmental standards. It's fine to take your TREZOR with you on the airplane. Like all modern electronics, the X-Rays won't hurt it.
 
 **Operating temperature**
   -20°C to +60°C (-4°F - +140°F)
