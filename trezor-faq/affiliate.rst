@@ -60,7 +60,7 @@ How to link correctly?
 
 ALTERNATIVELY:
 
-If you only use one source of traffic, for example your blog, you can `ask us <mailto:support@buytrezor.com>`_ to replace the referral code by your domain. In that case your referral code can be skipped and you can link to https://www.buytrezor.com directly. We will record all traffic and shopping coming from your domain.
+If you only use one source of traffic, for example, your blog, you can `ask us <mailto:support@buytrezor.com>`_ to replace the referral code by your domain. In that case, your referral code can be skipped and you can link to https://www.buytrezor.com directly. We will record all traffic and shopping coming from your domain.
 
 **2. Simultaneously, you can use your email address as a referral code.**
 
@@ -103,7 +103,7 @@ How do you calculate my rewards?
 
 We calculate your rewards as a percentage from the final sales price in BTC at the moment of the purchase. Your current percentage is shown in the Summary on this page as *Commissions (%)*.
 
-On rare occasions you might see a negative Reward in your Transaction history. This happens when a client returns the order and requests a refund.
+On rare occasions, you might see a negative Reward in your Transaction history. This happens when a client returns the order and requests a refund.
 
 
 What are Confirmed rewards?
