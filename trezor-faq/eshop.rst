@@ -66,7 +66,7 @@ Can I change my order?
 
 **For an order placed but not paid:**
 
-Simply leave it unpaid and create a new order as you desire. All unpaid orders are automatically cancelled after 6 hours.
+Simply leave it unpaid and create a new order as you desire. All unpaid orders are automatically canceled after 6 hours.
 
 **For an order already paid but not shipped yet:**
 
@@ -123,7 +123,7 @@ How do I know when my TREZOR is shipped?
 You can follow the status of your order via your `BuyTREZOR.com User Profile <https://www.buytrezor.com/user/login>`_ which has been created after your first order. When your device is shipped we will notify you by email. Package leaves our warehouse within 48 hours latest (we are doing our best to shorten this period of time as much as possible) after receiving your payment.
 
 
-Can you deliver one order to multiple address?
+Can you deliver one order to multiple addresses?
 ----------------------------------------------
 
 We can't split orders already made, however you can create as many orders with different addresses under your BuyTREZOR.com User Profile.
@@ -132,17 +132,17 @@ We can't split orders already made, however you can create as many orders with d
 My package didn't arrive yet. What can be the reason?
 -----------------------------------------------------
 
-As we mentioned before we never postpone the shipping without prior customer notification. If there is a delay even before the actual shipping, it might be caused by providing insufficient information required by the shipping company. In such case our Customer Support team contacted you and requested the missing information already.
+As we mentioned before we never postpone the shipping without prior customer notification. If there is a delay even before the actual shipping, it might be caused by providing insufficient information required by the shipping company. In such case, our Customer Support team contacted you and requested the missing information already.
 
-After leaving the contry of origin, the parcel travels to foreign country where it is accepted at customs. This is where most of the delays actually happen and it is unfortunate because the delivery will appear in the customer's post tracking system only after it is released by the customs. For example, we have one delivery which was held by US customs office for nearly 6 weeks.
+After leaving the country of origin, the parcel travels to the foreign country where it is accepted at customs. This is where most of the delays actually happen and it is unfortunate because the delivery will appear in the customer's post tracking system only after it is released by the customs. For example, we have one delivery which was held by US customs office for nearly 6 weeks.
 
-In rare cases, usually when chosing standard shipping, your package may not arrive at all. It is very unfortunate but it can happen occasionally. In such case we consider it as a **lost package** and we start the **investigation**.
+In rare cases, usually, when choosing standard shipping, your package may not arrive at all. It is very unfortunate but it can happen occasionally. In such case, we consider it as a **lost package** and we start the **investigation**.
 
 
 How do I recognize my package got lost?
 ---------------------------------------
 
-Investigation can be initiated if your package meets at least one of the following criterias:
+The investigation can be initiated if your package meets at least one of the following criteria:
 
 - if package does not leave country of origin according to it's tracking in 10 days
 - if package does not appear on foreign tracking in 21 days
@@ -152,7 +152,7 @@ Investigation can be initiated if your package meets at least one of the followi
 How does the investigation work and how long does it take?
 ----------------------------------------------------------
 
-Investigation process takes up to 6 weeks since your request due to processing time of post office in country of origin. Communication between you and us is essential during the investigation period to keep information on delivery status up to date. 
+Investigation process takes up to 6 weeks since your request due to the processing time of post office in the country of origin. Communication between you and us is essential during the investigation period to keep information on delivery status up to date. 
 
 
 I want to start the investigation. What should I do?
