@@ -9,7 +9,7 @@ What happens if my TREZOR gets stolen?
 
 The short answers:
 
-- No. Each TREZOR has a `PIN code <http://doc.satoshilabs.com/trezor-user/enteringyourpin.html>`_ to prevent misuse in case of physical thief.
+- No. Each TREZOR has a `PIN code <http://doc.satoshilabs.com/trezor-user/enteringyourpin.html>`_ to prevent misuse in case of a physical theft.
 - Yes. See `recovery <http://doc.satoshilabs.com/trezor-user/recovery.html>`_.
 
 Just how easy (or hard) is it to get some bitcoins out of a stolen TREZOR?
@@ -18,7 +18,7 @@ Just how easy (or hard) is it to get some bitcoins out of a stolen TREZOR?
 Brute forcing the TREZOR PIN
 ----------------------------
 
-Your TREZOR is protected by a PIN code, which can be up to 9 digits between 1 and 9.  There are 6561 possible 4 digit PINs for the TREZOR.  If you choose a good PIN, it will take hundreds to thousands of guesses to guess your PIN.  Each time you enter a wrong PIN, the wait time increases by a power of 2.  After the first few failures, you have to wait several seconds before you'll be able to try another PIN.  Even just trying the `top 20 PINs <http://www.datagenetics.com/blog/september32012/>`_ would take about 6 days(150 hours). Trying 30 PINs would take around 17 years.  Trying 100 random PINs would take a VERY LONG time.
+Your TREZOR is protected by a PIN code, which can be up to 9 digits between 1 and 9.  There are 6561 possible 4 digit PINs for the TREZOR.  If you choose a good PIN, it will take hundreds of thousands of guesses to guess your PIN.  Each time you enter a wrong PIN, the wait time increases by a power of 2.  After the first few failures, you have to wait several seconds before you'll be able to try another PIN.  Even just trying the `top 20 PINs <http://www.datagenetics.com/blog/september32012/>`_ would take about 6 days(150 hours). Trying 30 PINs would take around 17 years.  Trying 100 random PINs would take a VERY LONG time.
 
 The number of PIN entry failures is stored in the TREZOR's memory.  This means that power cycling the TREZOR won't magically make the wait time go to zero again.  The best you can do by turning the TREZOR on and off again is make the timer start over again.
 
@@ -26,13 +26,13 @@ The number of PIN entry failures is stored in the TREZOR's memory.  This means t
 Reflashing the TREZOR with evil firmware
 ----------------------------------------
 
-Official TREZOR firmware is signed by the SatoshiLabs master key.  Installing unofficial firmware on the TREZOR is possible, but doing so will wipe the device storage and TREZOR will show a warning every time it starts.  Reprogramming the bootloader is impossible, because all TREZORs ship with their secure programming fuse blown.
+Official TREZOR firmware is signed by the SatoshiLabs master key.  Installing unofficial firmware on the TREZOR is possible, but doing so will wipe the device storage and TREZOR will show a warning every time it starts.  Reprogramming the bootloader is impossible because all TREZORs ship with their secure programming fuse blown.
 
 
 Inspect the TREZORs memory with an electron microscope
 ------------------------------------------------------
 
-You might imagine yourself `dissolving the TREZOR CPU in acid <http://zeptobars.ru/en/read/OPA627-AD744-real-vs-fake-china-ebay>`_, finding the reprogramming fuse, repairing it, and then loading evil firmware on the TREZOR.  I'm no science fiction author, but my guess is -- this might be possible.  However, the Cortex M3 is a sensitive multilayer chip.  The components inside are much smaller than those fake eBay amps.  Chances are, all you'd end up doing is destroying the chip.  Even if you succeeded in doing so, this will be a costly and time consuming task.  In the end the bitcoins will be gone already because the original owner will have `changed their recovery seed <http://doc.satoshilabs.com/trezor-user/advanced_features.html#changing-your-trezor-recovery-seed>`_ upon discovering that their TREZOR was stolen.
+You might imagine yourself `dissolving the TREZOR CPU in acid <http://zeptobars.ru/en/read/OPA627-AD744-real-vs-fake-china-ebay>`_, finding the reprogramming fuse, repairing it, and then loading evil firmware on the TREZOR.  I'm no science fiction author, but my guess is -- this might be possible.  However, the Cortex M3 is a sensitive multilayer chip.  The components inside are much smaller than those fake eBay amps.  Chances are, all you'd end up doing is destroying the chip.  Even if you succeeded in doing so, this will be a costly and time-consuming task.  In the end, the bitcoins will be gone already because the original owner will have `changed their recovery seed <http://doc.satoshilabs.com/trezor-user/advanced_features.html#changing-your-trezor-recovery-seed>`_ upon discovering that their TREZOR was stolen.
 
 
 Evil maid attack - replace the TREZOR with a fake
@@ -75,11 +75,11 @@ You can use your TREZOR together with other BIP32, BIP39 and BIP44 `compatible w
 What if I run the TREZOR recovery process on an infected computer?
 ==================================================================
 
-During `the TREZOR recovery process <../trezor-user/recovery.html>`_ you are asked to enter your recovery seed into the computer with the words in a random order.  By default, the TREZOR uses a 24 word recovery seed.
+During `the TREZOR recovery process <../trezor-user/recovery.html>`_ you are asked to enter your recovery seed into the computer with the words in a random order.  By default, the TREZOR uses a 24-word recovery seed.
 
-If your computer has a keylogger installed on it, then the randomly ordered words may be stolen. One might try to re-arrange these words, until they found the correct word ordering.  They can check the order of the words, by generating a bitcoin address using each ordering and checking if the address belongs to you.
+If your computer has a keylogger installed on it, then the randomly ordered words may be stolen. One might try to re-arrange these words until they found the correct word ordering.  They can check the order of the words, by generating a bitcoin address using each ordering and checking if the address belongs to you.
 
-There are `24! <http://en.wikipedia.org/wiki/Factorial>`_ possible orderings of a 24 word seed.  That is 620448401733239439360000 possible orderings.
+There are `24! <http://en.wikipedia.org/wiki/Factorial>`_ possible orderings of a 24-word seed.  That is 620448401733239439360000 possible orderings.
 
 Each 24 word TREZOR recovery seed is verified with an `8 bit checksum <../trezor-tech/cryptography.html#mnemonic-recovery-seed-bip39>`_ .  Using the checksum to eliminate invalid seeds, you can reduce the search space by a factor of 256.  This gives us a search space of:
 
@@ -87,7 +87,7 @@ Each 24 word TREZOR recovery seed is verified with an `8 bit checksum <../trezor
 
 Going from TREZOR recovery seed to public bitcoin address takes 2 × 2048 iterations of `PBKDF2 <https://en.wikipedia.org/wiki/PBKDF2>`_, which in turn uses `SHA-512 <https://en.wikipedia.org/wiki/SHA-512>`_. All in all, going from a potential TREZOR recovery seed to a bitcoin address, is slightly more difficult than running SHA-512 8096 times.
 
-To summarise, in order to check all possible orderings in a 24 word seed, you need to run SHA-512:
+To summarize, in order to check all possible orderings in a 24-word seed, you need to run SHA-512:
 
 24! ÷ 256 × 8096 = 19621680704813697269760000 times
 
@@ -97,7 +97,7 @@ If we wave our hands a bit, we can claim that SHA-512 and SHA-256 are the same d
 
 (24! ÷ 256 × 8096) ÷ 176 537 883 000 000 000 ÷ 60 ÷ 60 ÷ 24 ÷ 365 = 3.5 years
 
-for the **ENTIRE BITCOIN NETWORK** to crack the seed.  If you have that kind of hashing power, you'd make better money mining at `Slush Pool <https://mining.bitcoin.cz/>`_ than trying to steal bitcoins. :-) On a normal botnet cracking a TREZOR seed would take millenia.
+for the **ENTIRE BITCOIN NETWORK** to crack the seed.  If you have that kind of hashing power, you'd make better money mining at `Slush Pool <https://mining.bitcoin.cz/>`_ than trying to steal bitcoins. :-) On a normal botnet cracking a TREZOR seed would take millennia.
 
 
 What doesn't TREZOR protect against (yet)?
