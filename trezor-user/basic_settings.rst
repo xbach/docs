@@ -5,12 +5,12 @@ After clicking on the Basic tab, you can see following screen:
 
 .. image:: images/trezor-welcometosetup-basic.png
 
-On this tab you can change the label of your device, enable / change PIN, see the Total Balance and also view the XPUBs (Account public keys) of your accounts.
+On this tab, you can change the label of your device, enable / change PIN, see the Total Balance and also view the XPUBs (Account public keys) of your accounts.
 
 Changing label
 --------------
 
-You can easily change the label of your device just by clicking on the Change Label button. You will be asked to confirm this action by pressing button on your TREZOR (and entering your PIN if you have PIN set up already).
+You can easily change the label of your device just by clicking on the Change Label button. You will be asked to confirm this action by pressing the button on your TREZOR (and entering your PIN if you have PIN set up already).
 
 Enabling / Changing PIN
 -----------------------
