@@ -18,6 +18,10 @@ To make a purchase:
 5. You will be taken to a page with your bitcoin payment instructions.
 6. Once the payment is confirmed through the Bitcoin network, we'll start to process your order and let you know when your order has been shipped.
 
+Can I order a TREZOR form Amazon?
+---------------------------------
+Sure, Another great place for customers is `amazon.com <https://www.amazon.com/s/%3Daps&field-keywords=trezor>`_. 
+
 
 How can I pay?
 --------------
