@@ -51,7 +51,7 @@ There is variety of options with variety of security levels. You can use desktop
 * `Wipe <http://doc.satoshilabs.com/trezor-user/advanced_features.html#wiping-your-trezor-device>`_ TREZOR with original recovery seed.
 * `Set it up <http://doc.satoshilabs.com/trezor-user/settingup.html>`_ again and generate new recovery seed (do NOT save your seed digitally!).
 * Create required setup (think about how many accounts / addresses you will need to transfer the funds).
-* Check the neccesary receiving address(es) with `Show on TREZOR <http://doc.satoshilabs.com/trezor-user/receivingpayments.html#show-on-trezor>`_ and write it / them down.
+* Check the necessary receiving address(es) with `Show on TREZOR <http://doc.satoshilabs.com/trezor-user/receivingpayments.html#show-on-trezor>`_ and write it / them down.
 * Transfer funds from the 3rd party wallet into your newly setup TREZOR.
 * Enjoy ultimate TREZOR security again.
 
@@ -59,7 +59,7 @@ There is variety of options with variety of security levels. You can use desktop
 You have no TREZOR device and recovery seed IS available
 --------------------------------------------------------
 
-This can happen if you lost your TREZOR device however you have your recovery seed stored safely. As a first thing you should order `new TREZOR device <https://www.buytrezor.com>`_. Consider ordering two devices directly to have one for backup in case something similar happens next time! 
+This can happen if you lost your TREZOR device however you have your recovery seed stored safely. As a first thing, you should order `new TREZOR device <https://www.buytrezor.com>`_. Consider ordering two devices directly to have one for backup in case something similar happens next time! 
 
 After you are done with that there can be three possible scenarios:
 
@@ -69,7 +69,7 @@ After you are done with that there can be three possible scenarios:
 * Wait for the new device to arrive.
 * Once it arrives, `set it up  <http://doc.satoshilabs.com/trezor-user/settingup.html>`_.
 * Create required setup (think about how many accounts / addresses you will need to transfer the funds).
-* Check the neccesary receiving address(es) with `Show on TREZOR <http://doc.satoshilabs.com/trezor-user/receivingpayments.html#show-on-trezor>`_.
+* Check the necessary receiving address(es) with `Show on TREZOR <http://doc.satoshilabs.com/trezor-user/receivingpayments.html#show-on-trezor>`_.
 * Install / Sign up / Register / Initialize 3rd party wallet which supports recovery of the TREZOR seed (please refer to `TREZOR Apps <http://doc.satoshilabs.com/trezor-apps/index.html>`_ for more information).
 * Transfer your funds from original recovery seed to address(es) generated from the new recovery seed.
 * Enjoy ultimate TREZOR security again.
@@ -81,7 +81,7 @@ After you are done with that there can be three possible scenarios:
 * Use it as you need until your new TREZOR arrives.
 * `Set up <http://doc.satoshilabs.com/trezor-user/settingup.html>`_ new TREZOR device and generate new recovery seed (do NOT save your seed digitally!).
 * Create required setup (think about how many accounts / addresses you will need to transfer the funds).
-* Check the neccesary receiving address(es) with `Show on TREZOR <http://doc.satoshilabs.com/trezor-user/receivingpayments.html#show-on-trezor>`_.
+* Check the necessary receiving address(es) with `Show on TREZOR <http://doc.satoshilabs.com/trezor-user/receivingpayments.html#show-on-trezor>`_.
 * Transfer your funds from original recovery seed to address(es) generated from the new recovery seed.
 * Enjoy ultimate TREZOR security again.
 
