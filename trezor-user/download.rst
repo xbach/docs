@@ -23,7 +23,7 @@ TREZOR Password Manager (Chrome Extension)
 
 .. note:: This feature is currently in Beta version for public testing!
 
-`TREZOR Password Manager <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ is ultimately secure way how to store your passwords. No more unlocking all the passwords at once by entering master password! Unlock and use only passwords you need. All the data are stored at Dropbox and encrypted with private keys generated from your TREZOR.
+`TREZOR Password Manager <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ is the ultimately secure way how to store your passwords. No more unlocking all the passwords at once by entering the master password! Unlock and use only passwords you need. All the data are stored at Dropbox and encrypted with private keys generated from your TREZOR.
 
 You need a Dropbox account, Google Chrome or Chromium, `TREZOR Chrome Extension <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_, `TREZOR Password Manager Chrome Extension <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ and your TREZOR.
 
@@ -49,4 +49,4 @@ Seed recovery card
 
 You can print more recovery cards and store them at different physical locations.
 
-Cards are avilable for download `here <http://doc.satoshilabs.com/trezor-user/_downloads/recovery_card.pdf>`_.
+Cards are available for download `here <http://doc.satoshilabs.com/trezor-user/_downloads/recovery_card.pdf>`_.
