@@ -34,7 +34,7 @@ Changing your TREZOR recovery seed
 
 You can change your recovery seed given that you are still in possession of your TREZOR recovery card.  However, doing so safely is a multi-step process.  Be sure to follow the instructions carefully.
 
-.. warning:: Do not simply transfer your coins outside of your TREZOR! They may be stolen, even if they are on a non secure device for a very short time.
+.. warning:: Do not simply transfer your coins outside of your TREZOR! They may be stolen, even if they are on a nonsecure device for a very short time.
 
 In order to change your recovery seed, you will need:
 
