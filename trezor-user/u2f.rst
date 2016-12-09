@@ -16,7 +16,7 @@ One further improvement of TREZOR on top of U2F is that TREZOR users can truly v
 How to Setup TREZOR as a U2F key?
 ---------------------------------
 
-In this short tutorial, we will use Dropbox as the example, however all services should have a similar setup procedure.
+In this short tutorial, we will use Dropbox as the example, however, all services should have a similar setup procedure.
 
 1. In Settings, click on ‘Add’ to setup TREZOR as your U2F Security Key
 
