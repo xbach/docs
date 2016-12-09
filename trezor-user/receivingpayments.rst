@@ -7,7 +7,7 @@ Once you've initialized your TREZOR, your wallet is ready to be used. You should
 
 By clicking on "Account #1" you will see an empty Transactions tab.
 
-Now it's time to transfer your bitcoins to the safety of your TREZOR. Select the Receive tab to get your first TREZOR bitcoin address. A bitcoin address is a long string of numbers and letters. If you are transfering bitcoins from a mobile wallet, scan the `QR code`_ shown next to the address.
+Now it's time to transfer your bitcoins to the safety of your TREZOR. Select the Receive tab to get your first TREZOR bitcoin address. A bitcoin address is a long string of numbers and letters. If you are transferring bitcoins from a mobile wallet, scan the `QR code`_ shown next to the address.
 
 Show on TREZOR
 --------------
@@ -26,7 +26,7 @@ Here's an example of what you see on your TREZOR display after clicking "Show on
 .. image:: images/checkaddress-trezor.jpg
    :width: 50%
 
-You may also use the "More please +" button to create more receiving addresses. Why would you want more addresses? Say you use the first address to receive your salary. You can tell when your employer has payed you because you receive bitcoins on that address. Now, you want to sell your lawnmower to Bob. How do you know when Bob has payed you and which payment came from Bob? You can create a new bitcoin address specially for Bob. When bitcoins come in to that address you know that its Bob paying you and not your employer.
+You may also use the "More please +" button to create more receiving addresses. Why would you want more addresses? Say you use the first address to receive your salary. You can tell when your employer has paid you because you receive bitcoins on that address. Now, you want to sell your lawnmower to Bob. How do you know when Bob has paid you and which payment came from Bob? You can create a new bitcoin address specially for Bob. When bitcoins come into that address you know that its Bob paying you and not your employer.
 
 .. hint:: Also read about using `multiple accounts <http://doc.satoshilabs.com/trezor-user/advanced_features.html#using-multiple-accounts>`_ for better privacy
 
