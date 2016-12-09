@@ -17,6 +17,6 @@ Check the security seal
 
 Make sure that the silver security seal is unbroken to ensure you are working with an authentic TREZOR device.
 
-  .. image:: images/box-with-seal.jpg
+  .. image:: images/TRZ_front.jpg
 
 Go ahead and plug your TREZOR in now.  You should see the glowing TREZOR lock appear on the screen.  Now move on to :doc:`Setting up your TREZOR device <settingup>`.
