@@ -10,7 +10,7 @@ An `analysis in 2012 <http://www.datagenetics.com/blog/september32012/>`_ showed
 
 .. hint::
 
-   The numbers displayed on the TREZOR's screen when it requests a new PIN are in a random order.  You can use them as the basis for your PIN, if you don't have any better ideas.  For example, you can use the first two rows when you are shown the matrix for the first time.
+   The numbers displayed on the TREZOR's screen when it requests a new PIN are in a random order.  You can use them as the basis for your PIN if you don't have any better ideas.  For example, you can use the first two rows when you are shown the matrix for the first time.
 
 If you have trouble remembering your PIN, write it on your recovery card.
 
@@ -25,9 +25,9 @@ Keep your recovery seed safe from
 
 - Flood / Fire
 
- If your TREZOR is lost or stops working, your recovery seed is the only way to get your bitcoins back.  It is therefore important that your recovery card not be destroyed as well.
+ If your TREZOR is lost or stops working, your recovery seed is the only way to get your bitcoins back.  It's very important that your recovery card isn't destroyed as well.
 
- You may even wish to keep multiple copies of your recovery seed, stored in different locations, however safety from theft should always be considered as paramount.
+ You may even wish to keep multiple copies of your recovery seed, stored in different locations, however, safety from theft should always be considered as paramount.
 
 Where NOT to keep your recovery seed
 ------------------------------------
