@@ -25,9 +25,9 @@ Press the TREZOR recovery button.
 
 .. image:: images/recovery-start.png
 
-Enter the name of your TREZOR device.  If you setup your device without changing any advanced options you can simply press continue.  Otherwise configure the advanced options as they were before you lost your old TREZOR:  Look at your recovery card to see how many words your recovery seed has.  Check the "Additional passphrase encryption" box if your old TREZOR had a passphrase. And press continue.
+Enter the name of your TREZOR device.  If you set up your device without changing any advanced options you can simply press continue.  Otherwise configure the advanced options as they were before you lost your old TREZOR:  Look at your recovery card to see how many words your recovery seed has.  Check the "Additional passphrase encryption" box if your old TREZOR had a passphrase. And press continue.
 
-You'll need to set up a new PIN for your new TREZOR device.  After that you can look down at your TREZOR and follow the instructions on the screen.
+You'll need to set up a new PIN for your new TREZOR device.  After that, you can look down at your TREZOR and follow the instructions on the screen.
 
 .. image:: images/trezor-recovery.jpg
 
@@ -35,7 +35,7 @@ Then continue with entering the seed words from your recovery card.
 
 .. image:: images/recovery-enter-seed-word.png
 
-After you have finished, you will be asked to enter your PIN again and then you should see all your accounts as they were before.  You can continue bitcoining away!
+After you have finished, you will be asked to enter your PIN again and then you should see all your accounts as they were before.  You can continue right away!
 
 
 .. |myTrezor| raw:: html
