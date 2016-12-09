@@ -20,7 +20,7 @@ By making the TREZOR with a screen and physical buttons, you know that no paymen
 The need for a PIN
 ------------------
 
-Zero trust doesn't end with not trusting the computer to which you have connected your TREZOR.  We also do not wish to trust the person who is currently holding the TREZOR in their hands.  What if your TREZOR was stolen?  In order to prevent trivial physical theft of the TREZOR device the TREZOR requires you to enter you PIN number each time it is plugged into a computer.  This ensures that not only is each transaction confirmed by a person who is physically present, but that the person confirming the transactions is you.
+Zero trust doesn't end with not trusting the computer to which you have connected your TREZOR.  We also do not wish to trust the person who is currently holding the TREZOR in their hands.  What if your TREZOR was stolen?  In order to prevent trivial physical theft of the TREZOR device, the TREZOR requires to enter you PIN number each time it is plugged into a computer.  This ensures that not only is each transaction confirmed by a person who is physically present, but that the person confirming the transactions is you.
 
 The PIN entry mechanism is specially designed so that the untrusted computer never learns your PIN.  It is also difficult to determine a person's PIN simply by looking over their shoulder.
 
