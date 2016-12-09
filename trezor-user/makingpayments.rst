@@ -9,7 +9,7 @@ In order to make payments, go to the account page in myTREZOR and press send.  Y
 
 You can type in a destination address for your transaction and the value of coins which are about to be sent. Now you can choose to insert the amount in bitcoins or any other world currency (actual exchange rate is provided by CoinDesk).
 
-If the address you want to send to is on someone's cell phone, you might not want to type in the full address.   Chances are though, that they'll also be able to show you the QR code for their account.  You can scan a QR code with myTREZOR simply by pressing the scan QR code button in the address field and holding a picture of the QR code up to your computer's web cam.
+If the address you want to send to is on someone's cell phone, you might not want to type in the full address. Chances are, though, that they'll also be able to show you the QR code for their account.  You can scan a QR code with myTREZOR simply by pressing the scan QR code button in the address field and holding a picture of the QR code up to your computer's webcam.
 
 .. image:: images/send-scan-qrcode.png
 
@@ -17,7 +17,7 @@ It's also simple to send the maximum possible amount from the current account. J
 
 .. image:: images/send-max.png
 
-You can send bitcoins to multiple addresses with one transaction by pressing the '+' button in the right hand corner of the Send page. You can also choose to add multiple transactions by clicking on the "Import from CSV" button.
+You can send bitcoins to multiple addresses with one transaction by pressing the '+' button in the right-hand corner of the Send page. You can also choose to add multiple transactions by clicking on the "Import from CSV" button.
 
 .. image:: images/send-multisend.png
 
