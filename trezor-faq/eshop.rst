@@ -49,7 +49,6 @@ At the moment no other payment methods are accepted at BuyTREZOR.com. However ge
 - `Coinbase.com <https://www.coinbase.com/join/satoshilabs>`_
 - `Coinmama.com <https://www.coinmama.com/?ref=Satoshilabs>`_
 - `Coinjar.com <https://Coinjar.com>`_
-- `Circle.com <https://Circle.com>`_
 - `Expresscoin.com <https://Expresscoin.com>`_
 
 4. Finding other means of exchange in your area
