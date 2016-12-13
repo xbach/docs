@@ -10,7 +10,7 @@ USB HID
 
 The SatoshiLabs Vendor ID is ``0x534c`` and TREZOR's Device ID ``0x0001``.
 
-If you've never worked with HID devices before, it may be helpful to take a look at the `Java implementation <https://github.com/trezor/trezor-android/blob/master/src/com/satoshilabs/trezor/Trezor.java>`_ which establishes a connection to TREZOR and reads and writes to the device.
+If you've never worked with HID devices before, it may be helpful to take a look at `Python implementation <https://github.com/trezor/python-trezor/blob/master/trezorlib/transport_hid.py>`_ or `Java implementation <https://github.com/trezor/trezor-android/blob/master/trezor-lib/src/main/java/com/satoshilabs/trezor/lib/TrezorManager.java>`_ which establish a connection to TREZOR and reads and write to the device.
 
 Protobuf definitions
 --------------------
