@@ -54,7 +54,7 @@ If your computer gets stolen, just plug your TREZOR to another computer and you'
 What happens if my recovery seed is stolen?
 ===========================================
 
-You need to keep your recovery seed safe from theft.  If your recovery seed is stolen and you haven's set a passphrase protection, then your bitcoins can be stolen as well.  However, if you like, TREZOR can protect against recovery seed theft with `a passphrase <../trezor-user/advanced_settings.html#using-passphrase-encrypted-seeds>`_, and therefore eliminate this risk.
+You need to keep your recovery seed safe from theft.  If your recovery seed is stolen and you haven’t set a passphrase protection, then your bitcoins can be stolen as well.  However, if you like, TREZOR can protect against recovery seed theft with `a passphrase <../trezor-user/advanced_settings.html#using-passphrase-encrypted-seeds>`_, and therefore eliminate this risk.
 
 
 What happens if the SatoshiLabs servers are hacked and the firmware signing key is stolen?
