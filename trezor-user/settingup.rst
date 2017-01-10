@@ -5,8 +5,8 @@ The TREZOR works with almost any computer that has a USB port or with Android de
 
 There are four options to initialize the TREZOR device. 
 
-1. Online at mytrezor.com
--------------------------
+1. Online at TREZOR Wallet
+--------------------------
 
 To allow the |myTrezor| wallet to communicate with the TREZOR you need to install a piece of software called the TREZOR Bridge.  If you go to the |myTrezor| website you should see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.
 
@@ -37,7 +37,7 @@ This procedure is only for advanced users! We do not recommend to use it unless 
 TREZOR Setup
 ------------
 
-The process of actual device setup is pretty much the same when using mytrezor.com, Chrome extension or TREZOR Manager for Android. Let's go through it when setting up at mytrezor.com..
+The process of actual device setup is pretty much the same when using TREZOR Wallet, Chrome extension or TREZOR Manager for Android. Let's go through it when setting up at TREZOR Wallet (wallet.trezor.io).
 
 This time you should see a web page welcoming you and asking for a device label:
 
@@ -63,4 +63,4 @@ Enter a new name for your TREZOR device and press Continue.  You should see the 
 
 .. |myTrezor| raw:: html
 
-   <a href="http://mytrezor.com" target="_blank">myTREZOR.com</a>
+   <a href="https://wallet.trezor.io" target="_blank">TREZOR Wallet</a>

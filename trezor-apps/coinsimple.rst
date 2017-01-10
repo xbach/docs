@@ -28,7 +28,7 @@ The following dialog will appear.
 
 .. image:: images/coinsimple02a.png
 
-Open new tab in your browsers and go to `myTREZOR.com <https://mytrezor.com>`_. Connect your TREZOR.
+Open new tab in your browsers and go to `TREZOR Wallet <https://wallet.trezor.io>`_. Connect your TREZOR.
 In Basic settings copy selected account public key into the clipboard. And paste it into CoinSimple dialog into the first field.
 We recommend you to create brand new account for this purpose (although you can also use one of your non-empty accounts if you want).
 

@@ -3,7 +3,7 @@ TREZOR Apps
 
 .. image:: images/chapter02.jpg
 
-Except for `myTREZOR <https://mytrezor.com>`_, you can use your TREZOR device with increasing number of independent bitcoin wallets and online services. We call them **TREZOR Apps**:
+Except for `myTREZOR <https://wallet.trezor.io>`_, you can use your TREZOR device with increasing number of independent bitcoin wallets and online services. We call them **TREZOR Apps**:
 
 - `TREZOR Wallets <index.html#using-trezor-with-bitcoin-and-altcoin-wallets>`_
 - `Online Services <index.html#using-trezor-with-online-services>`_

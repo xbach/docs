@@ -6,12 +6,12 @@ myTREZOR
 What is myTREZOR?
 -----------------
 
-`myTREZOR <https://mytrezor.com>`_ is a state of the art TREZOR client wallet by SatoshiLabs. It has all the capabilities for configuring and managing TREZOR you need.
+`myTREZOR <https://wallet.trezor.io>`_ is a state of the art TREZOR client wallet by SatoshiLabs. It has all the capabilities for configuring and managing TREZOR you need.
 
 Resources
 ^^^^^^^^^
 
-- `Website <https://mytrezor.com>`_
+- `Website <https://wallet.trezor.io>`_
 - `User manual <../trezor-user/settingup.html>`_
 - `Support (email) <mailto:support@trezor.io>`_
 - `Blog <http://satoshilabs.com/news>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/BitcoinTrezor>`_, `Reddit <http://www.reddit.com/r/TREZOR/>`_

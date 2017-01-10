@@ -1,7 +1,7 @@
 Understanding transaction details
 ---------------------------------
 
-myTREZOR.com displays information about each transaction on the Transactions page.
+TREZOR Wallet displays information about each transaction on the Transactions page.
 
 .. image:: images/transaction-details.png
 

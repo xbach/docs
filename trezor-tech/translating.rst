@@ -48,7 +48,7 @@ In case of any issues, difficulties or questions please check the `Weblate Docum
 myTREZOR Translation
 ====================
 
-Website: `myTREZOR.com <https://www.mytrezor.com>`_
+Website: `TREZOR Wallet <https://wallet.trezor.io>`_
 
 Languages To Be Translated
 ---------

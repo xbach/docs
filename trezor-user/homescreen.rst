@@ -38,7 +38,7 @@ Done!
 - 1. Please click on the `homescreen editor <https://trezor.github.io/homescreen-editor/>`_ link if you wish to set your own picture as a TREZOR homescreen. You will be taken to another website.
 - 2. Upload a picture from your harddrive or insert a link to the picture from the Internet
 - 3. You can play with the settings such as brightness, sharpness and fake shading, you can rotate the picture and so on until you are happy with the preview.
-- 4. Save the prepared picture to your harddrive, return to `beta.mytrezor.com <https://beta.mytrezor.com>`_ and follow the steps to `1. Upload your own homescreen picture`_.
+- 4. Save the prepared picture to your harddrive, return to `TREZOR Wallet <https://wallet.trezor.io>`_ and follow the steps to `1. Upload your own homescreen picture`_.
 
 
 3. Choose from TREZOR Homescreen Gallery

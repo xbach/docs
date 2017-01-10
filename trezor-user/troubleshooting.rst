@@ -20,17 +20,17 @@ If you see following
 Please uninstall the previous version of TREZOR Bridge first and delete all remaining files, then install the new version.
 
 
-myTREZOR.com stops responding:
+TREZOR Wallet stops responding:
 ------------------------------
 
 1. Unplug your TREZOR
-2. Refresh `myTREZOR.com <https://www.mytrezor.com>`_ or try `beta.myTREZOR.com <https://beta.mytrezor.com>`_
+2. Refresh `TREZOR Wallet <https://wallet.trezor.io>`_ or try `TREZOR Wallet Beta <https://beta-wallet.trezor.io>`_
 3. Plug your TREZOR back in
 
 You can unplug your TREZOR at any time except during the update procedure.  There is no risk of data loss.
 
 
-myTREZOR.com shows broken or confusing account information
+TREZOR Wallet shows broken or confusing account information
 ----------------------------------------------------------
 
 1. Run :doc:`Forget device<forgetting>`
@@ -62,14 +62,14 @@ Broken firmware
 
     Firmware appears to be broken.
 
-    Unplug your TREZOR and see our support page at mytrezor.com.
+    Unplug your TREZOR and contact our support.
 
 1. :doc:`Run the update again<updatingfirmware>`.
 2. Done.  Your TREZOR should now work again.
 3. If it still doesn't work please try different USB cable and proceed to step 1.
 
 
-Windows OS: myTREZOR.com doesn't recognize TREZOR after update to firmware 1.4.0 or higher
+Windows OS: TREZOR Wallet doesn't recognize TREZOR after update to firmware 1.4.0 or higher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If the system does not recognize the device after the firmware update, go to the Device Manager and force the drivers to update. With FIDO implemented, Windows regards TREZOR as a new device, and sometimes the drivers do not update automatically.

@@ -8,7 +8,7 @@ There are several advanced settings that can be configured after setting up your
 Disable PIN protection
 ----------------------
 
-It is possible to disable PIN protection using the Disable PIN button, however, we do not recommend to do so, as  PIN protection reduces the risk that a person with physical access to your TREZOR device will be able to steal your bitcoins. MyTREZOR.com will ask you for your PIN the first time you try to make a transaction after plugging in your TREZOR and it works in such a way that even the computer you use with your TREZOR never finds out your PIN.
+It is possible to disable PIN protection using the Disable PIN button, however, we do not recommend to do so, as  PIN protection reduces the risk that a person with physical access to your TREZOR device will be able to steal your bitcoins. TREZOR Wallet will ask you for your PIN the first time you try to make a transaction after plugging in your TREZOR and it works in such a way that even the computer you use with your TREZOR never finds out your PIN.
 
 .. warning:: We DO NOT recommend to DISABLE PIN PROTECTION even if you have configured a passphrase for your TREZOR!
 

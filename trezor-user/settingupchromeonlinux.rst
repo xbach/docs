@@ -25,4 +25,4 @@ For rare Linux distributions without DEB or RPM package managers, please follow 
 
 .. |myTrezor| raw:: html
 
-   <a href="http://mytrezor.com" target="_blank">myTREZOR.com</a>
+   <a href="https://wallet.trezor.io" target="_blank">TREZOR Wallet</a>

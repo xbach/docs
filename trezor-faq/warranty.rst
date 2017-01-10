@@ -6,7 +6,7 @@ How do I test if it works properly?
 
 The best way how to test TREZOR is trying to enter bootloader mode. You can do that following these instructions:
 
-1. Open `mytrezor.com <http://www.mytrezor.com>`_ in your browser
+1. Open `TREZOR Wallet <https://wallet.trezor.io>`_ in your browser
 2. Hold both buttons when plugging the cable in
 3. Release both buttons when cable is plugged in
 

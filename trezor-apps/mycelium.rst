@@ -65,7 +65,7 @@ Importing watch-only accounts from MyTrezor
 
 If you want to use Mycelium as a watch-only wallet for your TREZOR, you can import accounts directly from MyTrezor without connecting the device.
 
-In `MyTrezor.com <https://mytrezor.com>`_, click on the name of your TREZOR and in Basic settings, click on Show XPUBs. 
+In `TREZOR Wallet <https://wallet.trezor.io>`_, click on the name of your TREZOR and in Basic settings, click on Show XPUBs. 
 Select account you want to import into Mycelium to reveal QR code with account public key.
 
 .. image:: images/coinsimple-mytrezor01.png

@@ -22,7 +22,7 @@ Git repositories
 
   * `trezor-mcu <https://github.com/trezor/trezor-mcu>`_ -- Firmware
 
-  * `webwallet <https://github.com/trezor/webwallet>`_ -- Webwallet deployed on myTREZOR.com
+  * `webwallet <https://github.com/trezor/webwallet>`_ -- Webwallet deployed on TREZOR Wallet
 
 Security
 --------

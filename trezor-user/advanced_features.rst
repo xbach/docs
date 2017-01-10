@@ -24,7 +24,7 @@ Wiping your TREZOR device
 .. image:: images/trezor-wipe.jpg
 
 1. Plug in your TREZOR
-2. Go to myTREZOR.com
+2. Go to TREZOR Wallet
 3. Select your TREZOR and press **Wipe device**
 
  - You should now see the "Welcome to TREZOR Setup!"

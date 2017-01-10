@@ -40,4 +40,4 @@ After you have finished, you will be asked to enter your PIN again and then you 
 
 .. |myTrezor| raw:: html
 
-   <a href="http://mytrezor.com" target="_blank">myTREZOR.com</a>
+   <a href="https://wallet.trezor.io" target="_blank">TREZOR Wallet</a>

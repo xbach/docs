@@ -28,7 +28,7 @@ Once you have ArcBit installed on your phone, go to Settings > Advanced options 
 Adding watch-only account or address
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To import your TREZOR account, go to `myTREZOR.com <https://mytrezor.com>`_ and click on the name of your device.
+To import your TREZOR account, go to `TREZOR Wallet <https://wallet.trezor.io>`_ and click on the name of your device.
 In Basic tab, reveal your account public keys by clicking on Show XPUBs and select account you want to import into ArcBit.
 
 .. image:: images/coinsimple-mytrezor01.png

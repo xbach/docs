@@ -15,7 +15,7 @@ Without closing the myTREZOR website, unplug your TREZOR.  Now press down both b
 
 .. image:: images/clawupdateplugin.jpg
 
-Once you have plugged in your TREZOR you'll see a dialog on the myTREZOR.com website asking if you want to update.
+Once you have plugged in your TREZOR you'll see a dialog on the TREZOR Wallet website asking if you want to update.
 
 .. image:: images/doyouwanttoupdate.png
 

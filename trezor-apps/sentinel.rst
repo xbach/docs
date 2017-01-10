@@ -22,7 +22,7 @@ Resources
 TREZOR User Manual
 ------------------
 
-To export your account, go to `myTREZOR.com <https://mytrezor.com>`_ and click on the name of your device.
+To export your account, go to `TREZOR Wallet <https://wallet.trezor.io>`_ and click on the name of your device.
 In Basic settings, reveal your account public keys by clicking on Show XPUBs and select account for exporting.
 
 .. image:: images/coinsimple-mytrezor01.png

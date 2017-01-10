@@ -24,7 +24,7 @@ Make sure that the silver security seal is unbroken to ensure you are working wi
 - TREZOR logo does not say "TREZOR The Bitcoin Safe", but "TREZOR" only the package is slightly bigger (100 x 100 x 13 mm)
 - There is less text on the package
 - Sticker with barcode, UPC code and product name is on every package
-- In the instructions is written to go to trezor.io/start instead of mytrezor.com (for now it still redirects to wallet.mytrezor.com)
+- In the instructions is written to go to trezor.io/start instead of mytrezor.com
 - There are two holographic stickers in this batch (one on each side)
 - Starting with this batch TREZOR contains bootloader 1.3.0 and no firmware. This is done so that you can be sure your TREZOR  will be always running the correct FW, and that the first FW will be the most up-to-date one. (In any case, if your TREZOR runs an unofficial firmware, it will display a warning on boot up.)
 - Device buttons built-in test is available since bootloader version 1.3.0., just press a button for 2+ seconds and the indicator on the screen should show up.

@@ -9,7 +9,7 @@ Signing messages can be used to prove ownership of a specific bitcoin address.
 A common situation where this might be handy is:
 You have your bitcoin exchange account protected with 2FA, but you lose access to your 2FA tool (mobile phone, email). To get your account unlocked, you can be asked by the exchange operator to sign some message with that bitcoin address associated with your exchange account.
 
-In order to sign a message, select the Account in myTREZOR.com and press **Sign & Verify** in the top right corner.  You should see a page like this:
+In order to sign a message, select the Account in TREZOR Wallet and press **Sign & Verify** in the top right corner.  You should see a page like this:
 
 .. image:: images/signandverify_page.png
 

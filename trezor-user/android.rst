@@ -78,4 +78,4 @@ The process is straightforward, you may follow our guide here to make it easier.
 
 With that, you are all set to use your TREZOR with Mycelium on Android!
 
-We hope that this application will expand the reach of TREZOR by cutting off the cords with the computer. Don’t worry, though, myTrezor.com will continue to be actively developed, alongside with this management app.
+We hope that this application will expand the reach of TREZOR by cutting off the cords with the computer. Don’t worry, though, TREZOR Wallet will continue to be actively developed, alongside with this management app.
