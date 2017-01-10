@@ -59,7 +59,7 @@ There is variety of options with variety of security levels. You can use desktop
 You have no TREZOR device and recovery seed IS available
 --------------------------------------------------------
 
-This can happen if you lost your TREZOR device however you have your recovery seed stored safely. As a first thing, you should order `new TREZOR device <https://www.buytrezor.com>`_. Consider ordering two devices directly to have one for backup in case something similar happens next time! 
+This can happen if you lost your TREZOR device however you have your recovery seed stored safely. As a first thing, you should order `new TREZOR device <https://shop.trezor.io>`_. Consider ordering two devices directly to have one for backup in case something similar happens next time! 
 
 After you are done with that there can be three possible scenarios:
 
