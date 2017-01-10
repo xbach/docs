@@ -5,9 +5,9 @@ Ordering & Shipping
 How to buy a TREZOR?
 --------------------
 
-**BuyTREZOR.com is the #1 place to purchase a TREZOR device**.
+**shop.trezor.io is the #1 place to purchase a TREZOR device**.
 
-Orders at **BuyTREZOR.com** are typically processed the same or the next working day after receiving your payment.
+Orders at **shop.trezor.io** are typically processed the same or the next working day after receiving your payment.
 
 To make a purchase:
 
@@ -17,6 +17,7 @@ To make a purchase:
 4. Proceed to entering your address and confirm with "Send order".
 5. You will be taken to a page with your bitcoin payment instructions.
 6. Once the payment is confirmed through the Bitcoin network, we'll start to process your order and let you know when your order has been shipped.
+
 
 Can I order a TREZOR form Amazon?
 ---------------------------------
@@ -33,7 +34,7 @@ Our product prices are fixed in US dollars and converted to BTC at the Bitstamp 
 I don't have any bitcoins. Can I pay with credit card, PayPal or wire transfer?
 -------------------------------------------------------------------------------
 
-At the moment no other payment methods are accepted at BuyTREZOR.com. However getting bitcoins is not difficult anymore!
+At the moment no other payment methods are accepted at shop.trezor.io. However getting bitcoins is not difficult anymore!
 
 1. Buy from local traders:
 
@@ -73,7 +74,7 @@ Simply leave it unpaid and create a new order as you desire. All unpaid orders a
 
 **For an order already paid but not shipped yet:**
 
-Contact our support at `info@BuyTREZOR.com <mailto:info@buytrezor.com>`_ to help you change your order.
+Contact our support at `support@trezor.io <mailto:support@trezor.io>`_ to help you change your order.
 
 
 What is in the package?
@@ -85,7 +86,7 @@ Your TREZOR will be delivered with a micro USB cable and a user manual. You can 
 Do you ship to my country?
 --------------------------
 
-If your country is not listed in the Delivery Address Form, let us know at `info@BuyTREZOR.com <mailto:info@buytrezor.com>`_.
+If your country is not listed in the Delivery Address Form, let us know at `support@trezor.io <mailto:support@trezor.io>`_.
 We will try to include it as soon as possible.
 
 
@@ -113,7 +114,7 @@ Delivery time may vary between 5 days to 6 weeks depending on your location and 
 Where can I follow my order (get a tracking number)?
 ----------------------------------------------------
 
-By logging into `BuyTREZOR.com/user/login <https://www.buytrezor.com/user/login/>`_ and clicking order creation date on the My Orders page you can see the details of your order. Your user login have been created when you first purchased your TREZOR.
+By logging into `shop.trezor.io/user/login <https://shop.trezor.io/user/login/>`_ and clicking order creation date on the My Orders page you can see the details of your order. Your user login have been created when you first purchased your TREZOR.
 
 We will notify you of any significant change to your order by email as well.
 
@@ -123,7 +124,7 @@ You can track the parcel sent via DHL `here <http://www.dhl.com/en/express/track
 How do I know when my TREZOR is shipped?
 ----------------------------------------
 
-You can follow the status of your order via your `BuyTREZOR.com User Profile <https://www.buytrezor.com/user/login>`_ which has been created after your first order. When your device is shipped we will notify you by email. Package leaves our warehouse within 48 hours latest (we are doing our best to shorten this period of time as much as possible) after receiving your payment.
+You can follow the status of your order via your `shop.trezor.io User Profile <https://shop.trezor.io/user/login>`_ which has been created after your first order. When your device is shipped we will notify you by email. Package leaves our warehouse within 48 hours latest (we are doing our best to shorten this period of time as much as possible) after receiving your payment.
 
 
 Can you deliver one order to multiple addresses?
@@ -161,5 +162,5 @@ Investigation process takes up to 6 weeks since your request due to the processi
 I want to start the investigation. What should I do?
 ----------------------------------------------------
 
-In that case we will need you to contact us via support email `info@BuyTREZOR.com <mailto:info@buytrezor.com>`_ to initiate the investigation process.
+In that case we will need you to contact us via support email `support@trezor.io <mailto:support@trezor.io>`_ to initiate the investigation process.
 
