@@ -20,7 +20,7 @@ How do I become your affiliate?
 
 1. Apply for partnership via our `landing page <https://trezor.io/sales>`_ with details about your marketing experience, and your promotion channels. We'll review your application shortly.
 
-2. TREZOR users are the best source of recommendation and they love our product. That's why every shop.trezor.io shopper automatically gets the chance to join our program.
+2. TREZOR users are the best source of recommendation and they love our product. That's why every trezor.io shopper automatically gets the chance to join our program.
 
 
 Where are the Affiliate Conditions?
@@ -29,21 +29,21 @@ Where are the Affiliate Conditions?
 You can download the Affiliate Terms and Conditions `here <https://www.trezor.io/static/shared/affiliate-conditions.pdf>`_ (pdf, 60 kB)
 
 
-Where can I find useful information and updates about Trezor?
+Where can I find useful information and updates about TREZOR?
 -------------------------------------------------------------
 
 You are free to use any of the content found on these websites providing you link to the source of it.
 
 `TREZOR User Manual <http://doc.satoshilabs.com/trezor-user/>`_ is a great place to find:
 
-- precise information on how Trezor works
+- precise information on how TREZOR works
 - a lot of screenshots and photos
-- explanation of the Trezor security design and philosophy
+- explanation of the TREZOR security design and philosophy
 
 Other great sources of information are:
 
 - `TREZOR FAQ <http://doc.satoshilabs.com/trezor-faq/index.html>`_
-- `BitcoinTrezor.com - product pages <http://www.bitcointrezor.com/>`_
+- `trezor.io - product pages <https://trezor.io/>`_
 - `Facebook pages <https://www.facebook.com/BitcoinTrezor>`_
 - `Twitter <https://twitter.com/bitcointrezor>`_
 
