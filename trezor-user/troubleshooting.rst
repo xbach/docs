@@ -102,6 +102,6 @@ In one rare case this didn't help and it has been solved in the following way:
 Contact support
 ---------------
 
-If you encountered any other problem or suggested solutions didn't solve your issue, please contact our `Customer Support <mailto:support@bitcointrezor.com>`_.
+If you encountered any other problem or suggested solutions didn't solve your issue, please contact our `Customer Support <mailto:support@trezor.io>`_.
 
 
