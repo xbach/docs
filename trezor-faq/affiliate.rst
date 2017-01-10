@@ -26,7 +26,7 @@ How do I become your affiliate?
 Where are the Affiliate Conditions?
 -----------------------------------
 
-You can download the Affiliate Terms and Conditions `here <https://www.trezor.io/static/shared/affiliate-conditions.pdf>`_ (pdf, 60 kB)
+You can download the Affiliate Terms and Conditions `here <https://trezor.io/static/shared/affiliate-conditions.pdf>`_ (pdf, 60 kB)
 
 
 Where can I find useful information and updates about TREZOR?
