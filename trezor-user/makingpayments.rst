@@ -1,7 +1,7 @@
 Making payments
 ===============
 
-In order to make payments, go to the account page in myTREZOR and press send.  You should see a payment page like this:
+In order to make payments, go to the account page in TREZOR Wallet and press send.  You should see a payment page like this:
 
 .. image:: images/send.png
 
@@ -9,7 +9,7 @@ In order to make payments, go to the account page in myTREZOR and press send.  Y
 
 You can type in a destination address for your transaction and the value of coins which are about to be sent. Now you can choose to insert the amount in bitcoins or any other world currency (actual exchange rate is provided by CoinDesk).
 
-If the address you want to send to is on someone's cell phone, you might not want to type in the full address. Chances are, though, that they'll also be able to show you the QR code for their account.  You can scan a QR code with myTREZOR simply by pressing the scan QR code button in the address field and holding a picture of the QR code up to your computer's webcam.
+If the address you want to send to is on someone's cell phone, you might not want to type in the full address. Chances are, though, that they'll also be able to show you the QR code for their account.  You can scan a QR code with TREZOR Wallet simply by pressing the scan QR code button in the address field and holding a picture of the QR code up to your computer's webcam.
 
 .. image:: images/send-scan-qrcode.png
 
@@ -43,7 +43,7 @@ Once you have confirmed the destination address(es) and amount(s) of your bitcoi
 
 .. image:: images/trezor-tx2.jpg
 
-.. note:: Each time you send bitcoins you have to pay a small transaction fee.  This fee will be automatically calculated for you by the myTREZOR wallet and charged against your account.  This fee goes to funding the running of the bitcoin network and is not charged by SatoshiLabs.
+.. note:: Each time you send bitcoins you have to pay a small transaction fee.  This fee will be automatically calculated for you by the TREZOR Wallet and charged against your account.  This fee goes to funding the running of the bitcoin network and is not charged by SatoshiLabs.
 
 Outgoing transactions
 ---------------------

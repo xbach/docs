@@ -8,7 +8,7 @@ TREZOR's security model is based on the principle of zero trust.  The zero trust
 
 .. image:: images/zero-trust-diagram.png
 
-Your TREZOR device will continue to protect your bitcoins even in the case that the myTREZOR web wallet is hacked and your computer is infected by a virus.  This is important.  The whole point of TREZOR is being more secure than a traditional web wallet or desktop bitcoin application.
+Your TREZOR device will continue to protect your bitcoins even in the case that the TREZOR Wallet is hacked and your computer is infected by a virus.  This is important.  The whole point of TREZOR is being more secure than a traditional web wallet or desktop bitcoin application.
 
 Why does the TREZOR have a screen and buttons?
 ----------------------------------------------

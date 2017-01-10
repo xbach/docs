@@ -24,7 +24,7 @@ TREZOR User Manual
 Using Copay wallet and Trezor together
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-On your PC, Copay can be used with Trezor as an alternative to MyTrezor. After you import one of your Trezor accounts into Copay,
+On your PC, Copay can be used with Trezor as an alternative to TREZOR Wallet. After you import one of your Trezor accounts into Copay,
 you will be able to check its balance, transaction history and send payments from it. More profoundly, Copay is one the first bitcoin apps, that lets
 you create shared (or multisignature) wallet . Below, we provide an example how three company owners can create and manage a shared wallet.
 
@@ -40,7 +40,7 @@ From application menu in Copay, she selects **Add Wallet** > **Create New Wallet
 
 .. image:: images/copay01.png
 
-.. important:: Shared accounts (BIP48) are different from your personal accounts (BIP44) and can't be viewed in MyTrezor. User must choose a unique shared account number that is not already used in other shared wallet. If selected account is not unique, Copay will notify user.
+.. important:: Shared accounts (BIP48) are different from your personal accounts (BIP44) and can't be viewed in TREZOR Wallet. User must choose a unique shared account number that is not already used in other shared wallet. If selected account is not unique, Copay will notify user.
 
 When Alice confirms to **Create 2-of-3 Wallet**, Trezor Connect dialog will appear and let Alice to connect her TREZOR, authenticate with PIN, check and confirm the action. After exporting two account public keys, Copay will display **wallet invitation**, secret that will Alice share with their colleagues.
 

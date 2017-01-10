@@ -7,4 +7,4 @@ If you don't have any bitcoins yet you'll either have to buy them, mine them, or
 
 There are also many online bitcoin exchanges where you can change normal currency to bitcoins.  Most exchanges will also provide you with a service of holding your bitcoins for you in their own web wallet.  This is not safe at all and many people have lost their bitcoins by trusting them to such services.  If you buy bitcoins online, always make sure that you can send them to your TREZOR immediately after purchase!
 
-.. important:: You can also use :doc:`receive applications <applications>` such as myTREZOR Lite.
+.. important:: You can also use :doc:`receive applications <applications>`.

@@ -13,7 +13,7 @@ Now look down at your TREZOR.
 
 If you hold your TREZOR up to your computer's screen, you can see that for every dot, the TREZOR shows you a random number.  The numbers on your TREZOR tell you what each of those buttons mean.  Taking the picture above as an example, the first dot on the computer's screen is the '4' button.  The second dot on the first row is the '8' button and so on.
 
-So if you were to copy the numbers from your TREZOR's screen onto the dot pad in myTREZOR it would look like:
+So if you were to copy the numbers from your TREZOR's screen onto the dot pad in TREZOR Wallet it would look like:
 
 .. image::  images/pin-numberpad-filled-in.png
 

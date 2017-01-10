@@ -32,11 +32,11 @@ Open new tab in your browsers and go to `TREZOR Wallet <https://wallet.trezor.io
 In Basic settings copy selected account public key into the clipboard. And paste it into CoinSimple dialog into the first field.
 We recommend you to create brand new account for this purpose (although you can also use one of your non-empty accounts if you want).
 
-.. image:: images/coinsimple-mytrezor01.png
+.. image:: images/coinsimple-trezorwallet01.png
 
-For verification, go back to myTREZOR and copy the first receiving account address and paste into the second field.
+For verification, go back to TREZOR Wallet and copy the first receiving account address and paste into the second field.
 
-.. image:: images/coinsimple-mytrezor02.png
+.. image:: images/coinsimple-trezorwallet02.png
 
 When ready, click on Connect button.
 

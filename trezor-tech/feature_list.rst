@@ -1,9 +1,9 @@
 Feature List
 ============
 
-====================== ========== ============= ========
-Feature                trezor-mcu python-trezor myTREZOR
-====================== ========== ============= ========
+====================== ========== ============= =============
+Feature                trezor-mcu python-trezor TREZOR Wallet
+====================== ========== ============= =============
 Firmware Version Check n/a        ✔             ✔
 Firmware Upload        ✔          ✔             ✔
 Reset Device           ✔          ✔             ✔
@@ -20,4 +20,4 @@ Verify Message         ✔          ✔             ✔
 Transaction History    n/a        n/a           ✔
 Offline Mode           n/a        n/a           ✔
 Debug Link Support     ✔          ✔             n/a
-====================== ========== ============= ========
+====================== ========== ============= =============

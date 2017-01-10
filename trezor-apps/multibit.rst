@@ -19,7 +19,7 @@ Resources
 TREZOR User Manual
 ------------------
 
-When you already have your TREZOR initilized from myTREZOR wallet, connect your TREZOR, 
+When you already have your TREZOR initialized from TREZOR Wallet, connect your TREZOR, 
 start MultiBit and choose Create New Trezor wallet to import your first account. 
 Note that other accounts cannot be imported and used in MultiBit.
 

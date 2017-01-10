@@ -17,7 +17,7 @@ What do you need to start your TREZOR recovery:
  - Your filled out TREZOR recovery card
  - A computer with the TREZOR bridge installed
 
-To start your recovery plug your new TREZOR into your computer and go to |myTrezor|.  You should see a page like this with a TREZOR recovery button:
+To start your recovery plug your new TREZOR into your computer and go to `TREZOR Wallet <https://wallet.trezor.io>`_.  You should see a page like this with a TREZOR recovery button:
 
 .. image:: images/recovery-button.png
 
@@ -36,8 +36,3 @@ Then continue with entering the seed words from your recovery card.
 .. image:: images/recovery-enter-seed-word.png
 
 After you have finished, you will be asked to enter your PIN again and then you should see all your accounts as they were before.  You can continue right away!
-
-
-.. |myTrezor| raw:: html
-
-   <a href="https://wallet.trezor.io" target="_blank">TREZOR Wallet</a>

@@ -52,7 +52,7 @@ However, the *end user* of the web app needs to install either trezord or Chrome
 trezord (TREZOR Bridge)
 -----
 
-In order for websites, such as our own webwallet myTREZOR, to talk with TREZOR, we developed so-called "bridge", or trezord (short for TREZOR daemon). trezord starts a local webserver, to which both external applications and local applications can communicate.
+In order for websites, such as our own TREZOR Wallet, to talk with TREZOR, we developed so-called "bridge", or trezord (short for TREZOR daemon). trezord starts a local webserver, to which both external applications and local applications can communicate.
 
 trezord is not intended for direct use by developers - it is still a little low-level, although more high-level than using USB HID directly. You should instead use trezor.js API, that uses trezord.
 

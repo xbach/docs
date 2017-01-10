@@ -33,7 +33,7 @@ Once you have confirmed the signature on your TREZOR, the signature will appear 
 Verifying messages
 ------------------
 
-In order to verify a message, select the Account at myTREZOR and press **Sign & Verify** in the top right corner. You should see a page like this:
+In order to verify a message, select the Account at TREZOR Wallet and press **Sign & Verify** in the top right corner. You should see a page like this:
 
 .. image:: images/signandverify_page.png
 
@@ -46,7 +46,7 @@ Click on 'Verify'.
 
 **2. Validating on TREZOR**
 
-TREZOR should show the beginning of the message on its display if verified correctly. Otherwise, you will get an error message on the myTREZOR page.
+TREZOR should show the beginning of the message on its display if verified correctly. Otherwise, you will get an error message on the TREZOR Wallet page.
 
 .. image:: images/verifymessageconfirmation.jpg
 

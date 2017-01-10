@@ -8,11 +8,11 @@ There are four options to initialize the TREZOR device.
 1. Online at TREZOR Wallet
 --------------------------
 
-To allow the |myTrezor| wallet to communicate with the TREZOR you need to install a piece of software called the TREZOR Bridge.  If you go to the |myTrezor| website you should see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.
+To allow the `TREZOR Wallet <https://wallet.trezor.io>`_ wallet to communicate with the TREZOR you need to install a piece of software called the TREZOR Bridge.  If you go to the `TREZOR Wallet <https://wallet.trezor.io>`_ website you should see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.
 
 .. note:: We also provide a `Chrome extension <https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj>`_, which works on all platforms. However, Linux users need to perform additional configuration of their system, please see :doc:`Setting up Chrome extension on Linux <settingupchromeonlinux>`.
 
-Once you've got the TREZOR Bridge or TREZOR Chrome extension installed go to |myTrezor| again.  
+Once you've got the TREZOR Bridge or TREZOR Chrome extension installed go to `TREZOR Wallet <https://wallet.trezor.io>`_ again.  
 
 2. TREZOR Chrome extension
 --------------------------
@@ -56,11 +56,7 @@ Enter a new name for your TREZOR device and press Continue.  You should see the 
    enteringyourpin
 
 
-.. You don't need to use the |myTrezor| webservice if you want to use your TREZOR device.  You can use any bitcoin software that supports TREZOR including:
+.. You don't need to use the `TREZOR Wallet <https://wallet.trezor.io>`_ webservice if you want to use your TREZOR device.  You can use any bitcoin software that supports TREZOR including:
 
  - Electrum
  - Multibit
-
-.. |myTrezor| raw:: html
-
-   <a href="https://wallet.trezor.io" target="_blank">TREZOR Wallet</a>

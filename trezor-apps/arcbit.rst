@@ -31,9 +31,9 @@ Adding watch-only account or address
 To import your TREZOR account, go to `TREZOR Wallet <https://wallet.trezor.io>`_ and click on the name of your device.
 In Basic tab, reveal your account public keys by clicking on Show XPUBs and select account you want to import into ArcBit.
 
-.. image:: images/coinsimple-mytrezor01.png
+.. image:: images/coinsimple-trezorwallet01.png
 
-In ArcBit, make sure you have advanced mode enabled, go to Accounts, select Import Watch Only Account > Import via QR code and scan QR code in MyTrezor.
+In ArcBit, make sure you have advanced mode enabled, go to Accounts, select Import Watch Only Account > Import via QR code and scan QR code in TREZOR Wallet.
 If you can't use your phone camera, select Import via text input instead and type/paste the public key in. After the import, ArcBit will scan for all transactions
 related to the account. You can see them by going to History in the main menu.
 

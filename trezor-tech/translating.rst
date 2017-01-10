@@ -4,13 +4,13 @@ Weblate.org - Tool for translating
 1. Register
 --------------------
 
-Please register by sending a request email to `support@trezor.io <mailto:support@trezor.io>`_ with the subject “Translation myTrezor (Language)”. Should we need your help, we would ask you to register at `Weblate.org <https://hosted.weblate.org>`_ and provide you with access to the translation project of myTrezor.
+Please register by sending a request email to `support@trezor.io <mailto:support@trezor.io>`_ with the subject “Translation TREZOR Wallet (Language)”. Should we need your help, we would ask you to register at `Weblate.org <https://hosted.weblate.org>`_ and provide you with access to the translation project of TREZOR Wallet.
 
 
 2. Log into Weblate & Choose language
 ------------------
 
-Log into Weblate and, using the provided link, navigate to SatoshiLabs / myTREZOR project.
+Log into Weblate and, using the provided link, navigate to SatoshiLabs / TREZOR Wallet project.
 
 Choose your language. In this example we are going to use Chinese.
 
@@ -45,8 +45,8 @@ In case of any issues, difficulties or questions please check the `Weblate Docum
 
 
 
-myTREZOR Translation
-====================
+TREZOR Wallet Translation
+=========================
 
 Website: `TREZOR Wallet <https://wallet.trezor.io>`_
 

@@ -7,7 +7,7 @@ What is TREZOR Chrome extension?
 Thanks to `TREZOR Chrome extension <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_
 you can **access TREZOR management functionality independently of your particular wallet solution**. These features include device initialization,
 wipe, recovery and others like changing PIN and setting up hidden wallet with passphrase. The extension has all the features for configuring
-your device as myTREZOR wallet has while it **runs even on computer offline**.
+your device as TREZOR Wallet has while it **runs even on computer offline**.
 
 Beside the management features, TREZOR Chrome extension serves as the communication layer between your device and online wallets and services.
 This means that with the extension already on your computer, you don't have to install anything else (neither plugin nor bridge) when you want to use TREZOR online,
@@ -45,7 +45,7 @@ On Advanced you can check TREZOR's firmware version, turn on/off passphrase to a
 
 .. image:: images/extension03.png
 
-Find out more about how to manage your device `in myTREZOR documentation <../trezor-user/index.html>`_
+Find out more about how to manage your device `in TREZOR Wallet documentation <../trezor-user/index.html>`_
 
 Properties and Features
 -----------------------

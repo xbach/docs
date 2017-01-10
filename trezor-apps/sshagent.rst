@@ -33,7 +33,7 @@ In order to use this exciting feature upgrade your TREZOR firmware and follow th
 
     $ sudo pip install trezor_agent
 
-2. generate public key using trezor-agent (enter scrambled PIN like you would in myTREZOR)
+2. generate public key using trezor-agent (enter scrambled PIN like you would in TREZOR Wallet)
 
     $ trezor-agent user@example.com
 

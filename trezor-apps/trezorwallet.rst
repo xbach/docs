@@ -1,12 +1,12 @@
-myTREZOR
-========
+TREZOR Wallet
+=============
 
-.. image:: images/mytrezor_logo.jpg
+.. image:: images/trezorwallet_logo.jpg
 
-What is myTREZOR?
------------------
+What is TREZOR Wallet?
+----------------------
 
-`myTREZOR <https://wallet.trezor.io>`_ is a state of the art TREZOR client wallet by SatoshiLabs. It has all the capabilities for configuring and managing TREZOR you need.
+`TREZOR Wallet <https://wallet.trezor.io>`_ is a state of the art TREZOR client wallet by SatoshiLabs. It has all the capabilities for configuring and managing TREZOR you need.
 
 Resources
 ^^^^^^^^^
@@ -19,12 +19,12 @@ Resources
 TREZOR User Manual
 ------------------
 
-Before you can start using TREZOR with online client wallets and services like myTREZOR, you have to download and install browser Bitcoin TREZOR Plugin.
-When finished myTREZOR will ask you to connect your TREZOR.
+Before you can start using TREZOR with online client wallets and services like TREZOR Wallet, you have to download and install browser Bitcoin TREZOR Plugin.
+When finished TREZOR Wallet will ask you to connect your TREZOR.
 After you enter your PIN and passphrase, all your accounts with transaction history will automatically load.
-Find out more about `how to use myTREZOR here <../trezor-user/settingup.html>`_
+Find out more about `how to use TREZOR Wallet here <../trezor-user/settingup.html>`_
 
-.. image:: images/mytrezor00.png
+.. image:: images/trezorwallet00.png
 
 Properties and Features
 -----------------------

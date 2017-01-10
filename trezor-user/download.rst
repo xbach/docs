@@ -7,7 +7,7 @@ TREZOR Bridge
 
 TREZOR Bridge is an application which allows communication between TREZOR and any web browser.
 
-You can download the `TREZOR Bridge <https://mytrezor.s3.amazonaws.com/bridge/1.1.0/index.html>`_ directly or check the `GitHub repository <https://github.com/trezor/trezord>`_.
+You can download the `TREZOR Bridge <https://wallet.trezor.io/data/bridge/1.2.0/index.html>`_ directly or check the `GitHub repository <https://github.com/trezor/trezord>`_.
 
 
 TREZOR Chrome Extension

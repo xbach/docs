@@ -24,7 +24,7 @@ Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/deta
 
 3.1. Click on the Sign in with Dropbox button and log into your Dropbox account. If you don't have any, create one, it’s free.
 
-.. important:: When you log into your Dropbox account, there is a session cookie on Dropbox server with access to myTREZOR folder valid for about 5 years! We recommend to log out of your Dropbox account manually after you finish working with TREZOR Wallet or use a private window in your browser for the best possible privacy.
+.. important:: When you log into your Dropbox account, there is a session cookie on Dropbox server with access to TREZOR Password Manager folder valid for about 5 years! We recommend to log out of your Dropbox account manually after you finish working with TREZOR Wallet or use a private window in your browser for the best possible privacy.
 
 3.2. Give your TREZOR permission to create a folder in your Dropbox to store all the passwords in and confirm using the Dropbox account.
 

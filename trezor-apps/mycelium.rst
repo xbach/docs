@@ -60,17 +60,17 @@ You can also send transaction directly from TREZOR using Mycelium without import
 and choose Trezor. After Mycelium loads your TREZOR accounts, select the one you want to spend from, enter recipient address and amount and finalize the transaction
 by checking and confirming it on TREZOR.
 
-Importing watch-only accounts from MyTrezor
--------------------------------------------
+Importing watch-only accounts from TREZOR Wallet
+------------------------------------------------
 
-If you want to use Mycelium as a watch-only wallet for your TREZOR, you can import accounts directly from MyTrezor without connecting the device.
+If you want to use Mycelium as a watch-only wallet for your TREZOR, you can import accounts directly from TREZOR Wallet without connecting the device.
 
 In `TREZOR Wallet <https://wallet.trezor.io>`_, click on the name of your TREZOR and in Basic settings, click on Show XPUBs. 
 Select account you want to import into Mycelium to reveal QR code with account public key.
 
-.. image:: images/coinsimple-mytrezor01.png
+.. image:: images/coinsimple-trezorwallet01.png
 
-In Mycelium, go to Accounts tab, select Add New Account (key icon) > Advanced > Scan and scan QR code from MyTrezor to import the account. 
+In Mycelium, go to Accounts tab, select Add New Account (key icon) > Advanced > Scan and scan QR code from TREZOR Wallet to import the account. 
 Give it a name and wait until Mycelium synchronizes it. 
 
 After that, you will be able to check balance, transaction history and display next unsused receiving address.

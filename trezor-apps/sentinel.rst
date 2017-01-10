@@ -25,9 +25,9 @@ TREZOR User Manual
 To export your account, go to `TREZOR Wallet <https://wallet.trezor.io>`_ and click on the name of your device.
 In Basic settings, reveal your account public keys by clicking on Show XPUBs and select account for exporting.
 
-.. image:: images/coinsimple-mytrezor01.png
+.. image:: images/coinsimple-trezorwallet01.png
 
-Now install Sentinel app on your phone or tablet. When it opens, select Scan option and scan QR code in MyTrezor corresponding to selected account public key.
+Now install Sentinel app on your phone or tablet. When it opens, select Scan option and scan QR code in TREZOR Wallet corresponding to selected account public key.
 If your camera doesn't work, select Manual option instead and type the public key in. After you confirm it, Sentinel will download all transactions
 related to the imported account. 
 

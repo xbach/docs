@@ -3,7 +3,7 @@ TREZOR Apps
 
 .. image:: images/chapter02.jpg
 
-Except for `myTREZOR <https://wallet.trezor.io>`_, you can use your TREZOR device with increasing number of independent bitcoin wallets and online services. We call them **TREZOR Apps**:
+Except for `TREZOR Wallet <https://wallet.trezor.io>`_, you can use your TREZOR device with increasing number of independent bitcoin wallets and online services. We call them **TREZOR Apps**:
 
 - `TREZOR Wallets <index.html#using-trezor-with-bitcoin-and-altcoin-wallets>`_
 - `Online Services <index.html#using-trezor-with-online-services>`_
@@ -27,7 +27,7 @@ Wallet                                               :icon:`cog`              :i
 `Encompass <encompass.html>`_                        ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `MultiBit HD <multibit.html>`_                       ✔                                               ✔                                                                                             ✔                                                                    ✔                   
 `Mycelium <mycelium.html>`_                                                                          ✔                                              ✔                      ✔                       ✔
-`myTREZOR <mytrezor.html>`_                          ✔                        ✔                      ✔                                              ✔                      ✔                       ✔                      ✔                      ✔                      ✔
+`TREZOR Wallet <trezorwallet.html>`_                 ✔                        ✔                      ✔                                              ✔                      ✔                       ✔                      ✔                      ✔                      ✔
 `Sentinel <sentinel.html>`_                                                                                                                                                ✔                       ✔
 ==================================================== ======================== ====================== ====================== ======================= ====================== ======================= ====================== ====================== ====================== ======================
 
@@ -130,12 +130,12 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    encompass 
    multibit 
    mycelium 
-   mytrezor
    osclass
    sentinel
    sshagent
    strip4bit
    trezorandroidmanager
+   trezorwallet
    wordpress
   
    
