@@ -5,9 +5,9 @@ Ordering & Shipping
 How to buy a TREZOR?
 --------------------
 
-**shop.trezor.io is the #1 place to purchase a TREZOR device**.
+**TREZOR Shop (shop.trezor.io) is the #1 place to purchase a TREZOR device**.
 
-Orders at **shop.trezor.io** are typically processed the same or the next working day after receiving your payment.
+Orders at **TREZOR Shop** are typically processed the same or the next working day after receiving your payment.
 
 To make a purchase:
 
@@ -34,7 +34,7 @@ Our product prices are fixed in US dollars and converted to BTC at the Bitstamp 
 I don't have any bitcoins. Can I pay with credit card, PayPal or wire transfer?
 -------------------------------------------------------------------------------
 
-At the moment no other payment methods are accepted at shop.trezor.io. However getting bitcoins is not difficult anymore!
+At the moment no other payment methods are accepted at TREZOR Shop. However getting bitcoins is not difficult anymore!
 
 1. Buy from local traders:
 
@@ -114,7 +114,7 @@ Delivery time may vary between 5 days to 6 weeks depending on your location and 
 Where can I follow my order (get a tracking number)?
 ----------------------------------------------------
 
-By logging into `shop.trezor.io/user/login <https://shop.trezor.io/user/login/>`_ and clicking order creation date on the My Orders page you can see the details of your order. Your user login have been created when you first purchased your TREZOR.
+By logging into `TREZOR Shop <https://shop.trezor.io/user/login/>`_ and clicking order creation date on the My Orders page you can see the details of your order. Your user login have been created when you first purchased your TREZOR.
 
 We will notify you of any significant change to your order by email as well.
 
@@ -124,7 +124,7 @@ You can track the parcel sent via DHL `here <http://www.dhl.com/en/express/track
 How do I know when my TREZOR is shipped?
 ----------------------------------------
 
-You can follow the status of your order via your `shop.trezor.io User Profile <https://shop.trezor.io/user/login>`_ which has been created after your first order. When your device is shipped we will notify you by email. Package leaves our warehouse within 48 hours latest (we are doing our best to shorten this period of time as much as possible) after receiving your payment.
+You can follow the status of your order via your `TREZOR Shop User Profile <https://shop.trezor.io/user/login>`_ which has been created after your first order. When your device is shipped we will notify you by email. Package leaves our warehouse within 48 hours latest (we are doing our best to shorten this period of time as much as possible) after receiving your payment.
 
 
 Can you deliver one order to multiple addresses?

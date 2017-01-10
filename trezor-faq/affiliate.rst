@@ -55,7 +55,7 @@ User feedback:
 How to link correctly?
 ----------------------
 
-**1. Use a link to shop.trezor.io with your personal referral code after the "?a=":**
+**1. Use a link to TREZOR Shop with your personal referral code after the "?a=":**
 `https://shop.trezor.io?a=referralcode <https://shop.trezor.io?a=referralcode>`_
 
 ALTERNATIVELY:
