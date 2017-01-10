@@ -130,7 +130,7 @@ You can follow the status of your order via your `TREZOR Shop User Profile <http
 Can you deliver one order to multiple addresses?
 ----------------------------------------------
 
-We can't split orders already made, however you can create as many orders with different addresses under your BuyTREZOR.com User Profile.
+We can't split orders already made, however you can create as many orders with different addresses under your TREZOR Shop User Profile.
 
 
 My package didn't arrive yet. What can be the reason?
