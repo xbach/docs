@@ -18,7 +18,7 @@ Resources
 - `Website <http://www.openssh.com/>`_
 - `Souce code <https://github.com/romanz/trezor-agent>`_
 - `Support (email) <mailto:support@trezor.io>`_
-- `Blog <http://satoshilabs.com/news>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/BitcoinTrezor>`_, `Reddit <http://www.reddit.com/r/TREZOR/>`_
+- `Blog <https://blog.trezor.io/>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/BitcoinTrezor>`_, `Reddit <http://www.reddit.com/r/TREZOR/>`_
 
 
 TREZOR User Manual
