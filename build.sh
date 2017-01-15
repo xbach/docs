@@ -1,17 +1,13 @@
 #!/bin/sh
 
 SUBDIRS="trezor-apps trezor-faq trezor-tech trezor-user"
-
-rm -rf _build/
-mkdir _build
-
-cp index.html _build/
+OUTDIR="docs"
 
 for i in $SUBDIRS; do
-  mkdir _build/$i/
+  mkdir -p $OUTDIR/$i/
   cd $i
   make html
-  mv _build/html/* ../_build/$i/
+  cp -a _build/html/* ../$OUTDIR/$i/
   rm -rf _build/
   cd ..
 done
