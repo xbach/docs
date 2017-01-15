@@ -46,12 +46,12 @@ In case of any issues, difficulties or questions please check the `Weblate Docum
 
 
 TREZOR Wallet Translation
-=========================
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Website: `TREZOR Wallet <https://wallet.trezor.io>`_
 
 Languages To Be Translated
----------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Chinese (simplified and traditional)
 * Hindi
@@ -61,7 +61,7 @@ Languages To Be Translated
 * Spanish
 
 Languages Translated
----------
+^^^^^^^^^^^^^^^^^^^^
 
 * Czech
 * Dutch
@@ -73,6 +73,6 @@ Languages Translated
 
 
 Reward
-------
+^^^^^^
 
 For the complete translation of one language we offer a limited 2-color version of TREZOR or $100 worth of Bitcoin.
