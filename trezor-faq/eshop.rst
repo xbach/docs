@@ -91,7 +91,7 @@ We will try to include it as soon as possible.
 
 
 How long does it take you to handle the order?
-------------------------------------------
+----------------------------------------------
 
 We process orders with the DHL Express shipping every working day and with the standard shipping 3 times a week (Monday, Wednesday, Friday). If an order is made before 12:00 CET on the shipping day, we ship the order the same day. We have all items in stock and we never postpone the shipping without prior customer notification.
 
@@ -128,7 +128,7 @@ You can follow the status of your order via your `TREZOR Shop User Profile <http
 
 
 Can you deliver one order to multiple addresses?
-----------------------------------------------
+------------------------------------------------
 
 We can't split orders already made, however you can create as many orders with different addresses under your TREZOR Shop User Profile.
 

@@ -1,5 +1,5 @@
 TREZOR APIs
-=================
+===========
 
 There are several ways a developer can connect to TREZOR. This is a brief overview of the approaches, from the more high-level to the more low-level; more detailed documentation is linked in each section.
 
@@ -8,7 +8,7 @@ This is a graph displaying various TREZOR APIs, with some third-party applicatio
 .. image:: images/graph.png
 
 TREZOR Connect
------
+--------------
 
 TREZOR Connect is an easy way to add TREZOR functionality to your website. We made a very simple API with already omplemented GUI for most common use-cases:
 
@@ -26,7 +26,7 @@ TREZOR Connect is an easy way to add TREZOR functionality to your website. We ma
 
 
 trezor.js
------
+---------
 
 trezor.js is a high-level framework that websites can use in order to communicate with TREZOR devices.
 
@@ -38,7 +38,7 @@ Unlike with TREZOR Connect, with trezor.js, you still need to implement the GUI 
 
 
 TREZOR Chrome extension
-----
+-----------------------
 
 TREZOR Chrome extension is an alternative way for web apps to talk with TREZOR. The extension communicates with TREZOR via USB directly, and then allows websites to communicate with the extension via Chrome messages.
 
@@ -50,7 +50,7 @@ However, the *end user* of the web app needs to install either trezord or Chrome
 
 
 trezord (TREZOR Bridge)
------
+-----------------------
 
 In order for websites, such as our own TREZOR Wallet, to talk with TREZOR, we developed so-called "bridge", or trezord (short for TREZOR daemon). trezord starts a local webserver, to which both external applications and local applications can communicate.
 
@@ -62,7 +62,7 @@ However, the *end user* of the web app needs to install either trezord or Chrome
 
 
 trezor-android
-------
+--------------
 
 .. TODO napsat neco vic, ja o tom nic nevim
 
@@ -72,7 +72,7 @@ You can use Android API in Java in order to use TREZOR in your Android app. Note
 
 
 python-trezor
------
+-------------
 
 If you want to use TREZOR in your python script or in a desktop app that uses Python, you can use Python API.
 
@@ -80,7 +80,7 @@ If you want to use TREZOR in your python script or in a desktop app that uses Py
 
 
 Low-level HID API
-------
+-----------------
 
 Developers can directly "talk" to TREZOR using USB HID API and Protobufs.
 

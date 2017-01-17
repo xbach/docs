@@ -18,7 +18,7 @@ Resources
 - `Online guide <https://dashpay.atlassian.net/wiki/display/DOC/Using+Trezor+with+Dash>`_
 
 TREZOR for DASH - User Manual
-------------------
+-----------------------------
 
 Electrum-DASH is a fork of `Electrum <electrum.html#trezor-user-manual>`_ wallet and works much like it.
 To protect and manage your DASH with TREZOR, connect your TREZOR device to the computer, start Electrum-DASH, select Create wallet and Hardware wallet as Wallet type.

@@ -19,4 +19,4 @@ Once you have done so, you're ready to start using your TREZOR device!
 
 .. hint:: You can print more :download:`recovery cards <images/recovery_card.pdf>` and store them at different physical locations.
 
-Now that your recovery seed is safe and sound on your recovery card, you can continue to :doc:`Basic Settings <basic-settings>`.
+Now that your recovery seed is safe and sound on your recovery card, you can continue to :doc:`Basic Settings <basic_settings>`.

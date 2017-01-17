@@ -1,5 +1,5 @@
 Table of TREZOR compatible wallets and services
-========================================
+===============================================
 
 Wallets supporting TREZOR
 ==========================

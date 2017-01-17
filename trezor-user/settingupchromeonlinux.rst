@@ -1,5 +1,5 @@
 Setting up the Chrome extension on Linux
-====================================
+========================================
 
 The `Chrome extension <https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj>`_ is a convenient way of using TREZOR without installing proprietary software on your computer.
 However, on Linux, users need to perform additional configuration of their system.

@@ -9,7 +9,6 @@ Contents
 
    hardware
    api
-   connect
    cryptography
    resources
    feature_list

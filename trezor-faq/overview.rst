@@ -49,10 +49,10 @@ Check out our `TREZOR Apps <../trezor-apps/index.html#recovering-funds-without-t
 
 
 Which wallets or services can import TREZOR account public keys (xpub)?
-----------------------------------------------------------------------
+-----------------------------------------------------------------------
 
 There is a growing number of wallets and online services, which you can use to **watch your TREZOR account balances** or **receive bitcoins directly into your TREZOR** without connecting the device. 
-These apps cannot spend your coins but can check balances online or generate new receiving addresses for you. 
+These apps cannot spend your coins but can check balances online or generate new receiving addresses for you.
 
 To find out more about these apps, please look for wallets and services with "Watch-only mode" feature icon :icon:`eye-slash` in `TREZOR Apps <../trezor-apps/index.html>`_
 

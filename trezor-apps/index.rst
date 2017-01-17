@@ -74,7 +74,7 @@ LEGEND |
 :icon:`lock` `Sign in with TREZOR <../trezor-tech/api-connect.html>`_ | 
 :icon:`umbrella` Sign up with TREZOR | :icon:`exchange` Move funds directly from/to TREZOR
 
-Recovering Funds without TREZOR Device 
+Recovering Funds without TREZOR Device
 --------------------------------------
 
 .. image:: images/photo03.png
@@ -87,8 +87,6 @@ In case your TREZOR device gets lost or damaged, you can access your bitcoins fa
 - `Encompass <https://maza.club/encompass>`_ (Linux, Windows, Android)
 - `MultiBit HD <https://multibit.org>`_ (Linux, Windows, OSX) - only the first account can be accessed, passphrase not supported
 - `Mycelium <https://play.google.com/store/apps/details?id=com.mycelium.wallet>`_ (Android), `recovery manual <https://www.buybitcoinworldwide.com/kb/restore-trezor-seed-mycelium-android>`_
-- `Wallet32 <https://play.google.com/store/apps/details?id=com.bonsai.wallet32>`_ (Android)
-.. - `Mycelium <https://itunes.apple.com/ca/app/mycelium-bitcoin-wallet/id943912290>`_ (iOS), only 12 word recovery is supported
 
 .. Ongoing Integrations
 .. --------------------

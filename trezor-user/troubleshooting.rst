@@ -7,7 +7,7 @@ Here you can find most common issues and how to solve them.
 TREZOR Bridge (trezord)
 -----------------------
 
-Bridge reinstall problem (Windows) 
+Bridge reinstall problem (Windows)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you see following
@@ -21,7 +21,7 @@ Please uninstall the previous version of TREZOR Bridge first and delete all rema
 
 
 TREZOR Wallet stops responding:
-------------------------------
+-------------------------------
 
 1. Unplug your TREZOR
 2. Refresh `TREZOR Wallet <https://wallet.trezor.io>`_ or try `TREZOR Wallet Beta <https://beta-wallet.trezor.io>`_
@@ -31,7 +31,7 @@ You can unplug your TREZOR at any time except during the update procedure.  Ther
 
 
 TREZOR Wallet shows broken or confusing account information
-----------------------------------------------------------
+-----------------------------------------------------------
 
 1. Run :doc:`Forget device<forgetting>`
 2. Unplug your TREZOR
@@ -70,7 +70,7 @@ Broken firmware
 
 
 Windows OS: TREZOR Wallet doesn't recognize TREZOR after update to firmware 1.4.0 or higher
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If the system does not recognize the device after the firmware update, go to the Device Manager and force the drivers to update. With FIDO implemented, Windows regards TREZOR as a new device, and sometimes the drivers do not update automatically.
 
@@ -103,5 +103,3 @@ Contact support
 ---------------
 
 If you encountered any other problem or suggested solutions didn't solve your issue, please contact our `Customer Support <mailto:support@trezor.io>`_.
-
-

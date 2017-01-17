@@ -43,7 +43,7 @@ To be more visual, we created some simple GIFs for you:
 .. image:: images/tpm_dropbox_final.gif
 
 Using TPM with Google Drive
---------------------
+---------------------------
 
 Recently, we've taken next step towards the better and diverse TPM manager by integrating the Google Drive. At first, our customers were forced to use or create a Dropbox account. Now, you can use either Dropbox or Google Drive instead. 
 

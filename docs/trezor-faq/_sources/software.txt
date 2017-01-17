@@ -2,7 +2,7 @@ Software design & security
 ==========================
 
 What are a recovery seed, a PIN and encryption passphrase and the difference between them?
------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 **Recovery seed** is a mnemonic code made of 12, 18 or 24 words depending on your choice. This seed is generated the first time you run TREZOR and will help you recovering it's contents (private keys, bitcoin balance, and transaction history) into a new device if you lose your TREZOR. 
 

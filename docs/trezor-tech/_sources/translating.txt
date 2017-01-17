@@ -8,7 +8,7 @@ Please register by sending a request email to `support@trezor.io <mailto:support
 
 
 2. Log into Weblate & Choose language
-------------------
+-------------------------------------
 
 Log into Weblate and, using the provided link, navigate to SatoshiLabs / TREZOR Wallet project.
 

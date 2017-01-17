@@ -4,7 +4,7 @@ Electrum-LTC
 .. image:: images/electrum-ltc_logo.png
 
 What is Electrum-LTC?
-------------------
+---------------------
 
 `Electrum-LTC <https://electrum-ltc.org>`_
 is a Litecoin lightweight desktop wallet for Windows, Linux and Mac OS based on Electrum.
