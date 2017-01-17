@@ -140,7 +140,7 @@ As we mentioned before we never postpone the shipping without prior customer not
 
 After leaving the country of origin, the parcel travels to the foreign country where it is accepted at customs. This is where most of the delays actually happen and it is unfortunate because the delivery will appear in the customer's post tracking system only after it is released by the customs. For example, we have one delivery which was held by US customs office for nearly 6 weeks.
 
-In rare cases, usually, when choosing standard shipping, your package may not arrive at all. It is very unfortunate but it can happen occasionally. In such case, we consider it as a **lost package** and we start the **investigation**.
+In rare cases, when choosing standard shipping, your package may be lost during the transport. It is very unfortunate but it  very rarely can happen. In such case, we consider it as a **lost package** and we start the **investigation**.
 
 
 How do I recognize my package got lost?
