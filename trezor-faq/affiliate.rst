@@ -18,7 +18,7 @@ Every sale referred by you can earn you up to 10% commission, depending on your 
 How do I become your affiliate?
 -------------------------------
 
-1. Apply for partnership via our `landing page <https://trezor.io/sales>`_ with details about your marketing experience, and your promotion channels. We'll review your application shortly.
+1. Apply for partnership via our `landing page <https://shop.trezor.io/sales>`_ with details about your marketing experience, and your promotion channels. We'll review your application shortly.
 
 2. TREZOR users are the best source of recommendation and they love our product. That's why every trezor.io shopper automatically gets the chance to join our program.
 
@@ -26,7 +26,7 @@ How do I become your affiliate?
 Where are the Affiliate Conditions?
 -----------------------------------
 
-You can download the Affiliate Terms and Conditions `here <https://trezor.io/static/shared/affiliate-conditions.pdf>`_ (pdf, 60 kB)
+You can download the Affiliate Terms and Conditions `here <https://shop.trezor.io/static/shared/affiliate-conditions.pdf>`_ (pdf, 60 kB)
 
 
 Where can I find useful information and updates about TREZOR?
