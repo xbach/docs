@@ -68,6 +68,8 @@ Restoring U2F Counter on TREZOR
 -------------------------------
 Restoring a seed on another TREZOR restores all the U2F keys too, as they are derived from one master key. However, due to the design of U2F, some services might implement a **counter** that records the number of sign-ins. When recovering a seed, or cloning a TREZOR, this counter will be off and might have to be **increased**, in order for the recovered TREZOR to work successfully with a service.
 
+.. note:: If you have firmware from version 1.4.2 and higher, U2F counter will be restored automatically on Wallet Recovery. Simply restore your wallet, and the U2F counter will be set to the UNIX time at the moment of recovery.
+
 You can increase the counter manually with `python-trezor <https://github.com/trezor/python-trezor>`_:
 
 ``trezorctl set_u2f_counter $(date +%s)``
