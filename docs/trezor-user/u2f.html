@@ -291,6 +291,10 @@
 <div class="section" id="restoring-u2f-counter-on-trezor">
 <h2>Restoring U2F Counter on TREZOR<a class="headerlink" href="#restoring-u2f-counter-on-trezor" title="Permalink to this headline">¶</a></h2>
 <p>Restoring a seed on another TREZOR restores all the U2F keys too, as they are derived from one master key. However, due to the design of U2F, some services might implement a <strong>counter</strong> that records the number of sign-ins. When recovering a seed, or cloning a TREZOR, this counter will be off and might have to be <strong>increased</strong>, in order for the recovered TREZOR to work successfully with a service.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you have firmware from version 1.4.2 and higher, U2F counter will be restored automatically on Wallet Recovery. Simply restore your wallet, and the U2F counter will be set to the UNIX time at the moment of recovery.</p>
+</div>
 <p>You can increase the counter manually with <a class="reference external" href="https://github.com/trezor/python-trezor">python-trezor</a>:</p>
 <p><code class="docutils literal"><span class="pre">trezorctl</span> <span class="pre">set_u2f_counter</span> <span class="pre">$(date</span> <span class="pre">+%s)</span></code></p>
 <p>This command will increase the counter to the current UNIX time. (As long as the counter is higher than the one recorded on provider’s side, login will be successful.)</p>
