@@ -93,6 +93,12 @@
 <li class="toctree-l2"><a class="reference internal" href="bitwala.html#trezor-user-manual">TREZOR User Manual</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="blockonomics.html">Blockonomics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="blockonomics.html#what-is-blockonomics">What is Blockonomics?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="blockonomics.html#trezor-user-manual">TREZOR User Manual</a></li>
+<li class="toctree-l2"><a class="reference internal" href="blockonomics.html#properties-and-features">Properties and Features</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="extension.html">Chrome extension</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="extension.html#what-is-trezor-chrome-extension">What is TREZOR Chrome extension?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="extension.html#trezor-user-manual">TREZOR User Manual</a></li>
@@ -258,8 +264,8 @@
 <div class="section" id="trezor-user-manual">
 <h2>TREZOR User Manual<a class="headerlink" href="#trezor-user-manual" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="using-copay-wallet-and-trezor-together">
-<h3>Using Copay wallet and Trezor together<a class="headerlink" href="#using-copay-wallet-and-trezor-together" title="Permalink to this headline">¶</a></h3>
-<p>On your PC, Copay can be used with Trezor as an alternative to TREZOR Wallet. After you import one of your Trezor accounts into Copay,
+<h3>Using Copay wallet and TREZOR together<a class="headerlink" href="#using-copay-wallet-and-trezor-together" title="Permalink to this headline">¶</a></h3>
+<p>On your PC, Copay can be used with TREZOR as an alternative to TREZOR Wallet. After you import one of your TREZOR accounts into Copay,
 you will be able to check its balance, transaction history and send payments from it. More profoundly, Copay is one the first bitcoin apps, that lets
 you create shared (or multisignature) wallet . Below, we provide an example how three company owners can create and manage a shared wallet.</p>
 </div>
@@ -267,16 +273,16 @@ you create shared (or multisignature) wallet . Below, we provide an example how 
 <div class="section" id="creating-2-of-3-shared-wallet">
 <h2>Creating 2-of-3 shared wallet<a class="headerlink" href="#creating-2-of-3-shared-wallet" title="Permalink to this headline">¶</a></h2>
 <p>Imagine that Alice, Bob and Charlie are managing company bitcoin funds together. For this purpose they will create 2-of-3 shared wallet where transactions has to be signed by two of them. Thus when Alice creates and signs transaction proposal, she needs Bob or Charlie to coopeate and sign her proposal to make a transaction on behalf of the company.</p>
-<p>Alice initiates shared wallet creation in Copay using her Trezor and then she shares invitation with Bob and Charlie, so that can join the wallet using their Trezors.</p>
-<p>From application menu in Copay, she selects <strong>Add Wallet</strong> &gt; <strong>Create New Wallet</strong>. After filling out her name and wallet parameters on the <strong>Shared Wallet</strong> tab, she selects Trezor Hardware Wallet from Wallet Seed menu and enters an unused shared Trezor account.</p>
+<p>Alice initiates shared wallet creation in Copay using her TREZOR and then she shares invitation with Bob and Charlie, so that can join the wallet using their TREZORs.</p>
+<p>From application menu in Copay, she selects <strong>Add Wallet</strong> &gt; <strong>Create New Wallet</strong>. After filling out her name and wallet parameters on the <strong>Shared Wallet</strong> tab, she selects TREZOR Hardware Wallet from Wallet Seed menu and enters an unused shared TREZOR account.</p>
 <img alt="_images/copay01.png" src="_images/copay01.png" />
 <div class="admonition important">
 <p class="first admonition-title">Important</p>
 <p class="last">Shared accounts (BIP48) are different from your personal accounts (BIP44) and can&#8217;t be viewed in TREZOR Wallet. User must choose a unique shared account number that is not already used in other shared wallet. If selected account is not unique, Copay will notify user.</p>
 </div>
-<p>When Alice confirms to <strong>Create 2-of-3 Wallet</strong>, Trezor Connect dialog will appear and let Alice to connect her TREZOR, authenticate with PIN, check and confirm the action. After exporting two account public keys, Copay will display <strong>wallet invitation</strong>, secret that will Alice share with their colleagues.</p>
+<p>When Alice confirms to <strong>Create 2-of-3 Wallet</strong>, TREZOR Connect dialog will appear and let Alice to connect her TREZOR, authenticate with PIN, check and confirm the action. After exporting two account public keys, Copay will display <strong>wallet invitation</strong>, secret that will Alice share with their colleagues.</p>
 <img alt="_images/copay05.png" src="_images/copay05.png" />
-<p>To join the created wallet, Bob and Charlie have to launch their Copay app and select <strong>Add Wallet</strong> &gt; <strong>Join Shared Wallet</strong>, paste the wallet invitation. Since they want to join using their TREZORs, they will select Trezor Hardware Wallet from Wallet Seed menu and enter an unused shared Trezor account in the similar way as Alice and hit <strong>Join</strong>. After everybody joins, all copayers will be able to see a new wallet in their Copay app.</p>
+<p>To join the created wallet, Bob and Charlie have to launch their Copay app and select <strong>Add Wallet</strong> &gt; <strong>Join Shared Wallet</strong>, paste the wallet invitation. Since they want to join using their TREZORs, they will select TREZOR Hardware Wallet from Wallet Seed menu and enter an unused shared TREZOR account in the similar way as Alice and hit <strong>Join</strong>. After everybody joins, all copayers will be able to see a new wallet in their Copay app.</p>
 <img alt="_images/copay06a.png" src="_images/copay06a.png" />
 <img alt="_images/copay06b.png" src="_images/copay06b.png" />
 </div>
@@ -287,7 +293,7 @@ you create shared (or multisignature) wallet . Below, we provide an example how 
 <p>Note that Alice doesn&#8217;t have to worry about coordination of her receiving address with Bob and Charlie because unique address is displayed for each copayer all the time.</p>
 <div class="section" id="sending-payment-from-shared-wallet">
 <h3>Sending payment from shared wallet<a class="headerlink" href="#sending-payment-from-shared-wallet" title="Permalink to this headline">¶</a></h3>
-<p>Sending payment from shared wallet requires cooperation of other copayers. When Alice decides to send company bitcoins, she goes to Send tab, enters recipient address and amount. When she confirms to Send the transactions, Trezor Connect dialog will appear and let Alice to connect her TREZOR, authenticate with PIN, check and confirm the transaction on TREZOR&#8217;s display.</p>
+<p>Sending payment from shared wallet requires cooperation of other copayers. When Alice decides to send company bitcoins, she goes to Send tab, enters recipient address and amount. When she confirms to Send the transactions, TREZOR Connect dialog will appear and let Alice to connect her TREZOR, authenticate with PIN, check and confirm the transaction on TREZOR&#8217;s display.</p>
 <img alt="_images/copay08.png" src="_images/copay08.png" />
 <p>After Alice signs the transaction, a payment proposal is created and Bob and Charlie are notified about it. When Bob opens his Copay, he will see the payment proposal in the Home tab. He can go on and check the details. When he decides to Accept the proposal, he will sign it in the same way as Alice, which (in case of 2-of-3 wallet) will finilize the payment proposal and transaction will be published.</p>
 <img alt="_images/copay09a.png" src="_images/copay09a.png" />
@@ -304,7 +310,7 @@ if you use other client wallet then Copay with your TREZOR. Here is how you do i
 <ul class="simple">
 <li>Install <a class="reference external" href="https://chrome.google.com/webstore/detail/copay/cnidaodnidkbaplmghlelgikaiejfhja">Copay Chrome App</a> on your PC and open it.</li>
 <li>Go to Add wallet &gt; Create new wallet &gt; Personal wallet</li>
-<li>As Wallet seed select Trezor Hardware wallet and enter account number to import and hit Create new wallet. Note that in Copay, accounts are numbered from 0.</li>
+<li>As Wallet seed select TREZOR Hardware wallet and enter account number to import and hit Create new wallet. Note that in Copay, accounts are numbered from 0.</li>
 <li>Go to wallet settings and Advanced &gt; Export wallet</li>
 <li>Enter export password. This is required but not critical for public account export, so you can enter simple password like one letter.</li>
 <li>Turn off Include address book and history cache and hit Download</li>
@@ -353,7 +359,7 @@ if you use other client wallet then Copay with your TREZOR. Here is how you do i
 <td>✔</td>
 <td>Transaction notifications via email or SMS</td>
 </tr>
-<tr class="row-even"><td colspan="3">Trezor Feature</td>
+<tr class="row-even"><td colspan="3">TREZOR Feature</td>
 </tr>
 <tr class="row-odd"><td><em class="fa-exchange fa"></em> Simple transactions</td>
 <td>✔</td>
@@ -395,7 +401,7 @@ if you use other client wallet then Copay with your TREZOR. Here is how you do i
 <td>&nbsp;</td>
 <td>TREZOR is used for online authentication without using username and password</td>
 </tr>
-<tr class="row-odd"><td colspan="3">Trezor Management</td>
+<tr class="row-odd"><td colspan="3">TREZOR Management</td>
 </tr>
 <tr class="row-even"><td><em class="fa-cog fa"></em> Basic Setup</td>
 <td>&nbsp;</td>

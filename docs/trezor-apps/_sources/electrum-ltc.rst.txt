@@ -19,7 +19,7 @@ TREZOR User Manual
 ------------------
 
 Electrum-LTC is a fork of `Electrum <electrum.html#trezor-user-manual>`_ wallet and works much like it.
-To import your public account keys, connect your TREZOR, start Encompass and select Create wallet and Hardware wallet as Wallet type.
+To import your public account keys, connect your TREZOR, start Electrum-LTC and select Create wallet and Hardware wallet as Wallet type.
 If you already have another wallet, select New Wallet from File menu first.
 
 .. image:: images/electrum-ltc01.png
