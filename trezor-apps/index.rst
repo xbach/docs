@@ -19,6 +19,7 @@ Supported TREZOR features
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Wallet                                               :icon:`cog`              :icon:`life-ring`      :icon:`exchange`       :icon:`users`           :icon:`user-secret`    :icon:`bars`            :icon:`eye-slash`      :icon:`eye`            :icon:`upload`         :icon:`fire`          
 `ArcBit <arcbit.html>`_                                                                                                                                                                            ✔                       ✔
+`Blockonomics <blockonomics.html>`_                                                                                                                                                ✔                       ✔
 `Copay <copay.html>`_	                                                                             ✔                      ✔                       ✔                      ✔                       ✔                                              
 `Chrome Extension <extension.html>`_                 ✔                        ✔                                                                     ✔                                                                                            ✔                      ✔
 `Electrum <electrum.html>`_                          ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
@@ -117,6 +118,7 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    bitex
    bitstamp
    bitwala
+   blockonomics
    extension
    cashila
    coinmap
