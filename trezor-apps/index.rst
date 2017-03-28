@@ -85,7 +85,6 @@ In case your TREZOR device gets lost or damaged, you can access your bitcoins fa
 - `ArcBit <http://arcbit.io>`_ (iOS)
 - `Copay <https://copay.io>`_ (Linux, Windows, OSX, Android, iOS, Windows phone)
 - `Electrum <https://electrum.org/#download>`_ (Linux, Windows, OSX, Android), `recovery manual <https://www.buybitcoinworldwide.com/kb/restore-trezor-seed-electrum>`_
-- `Encompass <https://maza.club/encompass>`_ (Linux, Windows, Android)
 - `MultiBit HD <https://multibit.org>`_ (Linux, Windows, OSX) - only the first account can be accessed, passphrase not supported
 - `Mycelium <https://play.google.com/store/apps/details?id=com.mycelium.wallet>`_ (Android), `recovery manual <https://www.buybitcoinworldwide.com/kb/restore-trezor-seed-mycelium-android>`_
 
