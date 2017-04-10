@@ -28,6 +28,7 @@ Wallet                                               :icon:`cog`              :i
 `Encompass <encompass.html>`_                        ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `MultiBit HD <multibit.html>`_                       ✔                                               ✔                                                                                             ✔                                                                    ✔                   
 `Mycelium <mycelium.html>`_                                                                          ✔                                              ✔                      ✔                       ✔
+`MyEtherWallet <mew.html>`_                                                                                                                         ✔                      ✔                        
 `TREZOR Wallet <trezorwallet.html>`_                 ✔                        ✔                      ✔                                              ✔                      ✔                       ✔                      ✔                      ✔                      ✔
 `Sentinel <sentinel.html>`_                                                                                                                                                ✔                       ✔
 ==================================================== ======================== ====================== ====================== ======================= ====================== ======================= ====================== ====================== ====================== ======================
@@ -129,7 +130,8 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    electrum-ltc
    encompass 
    multibit 
-   mycelium 
+   mycelium
+   mew
    osclass
    sentinel
    sshagent
