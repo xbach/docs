@@ -156,36 +156,185 @@
             
   <div class="section" id="api-workflows">
 <h1>API Workflows<a class="headerlink" href="#api-workflows" title="Permalink to this headline">¶</a></h1>
+<p>In general, the API implements a simple request-response protocol.
+The computer sends a request to the device and the device sends back a
+response.  The response can be a simple <cite>Success</cite> message, a <cite>Failure</cite>
+message, or an answer to the request giving the requested data.
+Moreover, the response can be a request from the device to the
+computer, e.g., for entering the PIN, the passphrase or giving some
+other information.  In that case the computer should send the
+corresponding <cite>Ack</cite> packet to answer the request and wait for another
+response.</p>
 <div class="section" id="initialize-features">
 <h2>Initialize/Features<a class="headerlink" href="#initialize-features" title="Permalink to this headline">¶</a></h2>
+<p>As first message, the computer should send an empty <cite>Initialize</cite>
+packet and expect a <cite>Features</cite> packet as response.  The <cite>Initialize</cite>
+packet will cause the device to stop what it is currently doing and
+should work at any time.  Thus, it can also be used to recover from
+previous errors.</p>
 </div>
 <div class="section" id="button-meta-workflow">
 <h2>Button meta-workflow<a class="headerlink" href="#button-meta-workflow" title="Permalink to this headline">¶</a></h2>
+<p>If the device requires the user to press a button, it will reply with a
+<cite>ButtonRequest</cite> to the computer.  The computer should immediately send
+a <cite>ButtonAck</cite> acknowledging the request.  But it should also display
+an indication to the user that it should follow the instruction on the
+device.  The field <cite>code</cite> in the <cite>ButtonRequest</cite> message explains what
+type of request the user should acknowledge with a button.</p>
+<p>If the user never presses the button, there will never be a reply to
+the <cite>ButtonAck</cite> message.  The computer can use <cite>Cancel</cite> to abort the
+current operation.  This should result in a <cite>Failure</cite> response.</p>
 </div>
 <div class="section" id="pinmatrix-meta-workflow">
 <h2>PinMatrix meta-workflow<a class="headerlink" href="#pinmatrix-meta-workflow" title="Permalink to this headline">¶</a></h2>
+<p>If the device requires the user to unlock the device with a PIN, it
+will reply with a <cite>PinMatrixRequest</cite>.  The field <cite>type</cite> gives some
+explanation what PIN is required (current pin, new pin, or
+confirmation of new pin).  The computer should display an empty pin
+matrix and let the user enter the pin.  The computer should encode the
+PIN as if the numbers are ordered like they are on the numeric
+keypad.  The encoded PIN should then be send with a <cite>PinMatrixAck</cite>
+message.</p>
 </div>
 <div class="section" id="passphrase-meta-workflow">
 <h2>Passphrase meta-workflow<a class="headerlink" href="#passphrase-meta-workflow" title="Permalink to this headline">¶</a></h2>
+<p>If the device requires the user to enter the passphrase, it will reply
+with a <cite>PassphraseRequest</cite>.  The computer should ask the user for the
+passphrase and send it in clear text with a <cite>PassphraseAck</cite> message.</p>
 </div>
 <div class="section" id="getaddress">
 <h2>GetAddress<a class="headerlink" href="#getaddress" title="Permalink to this headline">¶</a></h2>
+<p>The message <cite>GetAddress</cite> (send from the computer to the device) serves
+two purposes.  It can be used to get a valid address or to display the
+address on the device.  The field <cite>address_n</cite> gives the bip-32 path to
+the address.  The field <cite>coin_name</cite> should be set to some supported
+coin (see the <cite>Feature</cite> message for a list of supported coins).  For
+multisig addresses <cite>multisig</cite> must be filled out with all
+participating master public keys and there bip-32 path.  The
+<cite>script_type</cite> field has the same meaning as for transaction inputs
+when signing:</p>
+<ul class="simple">
+<li><cite>SPENDADDRESS</cite> (standard p2pkh address)</li>
+<li><cite>SPENDMULTISIG</cite> (p2sh multisig address)</li>
+<li><cite>SPENDWITNESS</cite> (native segwit p2wpkh or multisig p2wsh address)</li>
+<li><cite>SPENDP2SHWITNESS</cite> (segwit encapsulated in a p2sh address)</li>
+</ul>
+<p>If <cite>show_display</cite> is set the address is displayed to the user.  In any
+case, it is also sent to the computer with an <cite>Address</cite> response.</p>
 </div>
 <div class="section" id="getpublickey">
 <h2>GetPublicKey<a class="headerlink" href="#getpublickey" title="Permalink to this headline">¶</a></h2>
+<p>The message <cite>GetPublicKey</cite> can be used to get a bip-32 master public
+key from the trezor or to display it to the user. The field
+<cite>address_n</cite> gives the bip-32 path to the master key.  The field
+<cite>ecdsa_curve_name</cite> can be used to get ed25519 or nist256p1 public
+keys.</p>
 </div>
 <div class="section" id="signtx">
 <h2>SignTx<a class="headerlink" href="#signtx" title="Permalink to this headline">¶</a></h2>
+<p>Signing a transaction is a little bit complicated.  The reason is that
+transactions can be several hundred kilobytes in size, but TREZOR has
+only 64 kilobytes memory.  So it is the task of the computer to split
+the transactions in small pieces and send only those pieces that
+TREZOR requested.  The general workflow is given below</p>
 <img alt="_images/signtx_workflow.png" src="_images/signtx_workflow.png" />
+<p>The computer starts the transaction signing process by sending a
+<cite>SignTx</cite> message. From then on, the device drives all further
+communications by sending requests to the computer until it finally
+sends a <cite>TxRequest</cite> with <cite>request</cite> set to <cite>TXFINISHED</cite>.  This
+final message should not be acknowledged by the computer.</p>
+<p>The <cite>SignTx</cite> message contains only the meta data of the transaction
+that should be signed, i.e., the number of inputs and outputs, the
+coin name, the version number, and <cite>lock_time</cite> (only for pre-signed
+time locked transactions).  If the device was not unlocked before, it
+will respond with the usual <cite>PinMatrixRequest</cite> and <cite>PasswordRequest</cite>
+messages to authenticate the user.  See the corresponding sections
+above.  It may also send a <cite>ButtonRequest</cite> at any time to indicate
+that the user should confirm a transaction output or the total fee.</p>
+<p>Then the main process begins and Trezor will respond with <cite>TxRequest</cite>
+messages, which should be answered by <cite>TxAck</cite> message.  A <cite>TxRequest</cite>
+message has up to three parts.</p>
+<ol class="arabic simple">
+<li>Parts of the signed transactions.</li>
+<li>A signature for one of the inputs.</li>
+<li>A request for one piece of the new transaction or a previous transaction.</li>
+</ol>
+<p>If the field <cite>serialized.serialized_tx</cite> is set, it contains a chunk of
+the signed transaction in serialized format.  The chunks are returned
+in the right order and just concatenating all returned chunks will
+result in the signed transaction.</p>
+<p>If the field <cite>serialized.signature</cite> is set, it contains a signature
+for one of the inputs.  The signatures are returned in the same order
+as they appear in the serialized transactions.  I.e., the non-segwit
+signatures come before the segwit signatures, since the latter are
+part of the witness, which is serialized at the end.  Apart from that,
+the signatures are returned in the order the inputs appear in the
+transaction.  The signatures are not really needed, as they are
+already in the serialized transaction.  They can be useful for
+combining multisig signatures without having to parse the transactions
+again.</p>
+<p>If the field <cite>request</cite> equals <cite>TXFINISHED</cite>, this message contained the
+last chunk of the transaction.  The signing is finished and the
+computer must not reply to this packet.  In any other case, the device
+requested some piece of some transaction, which is specified by
+<cite>request</cite> and <cite>details</cite>.  This request must be answered by a <cite>TxAck</cite>
+package containing the requested piece of data.</p>
+<p>If the field <cite>details.tx_hash</cite> is not set, some piece of the
+transaction that should be signed is requested. Otherwise, this field
+contains the hash of some input transaction and some piece of that
+transaction is requested.</p>
+<p>For <cite>request = TXMETA</cite>, the fields <cite>tx.version</cite>, <cite>tx.lock_time</cite>,
+<cite>tx.inputs_cnt</cite> (number of inputs), and <cite>tx.outputs_cnt</cite> must be
+filled.  For ZCash transactions also <cite>tx.extra_data_len</cite> must be
+given.  This will only be requested for input transactions (for the
+signed transaction it was given in the <cite>SignTx</cite> call).</p>
+<p>For <cite>request = TXINPUT</cite>, the field <cite>details.request_index</cite> contains
+the number of the input requested (starting with zero).  The reply
+must fill the structure <cite>tx.inputs[0]</cite> (there must be exactly one
+input in the reply).  Which fields must be set depends on whether
+<cite>details.tx_hash</cite> is set (an input of some previous transaction is
+requested, that is spend in the new transaction), or whether an input
+of the new transaction is requested.  In both cases <cite>prev_hash</cite>,
+<cite>prev_index</cite> and <cite>sequence</cite> must be set.  For a previous transaction,
+the <cite>script_sig</cite> must be set to the raw signature data.</p>
+<p>But if <cite>details.tx_hash</cite> is unset, the data must instead describe the
+private key that should be used to sign the input.  This is specified
+by <cite>address_n</cite> (the bip-32 path to the private key), <cite>script_type</cite> and
+<cite>multisig</cite>.  The field <cite>multisig</cite> is only given for multisig
+transactions and contains the master public keys and the derivation
+paths for all signers.  The field <cite>script_type</cite> can be</p>
+<ul class="simple">
+<li><cite>SPENDADDRESS</cite> (standard p2pkh address)</li>
+<li><cite>SPENDMULTISIG</cite> (p2sh multisig address)</li>
+<li><cite>SPENDWITNESS</cite> (native segwit p2wpkh or multisig p2wsh address)</li>
+<li><cite>SPENDP2SHWITNESS</cite> (segwit encapsulated in a p2sh address)</li>
+</ul>
+<p>Note, that for segwit <cite>script_type</cite> does not distinguish between
+multisig or p2wpkh addresses.  Instead the presence of the <cite>multisig</cite>
+decides this.  For segwit inputs also the <cite>amount</cite> field must be set
+to the amount of satoshis in the input transaction.</p>
+<p>For <cite>request = TXOUTPUT</cite>, the field <cite>details.request_index</cite> contains
+the number of the output requested (starting with zero).  If
+<cite>details.tx_hash</cite> is set, this is an output of a previous transaction
+and the <cite>tx.bin_outputs[0]</cite> field must be filled in the <cite>TxAck</cite> reply.
+Otherwise, the <cite>tx.outputs[0]</cite> field must be filled.  For change
+outputs, the field <cite>address_n</cite> must be filled and <cite>address</cite> must be
+omitted.   If the change is multisig, the <cite>multisig</cite> must be
+filled and it must use the same extended public keys as all inputs.
+For a change address, the <cite>script_type</cite> should be <cite>PAYTOADDRESS</cite>,
+<cite>PAYTOMULTISIG</cite>, <cite>PAYTOWITNESS</cite> or <cite>PAYTOP2SHWITNESS</cite> matching the
+corresponding cases <cite>SPEND...</cite> for inputs.  For <cite>OP_RETURN</cite> outputs,
+set <cite>script_type = PAYTOOPRETURN</cite> and set the <cite>op_return_data</cite> field.
+Otherwise <cite>address</cite> should be set to a base58 encoded address and
+<cite>script_type</cite> to <cite>PAYTOADDRESS</cite>.  Older firmware required <cite>script_type =
+PAYTOSCRIPTHASH</cite> for p2sh addresses, though (and newer firmware still
+support this).</p>
 </div>
 <div class="section" id="signmessage-verifymessage">
 <h2>SignMessage/VerifyMessage<a class="headerlink" href="#signmessage-verifymessage" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="cipherkeyvalue">
 <h2>CipherKeyValue<a class="headerlink" href="#cipherkeyvalue" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="encryptmessage-decryptmessage">
-<h2>EncryptMessage/DecryptMessage<a class="headerlink" href="#encryptmessage-decryptmessage" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="resetdevice">
 <h2>ResetDevice<a class="headerlink" href="#resetdevice" title="Permalink to this headline">¶</a></h2>
