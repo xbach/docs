@@ -2,13 +2,14 @@ API Workflows
 =============
 
 In general, the API implements a simple request-response protocol.
-The device sends a request to the device sends back a response.  The
-response can be a simple `Success` message, a `Failure` message, or an
-answer to the request giving the requested data.  However, the
-response can also be a request from the device to the computer, e.g.,
-for entering the PIN, the passphrase or giving some other information.
-In that case the computer should send the corresponding `Ack` packet
-to answer the request and wait for another response.
+The computer sends a request to the device and the device sends back a
+response.  The response can be a simple `Success` message, a `Failure`
+message, or an answer to the request giving the requested data.
+Moreover, the response can be a request from the device to the
+computer, e.g., for entering the PIN, the passphrase or giving some
+other information.  In that case the computer should send the
+corresponding `Ack` packet to answer the request and wait for another
+response.
 
 Initialize/Features
 -------------------
@@ -71,7 +72,7 @@ when signing:
 - `SPENDP2SHWITNESS` (segwit encapsulated in a p2sh address)
 
 If `show_display` is set the address is displayed to the user.  In any
-case, it is also sent to the computer with a `Address` response.
+case, it is also sent to the computer with an `Address` response.
   
 GetPublicKey
 ------------
@@ -182,13 +183,15 @@ the number of the output requested (starting with zero).  If
 `details.tx_hash` is set, this is an output of a previous transaction
 and the `tx.bin_outputs[0]` field must be filled in the `TxAck` reply.
 Otherwise, the `tx.outputs[0]` field must be filled.  For change
-outputs, the field `address_n` and optionally `multisig` should be
-filled.  The `script_type` should be `PAYTOADDRESS`, `PAYTOMULTISIG`,
-`PAYTOWITNESS` or `PAYTOP2SHWITNESS` matching the corresponding cases
-for inputs.  For `OP_RETURN` outputs, set `script_type =
-PAYTOOPRETURN` and set the `op_return_data` field.  Otherwise
-`address` should be set to a base58 encoded address and `script_type`
-to `PAYTOADDRESS`.  Older firmware required `script_type =
+outputs, the field `address_n` must be filled and `address` must be
+omitted.   If the change is multisig, the `multisig` must be
+filled and it must use the same extended public keys as all inputs.
+For a change address, the `script_type` should be `PAYTOADDRESS`,
+`PAYTOMULTISIG`, `PAYTOWITNESS` or `PAYTOP2SHWITNESS` matching the
+corresponding cases `SPEND...` for inputs.  For `OP_RETURN` outputs,
+set `script_type = PAYTOOPRETURN` and set the `op_return_data` field.
+Otherwise `address` should be set to a base58 encoded address and
+`script_type` to `PAYTOADDRESS`.  Older firmware required `script_type =
 PAYTOSCRIPTHASH` for p2sh addresses, though (and newer firmware still
 support this).
 	   
