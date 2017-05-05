@@ -31,7 +31,7 @@ Setting up Wordpress Plugin
 After logging into your admin Wordpress account
 
 - Go to Plugins section, click on Add New
-- Search for Trezor Connect Plugin and install it
+- Search for TREZOR Connect Plugin and install it
 - After successful installation, activate the plugin
 - Go to TREZOR Connect section to set image for signing window
 

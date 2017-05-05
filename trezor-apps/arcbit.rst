@@ -49,9 +49,9 @@ Properties and Features
 =================================================== =================== ===========================================================================================================
 Wallet Property                                                         Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
-:icon:`laptop` Platform                 			✔                   iOS
-:icon:`money` Coin(s)                   			✔                   Bitcoin
+:icon:`laptop` Platform                             ✔                   iOS
+:icon:`money` Coin(s)                               ✔                   Bitcoin
 :icon:`language` Languages                          ✔                   English
 :icon:`eye-slash` Watch-only mode                   ✔                   Importing watch-only account and generating new receiving address
-:icon:`bars` Multiple Accounts           			✔					Capable of working with multiple accounts
+:icon:`bars` Multiple Accounts                      ✔                   Capable of working with multiple accounts
 =================================================== =================== ===========================================================================================================

@@ -23,17 +23,14 @@ Pictures have to be in the required format (128 x 64 px; black & white only).
 
 Done!
 
-
 .. image:: images/homescreen-trezor.png
-	:width: 50%
-
+    :width: 50%
 
 
 2. Use TREZOR Homescreen Editor
 -------------------------------
 
 .. image:: images/homescreen-cropper.png
-
 
 - 1. Please click on the `homescreen editor <https://trezor.github.io/homescreen-editor/>`_ link if you wish to set your own picture as a TREZOR homescreen. You will be taken to another website.
 - 2. Upload a picture from your harddrive or insert a link to the picture from the Internet
@@ -51,9 +48,7 @@ The simplest way to change your homescreen is to use a picture in our gallery.
 - 1. Select your desired picture in the gallery
 - 2. Click the **Set as Homescreen** button in the preview area. You will be asked to confirm the action on your TREZOR device.
 
-
 .. image:: images/homescreen-trezor.png
-	:width: 50%
-
+    :width: 50%
 
 Done!

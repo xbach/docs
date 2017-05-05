@@ -108,32 +108,38 @@ Properties and Features
 =================================================== =================== ===========================================================================================================
 Wallet Property
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:icon:`laptop` Platform                 			✔                   Windows, Linux, OSX with Chrome Extension
-:icon:`money` Coin(s)                   			✔                   Bitcoin
+:icon:`laptop` Platform                             ✔                   Windows, Linux, OSX with Chrome Extension
+:icon:`money` Coin(s)                               ✔                   Bitcoin
 :icon:`language` Languages                          ✔                   English, Spanish, German, Italian, Japaneese and many others.
 :icon:`book` Address Book                           ✔                   Manage contact list of receiving and sending addresses
-:icon:`comment` Labelling                			✔ 					Add comments and labels to accounts and transactions
-:icon:`bell-o` Notifications              			✔ 					Transaction notifications via email or SMS
+:icon:`comment` Labelling                           ✔                   Add comments and labels to accounts and transactions
+:icon:`bell-o` Notifications                        ✔                   Transaction notifications via email or SMS
+=================================================== =================== ===========================================================================================================
+
+=================================================== =================== ===========================================================================================================
 TREZOR Feature
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:icon:`exchange` Simple transactions    			✔					Sign transaction with TREZOR and confirm address and amount on display
+:icon:`exchange` Simple transactions                ✔                   Sign transaction with TREZOR and confirm address and amount on display
 :icon:`users` Multisig transactions                 ✔                   Sign shared (multisignature) transaction with TREZOR
-:icon:`user-secret` Hidden Wallets  			    ✔                   User can access hidden wallets each behind arbitrary passphrase
-:icon:`bars` Multiple Accounts           			✔					Capable of creating and working with multiple accounts
-:icon:`th` Smart PIN Matrix             			✔					Keylogger protection, displaying PIN matrix on TREZOR's display
+:icon:`user-secret` Hidden Wallets                  ✔                   User can access hidden wallets each behind arbitrary passphrase
+:icon:`bars` Multiple Accounts                      ✔                   Capable of creating and working with multiple accounts
+:icon:`th` Smart PIN Matrix                         ✔                   Keylogger protection, displaying PIN matrix on TREZOR's display
 :icon:`eye-slash` Watch-only mode                   ✔                   Remembering account, generating new receiving address with TREZOR disconected
-:icon:`eye`  Show on TREZOR     			          					Phishing protection, validation receiving address on TREZOR
+:icon:`eye`  Show on TREZOR                                             Phishing protection, validation receiving address on TREZOR
 :icon:`envelope` Sign & Verify Message                                  Securely sign and verify short text
 :icon:`lock` Wallet Encryption                                          Wallet can be decrypted and opened using TREZOR only
 :icon:`lock` Sign in with TREZOR                                        TREZOR is used for online authentication without using username and password
+=================================================== =================== ===========================================================================================================
+
+=================================================== =================== ===========================================================================================================
 TREZOR Management
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:icon:`cog` Basic Setup                 			                    Generate new wallet with recovery seed, set PIN and label device
-:icon:`life-ring` Safe Recovery         			                    Recover TREZOR by safely entering your recovery seed (12, 18 or 24 words)
-:icon:`sliders` Change PIN              			                    User can change TREZOR's PIN
-:icon:`sliders` Change Name          			   	                    User can change TREZOR's name
-:icon:`paint-brush` Custom Homescreen            	 					User can upload personalized default screen
-:icon:`upload`  Update Firmware         			   					Notify user and update firmware when new version is available
-:icon:`fire` Wipe device                 			 					Erase private keys from TREZOR
+:icon:`cog` Basic Setup                                                 Generate new wallet with recovery seed, set PIN and label device
+:icon:`life-ring` Safe Recovery                                         Recover TREZOR by safely entering your recovery seed (12, 18 or 24 words)
+:icon:`sliders` Change PIN                                              User can change TREZOR's PIN
+:icon:`sliders` Change Name                                             User can change TREZOR's name
+:icon:`paint-brush` Custom Homescreen                                   User can upload personalized default screen
+:icon:`upload`  Update Firmware                                         Notify user and update firmware when new version is available
+:icon:`fire` Wipe device                                                Erase private keys from TREZOR
 :icon:`magnet` Fast Recovery                                            Recover by directly loading seed into TREZOR, fast but less safe way to recover wallet
 =================================================== =================== ===========================================================================================================

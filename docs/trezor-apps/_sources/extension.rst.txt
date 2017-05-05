@@ -54,21 +54,21 @@ Properties and Features
 =================================================== =================== ===========================================================================================================
 Software Property                                                       Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
-:icon:`laptop` Platform                 			✔                   desktop & mobile using Chrome extension
+:icon:`laptop` Platform                             ✔                   desktop & mobile using Chrome extension
 :icon:`language` Languages                          ✔                   English
 =================================================== =================== ===========================================================================================================
 
 =================================================== =================== ===========================================================================================================
-Trezor Management Feature                                               Description
+TREZOR Management Feature                                               Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
-:icon:`cog` Basic Setup                 			✔                   Generate new wallet with recovery seed, set PIN and label device
-:icon:`life-ring` Safe Recovery         			✔                   Recover TREZOR by safely entering your recovery seed (12, 18 or 24 words)
-:icon:`th`   Smart PIN Matrix           			✔					Keylogger protection, displaying PIN matrix on TREZOR's display
-:icon:`sliders` Change PIN              			✔                   User can change TREZOR's PIN
-:icon:`sliders` Change Name          			   	✔                   User can change TREZOR's name
-:icon:`paint-brush` Custom Homescreen            	 					User can upload personalized default screen
-:icon:`user-secret` Manage Passphprase  			✔                   User can turn on/off passphrase used with hidden wallets
-:icon:`upload`  Update Firmware         			✔  					Notify user and update firmware when new version is available
-:icon:`fire` Wipe device                 			✔					Erase private keys from TREZOR
+:icon:`cog` Basic Setup                             ✔                   Generate new wallet with recovery seed, set PIN and label device
+:icon:`life-ring` Safe Recovery                     ✔                   Recover TREZOR by safely entering your recovery seed (12, 18 or 24 words)
+:icon:`th`   Smart PIN Matrix                       ✔                   Keylogger protection, displaying PIN matrix on TREZOR's display
+:icon:`sliders` Change PIN                          ✔                   User can change TREZOR's PIN
+:icon:`sliders` Change Name                         ✔                   User can change TREZOR's name
+:icon:`paint-brush` Custom Homescreen                                   User can upload personalized default screen
+:icon:`user-secret` Manage Passphprase              ✔                   User can turn on/off passphrase used with hidden wallets
+:icon:`upload`  Update Firmware                     ✔                   Notify user and update firmware when new version is available
+:icon:`fire` Wipe device                            ✔                   Erase private keys from TREZOR
 :icon:`magnet` Fast Recovery                                            Recover by directly loading seed into TREZOR, fast but less safe way to recover wallet
 =================================================== =================== ===========================================================================================================

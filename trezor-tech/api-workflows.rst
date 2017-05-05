@@ -109,7 +109,7 @@ messages to authenticate the user.  See the corresponding sections
 above.  It may also send a `ButtonRequest` at any time to indicate
 that the user should confirm a transaction output or the total fee.
 
-Then the main process begins and Trezor will respond with `TxRequest`
+Then the main process begins and TREZOR will respond with `TxRequest`
 messages, which should be answered by `TxAck` message.  A `TxRequest`
 message has up to three parts.
 
@@ -194,7 +194,7 @@ Otherwise `address` should be set to a base58 encoded address and
 `script_type` to `PAYTOADDRESS`.  Older firmware required `script_type =
 PAYTOSCRIPTHASH` for p2sh addresses, though (and newer firmware still
 support this).
-	   
+
 SignMessage/VerifyMessage
 -------------------------
 

@@ -29,7 +29,7 @@ In Basic settings, reveal your account public keys by clicking on Show XPUBs and
 
 Now install Sentinel app on your phone or tablet. When it opens, select Scan option and scan QR code in TREZOR Wallet corresponding to selected account public key.
 If your camera doesn't work, select Manual option instead and type the public key in. After you confirm it, Sentinel will download all transactions
-related to the imported account. 
+related to the imported account.
 
 .. image:: images/sentinel01.png
          :scale: 75 %
@@ -43,9 +43,9 @@ Properties and Features
 =================================================== =================== ===========================================================================================================
 Wallet Property                                                         Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
-:icon:`laptop` Platform                 			✔                   Android
-:icon:`money` Coin(s)                   			✔                   Bitcoin
-:icon:`language` Languages                          ✔                   English                   
+:icon:`laptop` Platform                             ✔                   Android
+:icon:`money` Coin(s)                               ✔                   Bitcoin
+:icon:`language` Languages                          ✔                   English
 :icon:`eye-slash` Watch-only mode                   ✔                   Importing watch-only account and generating new receiving address
-:icon:`bars` Multiple Accounts           			✔					Capable of working with multiple accounts
+:icon:`bars` Multiple Accounts                      ✔                   Capable of working with multiple accounts
 =================================================== =================== ===========================================================================================================

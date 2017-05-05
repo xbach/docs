@@ -22,16 +22,16 @@ TREZOR User Manual
 Deposit funds with TREZOR
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-With Bitstamp, users gain a convenient new way to transfer bitcoins directly from their Trezor wallet to an account.
+With Bitstamp, users gain a convenient new way to transfer bitcoins directly from their TREZOR wallet to an account.
 This feature is great for everyone who loves TREZOR security.
 
 1) Log into Bitstamp account.
-2) Go to Deposit -> Bitcoin -> HW Wallet -> Trezor.
+2) Go to Deposit -> Bitcoin -> HW Wallet -> TREZOR.
 3) Select desired amount and click on "Deposit".
 4) Connect your TREZOR and follow the instructions.
 5) Authenticate to your TREZOR with PIN/Passphrase.
 6) Choose the account you want to send the bitcoins from.
-7) Check and confirm the transaction on the Trezor screen. Done.
+7) Check and confirm the transaction on the TREZOR screen. Done.
 
 
 .. image:: images/bitstamp.gif
@@ -41,7 +41,7 @@ Withdrawal funds with TREZOR
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1) Log into Bitstamp account.
-2) Go to Withdrawal -> Bitcoin -> HW Wallet -> Trezor.
+2) Go to Withdrawal -> Bitcoin -> HW Wallet -> TREZOR.
 3) Connect your TREZOR and follow the instructions.
 4) Authenticate to your TREZOR with PIN/Passphrase.
 5) Choose the account you want to send the bitcoins to.

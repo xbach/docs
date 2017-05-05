@@ -43,7 +43,7 @@ Why should I do a paper backup of my seed?
 We think paper backups are the easiest and safest way of storing such information for a common computer user. Computer backups, on the contrary, are vulnerable to hardware damage and subject to frequent hacker attacks.
 
 
-If somebody steals my Trezor, they'll just empty out my wallet before I have the chance to restore anyway. Right?
+If somebody steals my TREZOR, they'll just empty out my wallet before I have the chance to restore anyway. Right?
 -----------------------------------------------------------------------------------------------------------------
 
 Not at all. All operations on TREZOR require the user to enter a **PIN**. The attacker would have to guess your PIN which is very difficult because with each badly entered PIN the time for entering it anew increases exponentially. For example, the delay between 19th and 20th PIN entering is 35 hours. Unplugging and plugging the device won’t help. The thief would have to sit his life off entering the PINs. Meanwhile, you have enough time to move your funds into a new device or wallet from the paper backup.

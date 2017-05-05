@@ -28,7 +28,7 @@ Sign in with TREZOR
 
 Before you can Sign in with TREZOR, you need **to pair your device with Cashila account**.
 
-1) Log in and select Account > Pair Trezor.
+1) Log in and select Account > Pair TREZOR.
 2) Connect your device and click on Pair with TREZOR button.
 3) Confirm the action on TREZOR.
 4) Authenticate to your TREZOR with PIN.
@@ -38,21 +38,21 @@ Before you can Sign in with TREZOR, you need **to pair your device with Cashila 
 
 From now on, you will be able to Sign in with TREZOR and do not worry that your password might be stolen by a keylogger ever again.
 
-In case you ever need to **unlink your TREZOR**, just go to Account > Pair Trezor and click on Disable button.
+In case you ever need to **unlink your TREZOR**, just go to Account > Pair TREZOR and click on Disable button.
 You will get confirmation that your TREZOR link was removed. Of course, you can easily relink the device again whenever you want.
 
 Pay with TREZOR
 ^^^^^^^^^^^^^^^
 
-With Cashila, users gain a convenient new way to transfer bitcoins directly from their Trezor wallet to a bank account of their choice.
+With Cashila, users gain a convenient new way to transfer bitcoins directly from their TREZOR wallet to a bank account of their choice.
 Pay with TREZOR feature will be appreciated by all users who would like to pay bills with bitcoins or cash out in a simple manner:
 
 1) Log into Cashila account.
 2) Go to Pay > Send. Enter all of the necessary payment details.
 3) Click the Next button, and connect your TREZOR.
-4) As payment option choose Trezor
+4) As payment option choose TREZOR
 5) Authenticate to your TREZOR with PIN.
 6) Choose the account you want to send the bitcoins from.
-7) Check and confirm the transaction on the Trezor screen. Done.
+7) Check and confirm the transaction on the TREZOR screen. Done.
 
 .. image:: images/cashila04.png

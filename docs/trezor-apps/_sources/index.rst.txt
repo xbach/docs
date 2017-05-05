@@ -9,7 +9,7 @@ Except for `TREZOR Wallet <https://wallet.trezor.io>`_, you can use your TREZOR 
 - `Online Services <index.html#using-trezor-with-online-services>`_
 - `Recovering Funds <index.html#recovering-funds-without-trezor-device>`_
 
-Using TREZOR With Bitcoin and Altcoin Wallets 
+Using TREZOR With Bitcoin and Altcoin Wallets
 ---------------------------------------------
 
 The following **client wallets** let you connect TREZOR and work with it. They don't actually hold any private keys, instead they display balances and help you to manage transactions.
@@ -17,16 +17,16 @@ The following **client wallets** let you connect TREZOR and work with it. They d
 ==================================================== ======================== ====================== ====================== ======================= ====================== ======================= ====================== ====================== ====================== ======================
 Supported TREZOR features
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Wallet                                               :icon:`cog`              :icon:`life-ring`      :icon:`exchange`       :icon:`users`           :icon:`user-secret`    :icon:`bars`            :icon:`eye-slash`      :icon:`eye`            :icon:`upload`         :icon:`fire`          
+Wallet                                               :icon:`cog`              :icon:`life-ring`      :icon:`exchange`       :icon:`users`           :icon:`user-secret`    :icon:`bars`            :icon:`eye-slash`      :icon:`eye`            :icon:`upload`         :icon:`fire`
 `ArcBit <arcbit.html>`_                                                                                                                                                                            ✔                       ✔
 `Blockonomics <blockonomics.html>`_                                                                                                                                                ✔                       ✔
-`Copay <copay.html>`_	                                                                             ✔                      ✔                       ✔                      ✔                       ✔                                              
+`Copay <copay.html>`_                                                                                ✔                      ✔                       ✔                      ✔                       ✔
 `Chrome Extension <extension.html>`_                 ✔                        ✔                                                                     ✔                                                                                            ✔                      ✔
 `Electrum <electrum.html>`_                          ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `Electrum-DASH <electrum-dash.html>`_                ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `Electrum-LTC <electrum-ltc.html>`_                  ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `Encompass <encompass.html>`_                        ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
-`MultiBit HD <multibit.html>`_                       ✔                                               ✔                                                                                             ✔                                                                    ✔                   
+`MultiBit HD <multibit.html>`_                       ✔                                               ✔                                                                                             ✔                                                                    ✔
 `Mycelium <mycelium.html>`_                                                                          ✔                                              ✔                      ✔                       ✔
 `TREZOR Wallet <trezorwallet.html>`_                 ✔                        ✔                      ✔                                              ✔                      ✔                       ✔                      ✔                      ✔                      ✔
 `Sentinel <sentinel.html>`_                                                                                                                                                ✔                       ✔
@@ -42,7 +42,7 @@ LEGEND |
 :icon:`eye-slash` Watch-only mode |
 :icon:`eye` Show on TREZOR |
 :icon:`upload` Update Firmware |
-:icon:`fire` Wipe device | 
+:icon:`fire` Wipe device |
 
 .. :icon:`th` Smart PIN Matrix |
 
@@ -51,7 +51,7 @@ Using TREZOR With Online Services
 
 .. image:: images/photo01.png
 
-Following websites allow you a secure password-less **Sign in with TREZOR** or other great bitcoin related services, 
+Following websites allow you a secure password-less **Sign in with TREZOR** or other great bitcoin related services,
 e.g. creating invoices from your TREZOR accounts. Click on the name of a service for more details.
 
 ==================================================== ===================================== ==============================================================================================
@@ -62,17 +62,17 @@ Service                                              Feature(s)                 
 `Cashila <cashila.html>`_                            :icon:`lock` :icon:`exchange`         Payment processor. Pay your Euro bills with Bitcoin.
 `Coinmap <coinmap.html>`_                            :icon:`lock` :icon:`umbrella`         Map of bitcoin shops and businesses.
 `Coinpayments <coinpayments.html>`_                  :icon:`lock`                          Payment processor service supporting various cryptocurrencies.
-`Osclass <osclass.html>`_                            :icon:`lock`                          Open-source platform for easy creation of classifieds sites. 
-`Strip4Bit <strip4bit.html>`_                        :icon:`lock` :icon:`umbrella`         Adult site allowing users to sign up privately in a secure way. 
+`Osclass <osclass.html>`_                            :icon:`lock`                          Open-source platform for easy creation of classifieds sites.
+`Strip4Bit <strip4bit.html>`_                        :icon:`lock` :icon:`umbrella`         Adult site allowing users to sign up privately in a secure way.
 `Wordpress <wordpress.html>`_                        :icon:`lock`                          Blog hosting and publishing platform.
 ==================================================== ===================================== ==============================================================================================
 
 .. `Drupal CMS <drupal.html>`_                       :icon:`lock`                          Content management platform.
 .. `Slush pool <slush-pool.html>`_                   :icon:`lock`, :icon:`umbrella`        The first mining pool ever and inventor of mining concept.
-.. `CoinSimple <coinsimple.html>`_                   :icon:`lock`  	                       Bitcoin invoicing service and wallet connector.
+.. `CoinSimple <coinsimple.html>`_                   :icon:`lock`                          Bitcoin invoicing service and wallet connector.
 
-LEGEND | 
-:icon:`lock` `Sign in with TREZOR <../trezor-tech/api-connect.html>`_ | 
+LEGEND |
+:icon:`lock` `Sign in with TREZOR <../trezor-tech/api-connect.html>`_ |
 :icon:`umbrella` Sign up with TREZOR | :icon:`exchange` Move funds directly from/to TREZOR
 
 Recovering Funds without TREZOR Device
@@ -81,7 +81,7 @@ Recovering Funds without TREZOR Device
 .. image:: images/photo03.png
 
 In case your TREZOR device gets lost or damaged, you can access your bitcoins fast using your :download:`paper backup <../trezor-user/images/recovery_card.pdf>` and one of the following wallets:
- 
+
 - `ArcBit <http://arcbit.io>`_ (iOS)
 - `Copay <https://copay.io>`_ (Linux, Windows, OSX, Android, iOS, Windows phone)
 - `Electrum <https://electrum.org/#download>`_ (Linux, Windows, OSX, Android), `recovery manual <https://www.buybitcoinworldwide.com/kb/restore-trezor-seed-electrum>`_
@@ -112,7 +112,7 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
 .. toctree::
    :hidden:
    :maxdepth: 1
-   
+
    arcbit
    bitex
    bitstamp
@@ -121,14 +121,14 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    extension
    cashila
    coinmap
-   coinpayments  
+   coinpayments
    copay
-   electrum 
+   electrum
    electrum-dash
    electrum-ltc
-   encompass 
-   multibit 
-   mycelium 
+   encompass
+   multibit
+   mycelium
    osclass
    sentinel
    sshagent
@@ -136,5 +136,3 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    trezorandroidmanager
    trezorwallet
    wordpress
-  
-   
