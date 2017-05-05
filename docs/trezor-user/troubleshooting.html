@@ -110,7 +110,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#trezor-wallet-stops-responding">TREZOR Wallet stops responding:</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#trezor-wallet-shows-broken-or-confusing-account-information">TREZOR Wallet shows broken or confusing account information</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#firmware-update-went-wrong">Firmware update went wrong</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#contact-support">Contact support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contact-support">Contact Support</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="emergency.html">Emergency situations</a><ul>
@@ -329,9 +329,22 @@ Unofficial firmware
 <li>Restart the computer</li>
 </ol>
 </div>
+<div class="section" id="trezor-bootloader-1-3-0-how-to-update-firmware">
+<h3>TREZOR Bootloader 1.3.0: How to update firmware<a class="headerlink" href="#trezor-bootloader-1-3-0-how-to-update-firmware" title="Permalink to this headline">¶</a></h3>
+<p>There is a small issue with TREZOR Bootloader 1.3.0, which prevents the device from being properly recognized if a user holds the device buttons pressed for a longer-than-necessary amount of time. The problem can be resolved by pressing the buttons only for a short amount of time (click) when entering Bootloader mode.</p>
+<ol class="arabic simple">
+<li>Open <a class="reference external" href="https://wallet.trezor.io">https://wallet.trezor.io</a>.</li>
+<li>Plug micro-USB into TREZOR.</li>
+<li>Align USB-A to a port on your computer.</li>
+<li>Plug the USB-A into your computer. At the same time, click both buttons on your TREZOR.</li>
+<li>The device should boot up in Bootloader mode, and the computer should recognize it.</li>
+<li>If the computer does not recognize your TREZOR, please try again. Timing is essential.</li>
+<li>Windows users, please check Device Manager if TREZOR is not recognized repeatedly.</li>
+</ol>
+</div>
 </div>
 <div class="section" id="contact-support">
-<h2>Contact support<a class="headerlink" href="#contact-support" title="Permalink to this headline">¶</a></h2>
+<h2>Contact Support<a class="headerlink" href="#contact-support" title="Permalink to this headline">¶</a></h2>
 <p>If you encountered any other problem or suggested solutions didn&#8217;t solve your issue, please contact our <a class="reference external" href="mailto:support&#37;&#52;&#48;trezor&#46;io">Customer Support</a>.</p>
 </div>
 </div>
