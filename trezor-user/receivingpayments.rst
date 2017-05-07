@@ -28,7 +28,7 @@ Here's an example of what you see on your TREZOR display after clicking "Show on
 
 You may also use the "More please +" button to create more receiving addresses. Why would you want more addresses? Say you use the first address to receive your salary. You can tell when your employer has paid you because you receive bitcoins on that address. Now, you want to sell your lawnmower to Bob. How do you know when Bob has paid you and which payment came from Bob? You can create a new bitcoin address specially for Bob. When bitcoins come into that address you know that its Bob paying you and not your employer.
 
-.. hint:: Also read about using `multiple accounts <http://doc.satoshilabs.com/trezor-user/advanced_features.html#using-multiple-accounts>`_ for better privacy
+.. hint:: Also read about using `multiple accounts <https://doc.satoshilabs.com/trezor-user/advanced_features.html#using-multiple-accounts>`_ for better privacy
 
 Confirming that a payment has been received
 -------------------------------------------
@@ -44,4 +44,3 @@ At first, the transaction will be marked as "unconfirmed".  If a transaction is 
 Once a transaction is confirmed, the bitcoins are yours. There is no risk of a payment reversal or a chargeback.
 
 .. _`QR code`: http://www.whatisaqrcode.co.uk/
-

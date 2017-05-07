@@ -18,7 +18,7 @@ Resources
 - `Website <https://wordpress.org/plugins/trezor-connect-plugin>`_
 - `Souce code <https://github.com/trezor/trezor-wordpress-plugin>`_
 - `Support (email) <mailto:support@trezor.io>`_
-- `Blog <https://blog.trezor.io>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/BitcoinTrezor>`_, `Reddit <http://www.reddit.com/r/TREZOR/>`_
+- `Blog <https://blog.trezor.io>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/BitcoinTrezor>`_, `Reddit <https://www.reddit.com/r/TREZOR/>`_
 
 .. image:: images/wordpress00.png
 

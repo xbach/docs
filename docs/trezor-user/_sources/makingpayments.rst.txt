@@ -21,7 +21,7 @@ You can send bitcoins to multiple addresses with one transaction by pressing the
 
 .. image:: images/send-multisend.png
 
-This is both convenient and saves you money in transaction fees, which you can now also set manually. There is 4 different levels of priority (high, normal, economy, low) and the fee amount and estimated confirmation time is based on `bitcoinfees.21.co <http://bitcoinfees.21.co>`_ service.
+This is both convenient and saves you money in transaction fees, which you can now also set manually. There is 4 different levels of priority (high, normal, economy, low) and the fee amount and estimated confirmation time is based on `bitcoinfees.21.co <https://bitcoinfees.21.co>`_ service.
 
 .. image:: images/send-fees.png
 

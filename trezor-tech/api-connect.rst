@@ -11,9 +11,7 @@ TREZOR Connect is a platform for easy integration of **Login with TREZOR** into 
 
 TREZOR is known as the most secure bitcoin hardware wallet. TREZOR Connect expands its application to the most secure user authentication device. It allows a **password-less login immune to keyloggers or phishing** that provides a simple fluid interface for users with basic computer skills.
 
-Within the first 4 months since official release, the device was embraced by users in over 70 countries and greatly reviewed by security experts as `the most sophisticated authenticator device in the world <http://www.coindesk.com/whats-next-bitcoin-wallet-security>`_
-
-Learn more about the `TREZOR Security and Login with TREZOR <http://satoshilabs.com/news/2015-04-07-trezor-firmware-1-3-3-connect-api>`_ before implementing this API.
+Within the first 4 months since official release, the device was embraced by users in over 70 countries and greatly reviewed by security experts as `the most sophisticated authenticator device in the world <https://www.coindesk.com/whats-next-bitcoin-wallet-security>`_
 
 How it works
 ------------

@@ -43,7 +43,7 @@ At the moment no other payment methods are accepted at TREZOR Shop. However gett
 
 2. ATM:
 
-- `CoinAtmRadar.com <http://coinatmradar.com/>`_
+- `CoinAtmRadar.com <https://coinatmradar.com/>`_
 
 3. Buy from exchange:
 
@@ -54,7 +54,7 @@ At the moment no other payment methods are accepted at TREZOR Shop. However gett
 
 4. Finding other means of exchange in your area
 
-- `HowToBuyBitcoins.info <http://howtobuybitcoins.info/>`_
+- `HowToBuyBitcoins.info <https://howtobuybitcoins.info/>`_
 
 `More ways to buy a TREZOR <#how-to-buy-a-trezor>`_.
 

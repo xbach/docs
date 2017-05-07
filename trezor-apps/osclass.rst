@@ -7,7 +7,7 @@ What is Osclass?
 ------------------
 
 `Osclass <https://osclass.org>`_ is an open source platform that allows you to easily create a `classifieds site <https://osclass.org/showcase>`_ without any technical knowledge. 
-Thanks to `TREZOR Connect plugin <http://market.osclass.org/plugins/security/trezor-connect_242>`_, admins can now add **Sign in with TREZOR** button to their sites with just a few clicks and
+Thanks to `TREZOR Connect plugin <https://market.osclass.org/plugins/security/trezor-connect_242>`_, admins can now add **Sign in with TREZOR** button to their sites with just a few clicks and
 enable their users to login securely without password.
 
 Sites using TREZOR Connect plugin
@@ -21,7 +21,7 @@ Resources
 ^^^^^^^^^
 
 - `Website <https://osclass.org>`_
-- `Plugin download <http://market.osclass.org/plugins/security/trezor-connect_242>`_
+- `Plugin download <https://market.osclass.org/plugins/security/trezor-connect_242>`_
 - `Plugin source code <https://github.com/conejoninja/osclass-trezor>`_
 
 .. Installing the plugin
