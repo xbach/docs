@@ -127,6 +127,7 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    electrum-dash
    electrum-ltc
    encompass
+   mew
    multibit
    mycelium
    osclass
