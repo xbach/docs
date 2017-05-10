@@ -70,7 +70,7 @@ Can I change my order?
 
 **For an order placed but not paid:**
 
-Simply leave it unpaid and create a new order as you desire. All unpaid orders are automatically canceled after 6 hours.
+Simply leave it unpaid and create a new order as you desire. All unpaid orders are automatically canceled after 24 hours.
 
 **For an order already paid but not shipped yet:**
 
