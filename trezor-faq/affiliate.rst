@@ -34,7 +34,7 @@ Where can I find useful information and updates about TREZOR?
 
 You are free to use any of the content found on these websites providing you link to the source of it.
 
-`TREZOR User Manual <http://doc.satoshilabs.com/trezor-user/>`_ is a great place to find:
+`TREZOR User Manual <https://doc.satoshilabs.com/trezor-user/>`_ is a great place to find:
 
 - precise information on how TREZOR works
 - a lot of screenshots and photos
@@ -42,7 +42,7 @@ You are free to use any of the content found on these websites providing you lin
 
 Other great sources of information are:
 
-- `TREZOR FAQ <http://doc.satoshilabs.com/trezor-faq/index.html>`_
+- `TREZOR FAQ <https://doc.satoshilabs.com/trezor-faq/index.html>`_
 - `trezor.io - product pages <https://trezor.io/>`_
 - `Facebook pages <https://www.facebook.com/BitcoinTrezor>`_
 - `Twitter <https://twitter.com/bitcointrezor>`_

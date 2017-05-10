@@ -13,9 +13,9 @@ You can download the latest version of `TREZOR Bridge <https://wallet.trezor.io/
 TREZOR Chrome Extension
 -----------------------
 
-`TREZOR Chrome Extension <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_ is a convenient way of using TREZOR with the `Google Chrome <http://www.google.com/chrome/>`_ browser without the need to install proprietary software on your computer.
+`TREZOR Chrome Extension <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_ is a convenient way of using TREZOR with the `Google Chrome <https://www.google.com/chrome/>`_ browser without the need to install proprietary software on your computer.
 
-For a more detailed description of how it works and how to install it please visit the following `user manual post <http://doc.satoshilabs.com/trezor-user/settingupchromeonlinux.html>`_ or `GitHub repository <https://github.com/trezor/trezor-chrome-extension>`_.
+For a more detailed description of how it works and how to install it please visit the following `user manual post <https://doc.satoshilabs.com/trezor-user/settingupchromeonlinux.html>`_ or `GitHub repository <https://github.com/trezor/trezor-chrome-extension>`_.
 
 
 TREZOR Password Manager (Chrome Extension)
@@ -49,4 +49,4 @@ Seed recovery card
 
 You can print more recovery cards and store them at different physical locations.
 
-Cards are available for download `here <http://doc.satoshilabs.com/trezor-user/_downloads/recovery_card.pdf>`_.
+Cards are available for download `here <https://doc.satoshilabs.com/trezor-user/_downloads/recovery_card.pdf>`_.

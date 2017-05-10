@@ -37,7 +37,7 @@ What kind of hardware specs does the TREZOR have?
 Why does TREZOR not have a fingerprint reader?
 ----------------------------------------------
 
-We believe adding a biometric finger scanner to the device would decrease its security. There are ways to hack the fingerprint reader already (`apple iphone hacked <http://www.theguardian.com/technology/2013/sep/22/apple-iphone-fingerprint-scanner-hacked>`_).
+We believe adding a biometric finger scanner to the device would decrease its security. There are ways to hack the fingerprint reader already (`apple iphone hacked <https://www.theguardian.com/technology/2013/sep/22/apple-iphone-fingerprint-scanner-hacked>`_).
 
 
 Is the display of TREZOR big enough to show the entire address?

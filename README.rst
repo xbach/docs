@@ -1,7 +1,7 @@
 SatoshiLabs Documentation Tree
 ==============================
 
-Deployed on http://doc.satoshilabs.com/
+Deployed on https://doc.satoshilabs.com/
 
 Contents
 --------

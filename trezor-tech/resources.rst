@@ -27,4 +27,4 @@ Git repositories
 Security
 --------
 
-- `Responsible Disclosure <http://satoshilabs.com/security/>`_
+- `Responsible Disclosure <https://satoshilabs.com/security/>`_

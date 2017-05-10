@@ -7,7 +7,7 @@ Sentinel
 What is Sentinel?
 -------------------------
 
-`Sentinel <http://samouraiwallet.com/sentinel/index.html>`_ is an Android app which lets you safely watch over your TREZOR transactions.
+`Sentinel <https://samouraiwallet.com/sentinel.html>`_ is an Android app which lets you safely watch over your TREZOR transactions.
 Scan one or more of your account publics keys (XPUBs) and Sentinel will keep a close watch, alerting you of any new incoming transactions.
 It also allows you to generate new receive addresses, so you can receive bitcoin payments directly into selected TREZOR account.
 Sentinel cannot create transactions or send your bitcoins, it is only useful as a **watch only wallet**.
@@ -15,7 +15,7 @@ Sentinel cannot create transactions or send your bitcoins, it is only useful as 
 Resources
 ^^^^^^^^^
 
-- `Website <http://samouraiwallet.com/sentinel/index.html>`_
+- `Website <https://samouraiwallet.com/sentinel.html>`_
 - `Download <https://play.google.com/store/apps/details?id=com.samourai.sentinel>`_
 - `Support <mailto:wallet@samouraiwallet.com>`_, `Twitter <https://twitter.com/samouraiwallet>`_, `Blog <http://blog.samouraiwallet.com>`_
 

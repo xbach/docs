@@ -95,7 +95,7 @@ In case your TREZOR device gets lost or damaged, you can access your bitcoins fa
 .. - `Coinkite <https://coinkite.com>`_ - Standard and multisig wallet planned
 .. - `Coyno <https://beta.coyno.com/>`_ - Watch-only wallet service in beta phase
 .. - `Drupal CMS <https://www.drupal.org>`_ - Sign in with TREZOR work in progress
-.. - `Slush pool <http://mining.bitcoin.cz/home/>`_ - Sign in with TREZOR work in progress
+.. - `Slush pool <https://slushpool.com/>`_ - Sign in with TREZOR work in progress
 .. - `Bitstock <https://www.bitstock.com>`_ - Sign in with TREZOR planned
 .. - `Bitstamp <https://www.bitstamp.net>`_ - Sign in with TREZOR planned
 

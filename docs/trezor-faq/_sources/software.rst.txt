@@ -34,7 +34,7 @@ We love this picture, it explains it all:
 
 .. image:: images/password_strength.png
 
-Comic by `XKCD: Randall Munroe <http://xkcd.com/>`_, licensed under `Creative Commons Attribution-NonCommercial 2.5 License <http://creativecommons.org/licenses/by-nc/2.5/>`_.
+Comic by `XKCD: Randall Munroe <https://xkcd.com/>`_, licensed under `Creative Commons Attribution-NonCommercial 2.5 License <https://creativecommons.org/licenses/by-nc/2.5/>`_.
 
 
 Why should I do a paper backup of my seed?

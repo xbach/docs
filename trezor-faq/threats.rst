@@ -9,8 +9,8 @@ What happens if my TREZOR gets stolen?
 
 The short answers:
 
-- No. Each TREZOR has a `PIN code <http://doc.satoshilabs.com/trezor-user/enteringyourpin.html>`_ to prevent misuse in case of a physical theft.
-- Yes. See `recovery <http://doc.satoshilabs.com/trezor-user/recovery.html>`_.
+- No. Each TREZOR has a `PIN code <https://doc.satoshilabs.com/trezor-user/enteringyourpin.html>`_ to prevent misuse in case of a physical theft.
+- Yes. See `recovery <https://doc.satoshilabs.com/trezor-user/recovery.html>`_.
 
 Just how easy (or hard) is it to get some bitcoins out of a stolen TREZOR?
 
@@ -32,7 +32,7 @@ Official TREZOR firmware is signed by the SatoshiLabs master key.  Installing un
 Inspect the TREZORs memory with an electron microscope
 ------------------------------------------------------
 
-You might imagine yourself `dissolving the TREZOR CPU in acid <http://zeptobars.ru/en/read/OPA627-AD744-real-vs-fake-china-ebay>`_, finding the reprogramming fuse, repairing it, and then loading evil firmware on the TREZOR.  I'm no science fiction author, but my guess is -- this might be possible.  However, the Cortex M3 is a sensitive multilayer chip.  The components inside are much smaller than those fake eBay amps.  Chances are, all you'd end up doing is destroying the chip.  Even if you succeeded in doing so, this will be a costly and time-consuming task.  In the end, the bitcoins will be gone already because the original owner will have `changed their recovery seed <http://doc.satoshilabs.com/trezor-user/advanced_features.html#changing-your-trezor-recovery-seed>`_ upon discovering that their TREZOR was stolen.
+You might imagine yourself `dissolving the TREZOR CPU in acid <https://zeptobars.ru/en/read/OPA627-AD744-real-vs-fake-china-ebay>`_, finding the reprogramming fuse, repairing it, and then loading evil firmware on the TREZOR.  I'm no science fiction author, but my guess is -- this might be possible.  However, the Cortex M3 is a sensitive multilayer chip.  The components inside are much smaller than those fake eBay amps.  Chances are, all you'd end up doing is destroying the chip.  Even if you succeeded in doing so, this will be a costly and time-consuming task.  In the end, the bitcoins will be gone already because the original owner will have `changed their recovery seed <https://doc.satoshilabs.com/trezor-user/advanced_features.html#changing-your-trezor-recovery-seed>`_ upon discovering that their TREZOR was stolen.
 
 
 Evil maid attack - replace the TREZOR with a fake
@@ -60,7 +60,7 @@ You need to keep your recovery seed safe from theft.  If your recovery seed is s
 What happens if the SatoshiLabs servers are hacked and the firmware signing key is stolen?
 ==========================================================================================
 
-First off, this won't happen ;).  The SatoshiLabs master key is kept very safe.  However, you don't need to rely on the SatoshiLabs signature.  You can `verify the build yourself <https://github.com/trezor/trezor-mcu/blob/master/README.rst>`_.  Our hope is that a few trusted TREZOR users will make a habit of verifying firmware checksums.  If you are concerned about this, we suggest making a habit of checking `our blog <https://blog.trezor.io>`_ or social news channels such as `reddit <http://www.reddit.com/r/TREZOR>`_ before applying any updates.  If there ever was a problem with the firmware not matching the source code, you can be sure someone will have written about it.
+First off, this won't happen ;).  The SatoshiLabs master key is kept very safe.  However, you don't need to rely on the SatoshiLabs signature.  You can `verify the build yourself <https://github.com/trezor/trezor-mcu/blob/master/README.rst>`_.  Our hope is that a few trusted TREZOR users will make a habit of verifying firmware checksums.  If you are concerned about this, we suggest making a habit of checking `our blog <https://blog.trezor.io>`_ or social news channels such as `reddit <https://www.reddit.com/r/TREZOR>`_ before applying any updates.  If there ever was a problem with the firmware not matching the source code, you can be sure someone will have written about it.
 
 You don't need to worry about the firmware being updated by a computer virus.  Your TREZOR will ask you to manually confirm the update before anything is written to the TREZOR's memory.
 
@@ -79,7 +79,7 @@ During `the TREZOR recovery process <../trezor-user/recovery.html>`_ you are ask
 
 If your computer has a keylogger installed on it, then the randomly ordered words may be stolen. One might try to re-arrange these words until they found the correct word ordering.  They can check the order of the words, by generating a bitcoin address using each ordering and checking if the address belongs to you.
 
-There are `24! <http://en.wikipedia.org/wiki/Factorial>`_ possible orderings of a 24-word seed.  That is 620448401733239439360000 possible orderings.
+There are `24! <https://en.wikipedia.org/wiki/Factorial>`_ possible orderings of a 24-word seed.  That is 620448401733239439360000 possible orderings.
 
 Each 24 word TREZOR recovery seed is verified with an `8 bit checksum <../trezor-tech/cryptography.html#mnemonic-recovery-seed-bip39>`_ .  Using the checksum to eliminate invalid seeds, you can reduce the search space by a factor of 256.  This gives us a search space of:
 
