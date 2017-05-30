@@ -25,7 +25,6 @@ Wallet                                               :icon:`cog`              :i
 `Electrum <electrum.html>`_                          ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `Electrum-DASH <electrum-dash.html>`_                ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `Electrum-LTC <electrum-ltc.html>`_                  ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
-`Encompass <encompass.html>`_                        ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `MultiBit HD <multibit.html>`_                       ✔                                               ✔                                                                                             ✔                                                                    ✔
 `Mycelium <mycelium.html>`_                                                                          ✔                                              ✔                      ✔                       ✔
 `TREZOR Wallet <trezorwallet.html>`_                 ✔                        ✔                      ✔                                              ✔                      ✔                       ✔                      ✔                      ✔                      ✔
@@ -126,7 +125,7 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    electrum
    electrum-dash
    electrum-ltc
-   encompass
+   mew
    multibit
    mycelium
    osclass

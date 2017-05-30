@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Basic Settings &mdash; TREZOR User Manual 1.0 documentation</title>
+  <title>Advanced Recovery &mdash; TREZOR User Manual 1.0 documentation</title>
   
 
   
@@ -35,9 +35,8 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="TREZOR User Manual 1.0 documentation" href="index.html"/>
-        <link rel="up" title="Setting up your TREZOR device" href="settingup.html"/>
-        <link rel="next" title="Entering your PIN" href="enteringyourpin.html"/>
-        <link rel="prev" title="Filling out your recovery card" href="fillingoutyourrecoverycard.html"/> 
+        <link rel="next" title="Troubleshooting" href="troubleshooting.html"/>
+        <link rel="prev" title="Recovery" href="recovery.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -80,12 +79,12 @@
 <li class="toctree-l2"><a class="reference internal" href="whatsinthebox.html#check-the-security-seal">Check the security seal</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="reference internal" href="settingup.html">Setting up your TREZOR device</a><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="settingup.html">Setting up your TREZOR device</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="settingup.html#online-at-trezor-wallet">1. Online at TREZOR Wallet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="settingup.html#trezor-chrome-extension">2. TREZOR Chrome extension</a></li>
 <li class="toctree-l2"><a class="reference internal" href="settingup.html#trezor-manager-for-android">3. TREZOR Manager for Android</a></li>
 <li class="toctree-l2"><a class="reference internal" href="settingup.html#offline-with-python-tools">4. Offline with Python tools</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="settingup.html#trezor-setup">TREZOR Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="settingup.html#trezor-setup">TREZOR Setup</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="receivingpayments.html">Receiving payments</a><ul>
@@ -106,8 +105,8 @@
 <li class="toctree-l2"><a class="reference internal" href="recovery.html#recovery-process">Recovery process</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="advancedrecovery.html">Advanced Recovery</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="advancedrecovery.html#advanced-recovery-process">Advanced Recovery process</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Advanced Recovery</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#advanced-recovery-process">Advanced Recovery process</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a><ul>
@@ -230,9 +229,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-          <li><a href="settingup.html">Setting up your TREZOR device</a> &raquo;</li>
-      
-    <li>Basic Settings</li>
+    <li>Advanced Recovery</li>
       <li class="wy-breadcrumbs-aside">
         <ul class="share-buttons">
             <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://doc.satoshilabs.com/&t=" target="_blank" title="Share on Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="_static/images/flat_web_icon_set/Facebook.png"></a></li>
@@ -250,30 +247,43 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="basic-settings">
-<h1>Basic Settings<a class="headerlink" href="#basic-settings" title="Permalink to this headline">¶</a></h1>
-<p>After clicking on the Basic tab, you can see following screen:</p>
-<img alt="_images/trezor-welcometosetup-basic.png" src="_images/trezor-welcometosetup-basic.png" />
-<p>On this tab, you can change the label of your device, enable / change PIN, see the Total Balance and also view the XPUBs (Account public keys) of your accounts.</p>
-<div class="section" id="changing-label">
-<h2>Changing label<a class="headerlink" href="#changing-label" title="Permalink to this headline">¶</a></h2>
-<p>You can easily change the label of your device just by clicking on the Change Label button. You will be asked to confirm this action by pressing the button on your TREZOR (and entering your PIN if you have PIN set up already).</p>
-</div>
-<div class="section" id="enabling-changing-pin">
-<h2>Enabling / Changing PIN<a class="headerlink" href="#enabling-changing-pin" title="Permalink to this headline">¶</a></h2>
-<p>To see a detailed description on how to choose and enter your PIN see <a class="reference internal" href="enteringyourpin.html"><span class="doc">Entering your PIN card</span></a>.</p>
-</div>
-<div class="section" id="total-balance">
-<h2>Total Balance<a class="headerlink" href="#total-balance" title="Permalink to this headline">¶</a></h2>
-<p>The total balance of the entire wallet is visible here. Entire wallet means all accounts and addresses.</p>
+  <div class="section" id="advanced-recovery">
+<h1>Advanced Recovery<a class="headerlink" href="#advanced-recovery" title="Permalink to this headline">¶</a></h1>
+<p>In contrast with the Standard Recovery, the Advanced Recovery completely obfuscates the letters entered on the computer. Instead of writing whole words in a shuffled order, you will be inputting individual letters on the PIN-pad in a regular order. The computer will never know what letter is being entered, as the layout of the PIN-pad constantly changes.</p>
+<div class="section" id="advanced-recovery-process">
+<h2>Advanced Recovery process<a class="headerlink" href="#advanced-recovery-process" title="Permalink to this headline">¶</a></h2>
+<p>Using the Advanced Recovery will require more time compared to the Standard Recovery method. Start by plugging in your uninitialized TREZOR into your computer, navigate to the <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a> and select TREZOR Recovery.</p>
+<img alt="_images/advrec1.png" src="_images/advrec1.png" />
+<p>Select the device label to your liking, and choose the length of your recovery seed (master seed). If you are recovering from a TREZOR, the length of the seed will be 24 words. Don’t forget to check the “Advanced recovery” checkbox before clicking on “Continue”.</p>
+<img alt="_images/advrec2.png" src="_images/advrec2.png" />
+<p>And now to the recovery process itself: With Advanced Recovery, you will be choosing the individual letters that the seed word is composed of, as already mentioned. On your computer display, you will see a PIN-pad, like the one you use to enter your PIN.</p>
+<img alt="_images/advrec3.png" src="_images/advrec3.png" />
+<p>On the TREZOR though, there will be no numbers. Instead, you will see a virtual keyboard composed of 9 buttons (like the one on the screen), each assigned to one, two or even three letters. You can choose the letter by clicking on the corresponding button on your computer. Like with the PIN entry, you will get a different layout every time.</p>
+<p>We will be choosing the first four letters for each word. Each letter requires a selection on its own. This means that, in total, you will click on the computer screen 96 times, assuming you will not need to use the backspace to correct your choice.</p>
+<img alt="_images/advrec4.jpeg" src="_images/advrec4.jpeg" />
+<p>For instance, let’s say our first word is <strong>“heavy”</strong>. In order to select the first letter of the first word, we will click on the second button in the first row (first button in the second column), button <strong>“H-L”</strong>.</p>
+<img alt="_images/advrec5.jpeg" src="_images/advrec5.jpeg" />
+<p>Then, we will select the “second letter” of the word. Second letter of heavy is “E”, but to make this easier, the TREZOR will give you the preceding letter too. We will therefore choose the button <strong>“HA-HE”</strong>.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">If you have set up multiple wallets using passphrases, only the balance of the current wallet (using the current passphrase) is visible. More details about using passphrases are in <a class="reference internal" href="advanced_settings.html"><span class="doc">Advanced Settings</span></a>.</p>
+<p class="last">Notice that it this selection might not necessarily be the second letter. In order to fit all the letters into a 9-key layout, keys “J” and “K” had to be hidden under “H-L”. In this case, if your word started with “J” or “K” then you would enter the first letter in this second selection.</p>
 </div>
-</div>
-<div class="section" id="viewing-xpubs">
-<h2>Viewing XPUBs<a class="headerlink" href="#viewing-xpubs" title="Permalink to this headline">¶</a></h2>
-<p>Account public keys let you view your accounts and generate new receiving addresses even when your TREZOR is disconnected.</p>
+<img alt="_images/advrec6.jpeg" src="_images/advrec6.jpeg" />
+<p>We come to the third letter (next letter) of the first word now. In comparison to the second choice, it may seem a bit more complicated, but in reality, it is not too bad. Let’s explain all the options, from top-left to bottom-right:</p>
+<ul class="simple">
+<li><strong>HA T-Z:</strong> The first two letters of the word are “HA”, the third letter is any letter from T to Z</li>
+<li><strong>HEL:</strong> Self-explanatory</li>
+<li><strong>HE N-R:</strong> The first two letters of the word are “HE”, the third letter is any letter from N to R</li>
+<li><strong>HAR:</strong> Self-explanatory</li>
+<li><strong>HA L-M:</strong> The first two letters of the word are “HA”, the third letter is any letter from L to M</li>
+<li><strong>HE D-I:</strong> The first two letters of the word are “HE”, the third letter is any letter from D to I</li>
+<li><strong>HA B-I:</strong> The first two letters of the word are “HA”, the third letter is any letter from B to I</li>
+<li><strong>HA N-P:</strong> The first two letters of the word are “HA”, the third letter is any letter from N to P</li>
+<li><strong>HEA:</strong> Self-explanatory</li>
+</ul>
+<p>Which one is ours? “HEA”.</p>
+<img alt="_images/advrec7.jpeg" src="_images/advrec7.jpeg" />
+<p>After the third letter, there is not much left to choose from. BIP39 wordlist was deliberately made so that there are no words with the same combination of four letters. Having three chosen, there are only a few options left. Choose “heavy” on the now shrunk PIN-pad and you are done with the first word! Repeat the same process for the next 23 words to finish the Advanced Recovery process.</p>
 </div>
 </div>
 
@@ -287,10 +297,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="enteringyourpin.html" class="btn btn-neutral float-right" title="Entering your PIN" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="troubleshooting.html" class="btn btn-neutral float-right" title="Troubleshooting" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="fillingoutyourrecoverycard.html" class="btn btn-neutral" title="Filling out your recovery card" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="recovery.html" class="btn btn-neutral" title="Recovery" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

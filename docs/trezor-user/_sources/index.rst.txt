@@ -16,6 +16,7 @@ Contents
    forgetting
    updatingfirmware
    recovery
+   advancedrecovery
    troubleshooting
    emergency
    securitybestpractices
