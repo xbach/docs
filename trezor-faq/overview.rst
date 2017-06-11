@@ -42,8 +42,7 @@ Which wallets are compatible with TREZOR recovery seed?
 
 In case your TREZOR is not available you can still recover your bitcoins using your :download:`recovery seed <../trezor-user/images/recovery_card.pdf>` 
 and a compatible wallet like 
-`Mycelium <https://play.google.com/store/apps/details?id=com.mycelium.wallet>`_, 
-`Wallet32 <https://play.google.com/store/apps/details?id=com.bonsai.wallet32>`_ or
+`Mycelium <https://play.google.com/store/apps/details?id=com.mycelium.wallet>`_ or
 `Electrum <https://electrum.org/#download>`_.
 Check out our `TREZOR Apps <../trezor-apps/index.html#recovering-funds-without-trezor-device>`_ for the full list of wallets compatible with the recovery seed.
 
@@ -59,6 +58,6 @@ To find out more about these apps, please look for wallets and services with "Wa
 Which coins are currently supported?
 ------------------------------------
 
-At this moment it is Bitcoin, Ethereum, Ethereum Classic, ZCash, Litecoin, Namecoin, Dogecoin, Dash and Testnet. Please check up to date list at our `repository <https://github.com/trezor/trezor-mcu/blob/master/firmware/coins.c#L28>`_.
+At this moment it is Bitcoin, Ethereum (+ all ERC-20 tokens), Ethereum Classic, ZCash, Litecoin, Namecoin, Dogecoin, Dash and Bitcoin Testnet.
 
 Please check the `TREZOR Apps <../trezor-apps/index.html>`_ for detailed information about the wallets supporting TREZOR
