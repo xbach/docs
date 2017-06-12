@@ -28,7 +28,7 @@
   text-align: right;
 }
 
-// fix side navigation scrolling - remove after proper fix
+/* fix side navigation scrolling - remove after proper fix */
 .wy-nav-side {
   overflow-y: auto !important;
 }
