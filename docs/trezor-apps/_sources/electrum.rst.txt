@@ -13,7 +13,7 @@ Resources
 
 - `Website <https://www.electrum.org/>`_
 - `Download <https://electrum.org/#download>`_, `Source code <https://github.com/spesmilo/electrum>`_
-- `User manual <https://electrum.orain.org/wiki/Main_Page>`_, `Support <https://www.electrum.org/#community>`_
+- `Support <https://www.electrum.org/#community>`_
 
 TREZOR User Manual
 ------------------

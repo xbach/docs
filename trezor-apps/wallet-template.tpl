@@ -51,7 +51,7 @@ Resources
 - `Downloads <>`_
 - `Support <>`_
 - `Social <>`_
-- `User manual <>`_
+- `User Manual <>`_
 
 TREZOR User Manual
 ------------------

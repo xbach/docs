@@ -12,7 +12,7 @@ Resources
 ^^^^^^^^^
 
 - `Website <https://wallet.trezor.io>`_
-- `User manual <../trezor-user/settingup.html>`_
+- `User Manual <../trezor-user/settingup.html>`_
 - `Support Center <https://trezor.io/support>`_
 - `Blog <https://blog.trezor.io>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/BitcoinTrezor>`_, `Reddit <https://www.reddit.com/r/TREZOR/>`_
 
