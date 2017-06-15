@@ -16,7 +16,7 @@ Now you should see bootloader screen if both buttons work properly. For more inf
 It doesn't work, how do I send it back?
 ---------------------------------------
 
-Basically, the only thing you need to do is to contact support via `support@trezor.io <mailto:support@trezor.io>`_ to initiate the RMA process. You will receive all the required information by email. We will do our best to troubleshoot the problem with you and you need to ship the product back to us for inspection if we didn't find any solution.
+Basically, the only thing you need to do is to contact support via `Support Center <https://trezor.io/support>`_ to initiate the RMA process. You will receive all the required information by email. We will do our best to troubleshoot the problem with you and you need to ship the product back to us for inspection if we didn't find any solution.
 
 
 How long will the RMA process take?

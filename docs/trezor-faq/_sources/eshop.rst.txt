@@ -98,7 +98,7 @@ Simply leave it unpaid and create a new order as you desire. All unpaid orders a
 
 **For an order already paid but not shipped yet:**
 
-Contact our support at `support@trezor.io <mailto:support@trezor.io>`_ to help you change your order.
+Contact our support via `Support Center <https://trezor.io/support>`_ to help you change your order.
 
 
 What is in the package?
@@ -110,7 +110,7 @@ Your TREZOR will be delivered with a micro USB cable and a user manual. You can 
 Do you ship to my country?
 --------------------------
 
-If your country is not listed in the Delivery Address Form, let us know at `support@trezor.io <mailto:support@trezor.io>`_.
+If your country is not listed in the Delivery Address Form, let us know via `Support Center <https://trezor.io/support>`_.
 We will try to include it as soon as possible.
 
 
@@ -186,5 +186,5 @@ Investigation process takes up to 6 weeks since your request due to the processi
 I want to start the investigation. What should I do?
 ----------------------------------------------------
 
-In that case we will need you to contact us via support email `support@trezor.io <mailto:support@trezor.io>`_ to initiate the investigation process.
+In that case we will need you to contact us via `Support Center <https://trezor.io/support>`_ to initiate the investigation process.
 
