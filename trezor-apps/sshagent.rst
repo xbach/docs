@@ -17,7 +17,7 @@ Resources
 
 - `Website <http://www.openssh.com/>`_
 - `Souce code <https://github.com/romanz/trezor-agent>`_
-- `Support (email) <mailto:support@trezor.io>`_
+- `Support Center <https://trezor.io/support>`_
 
 TREZOR User Manual
 ------------------

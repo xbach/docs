@@ -116,5 +116,4 @@ There is a small issue with TREZOR Bootloader 1.3.0, which prevents the device f
 Contact Support
 ---------------
 
-If you encountered any other problem or suggested solutions didn't solve your issue, please contact our `Customer Support <mailto:support@trezor.io>`_.
-
+If you encountered any other problem or suggested solutions didn't solve your issue, please contact us via `Support Center <https://trezor.io/support>`_
