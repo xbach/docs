@@ -19,7 +19,7 @@ There are two types of refund depending on the package condition:
 How do I claim a refund?
 ------------------------
 
-The only thing you need to do is to contact support via `support@trezor.io <mailto:support@trezor.io>`_ to initiate the Refund process. You will receive all the required information by email. You will also be asked to ship the product back to us.
+The only thing you need to do is to contact support via `Support Center <https://trezor.io/support>`_ to initiate the Refund process. You will receive all the required information by email. You will also be asked to ship the product back to us.
 
 
 How long will it take?

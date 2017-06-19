@@ -17,8 +17,8 @@ Resources
 ^^^^^^^^^
 
 - `Download <https://chrome.google.com/webstore/detail/trezor-chrome-extension/jcjjhjgimijdkoamemaghajlhegmoclj>`_
-- `User manual <../trezor-user/settingup.html>`_
-- `Support (email) <mailto:support@trezor.io>`_
+- `User Manual <../trezor-user/settingup.html>`_
+- `Support Center <https://trezor.io/support>`_
 - `Blog <https://blog.trezor.io>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/BitcoinTrezor>`_, `Reddit <https://www.reddit.com/r/TREZOR/>`_
 
 TREZOR User Manual

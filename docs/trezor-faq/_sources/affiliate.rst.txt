@@ -60,7 +60,7 @@ How to link correctly?
 
 ALTERNATIVELY:
 
-If you only use one source of traffic, for example, your blog, you can `ask us <mailto:support@trezor.io>`_ to replace the referral code by your domain. In that case, your referral code can be skipped and you can link to https://shop.trezor.io directly. We will record all traffic and shopping coming from your domain.
+If you only use one source of traffic, for example, your blog, you can `ask us <https://trezor.io/support>`_ to replace the referral code by your domain. In that case, your referral code can be skipped and you can link to https://shop.trezor.io directly. We will record all traffic and shopping coming from your domain.
 
 **2. Simultaneously, you can use your email address as a referral code.**
 

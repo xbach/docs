@@ -19,7 +19,7 @@ To make a purchase:
 6. Once the payment is confirmed through the Bitcoin network, we'll start to process your order and let you know when your order has been shipped.
 
 
-Can I order a TREZOR form Amazon?
+Can I order a TREZOR from Amazon?
 ---------------------------------
 Sure, Another great place for customers is `amazon.com <https://www.amazon.com/s/%3Daps&field-keywords=trezor>`_. 
 
@@ -27,14 +27,16 @@ Sure, Another great place for customers is `amazon.com <https://www.amazon.com/s
 How can I pay?
 --------------
 
-We accept Bitcoins as a payment method on this eshop.
-Our product prices are fixed in US dollars and converted to BTC at the Bitstamp exchange rate.
+We only accept **Bitcoin** as a payment method at `TREZOR Shop <https://shop.trezor.io>`_.
+Our product prices are fixed in US dollars and converted to BTC at the Bitcoinpay exchange rate.
+
+.. note:: Please do not use exchange withdrawals to pay for the order! We have experienced some issue with such payments as exchanges often deduct the transaction fee from the withdrawal amount and also process the payments in bulk once per period of time, therefore your order can get cancelled due to **insufficient amount** or because they are **paid after timeout**
 
 
 I don't have any bitcoins. Can I pay with credit card, PayPal or wire transfer?
 -------------------------------------------------------------------------------
 
-At the moment no other payment methods are accepted at TREZOR Shop. However getting bitcoins is not difficult anymore!
+At the moment **no other payment methods are accepted at TREZOR Shop**. However getting bitcoins is not difficult anymore!
 
 1. Buy from local traders:
 
@@ -47,10 +49,12 @@ At the moment no other payment methods are accepted at TREZOR Shop. However gett
 
 3. Buy from exchange:
 
-- `Coinbase.com <https://www.coinbase.com/join/satoshilabs>`_
 - `Coinmama.com <https://www.coinmama.com/?ref=Satoshilabs>`_
+- `Coinbase.com <https://www.coinbase.com/join/satoshilabs>`_
 - `Coinjar.com <https://Coinjar.com>`_
 - `Expresscoin.com <https://Expresscoin.com>`_
+
+.. note:: If you buy bitcoin from exchange, please transfer coins to some standard wallet first (Mycelium, Electrum, Jaxx, Copay..) and then process the payment from there. Do not use the withdrawal from exchange as a payment for your order please.
 
 4. Finding other means of exchange in your area
 
@@ -65,6 +69,26 @@ How will you know that I have actually made the payment?
 Each order is assigned a unique payment address. Once your payment is validated by the Bitcoin network, we'll send you a Payment confirmation.
 
 
+My order got cancelled, why is that?
+------------------------------------
+
+In general the orders are valid for 24 hours. Our customers sometimes create more orders at the same time without even noticing it. Please log into your `user account at TREZOR Shop <https://shop.trezor.io/user/profile>`_ and check your orders. It is possible you have multiple orders created at about the same time and one of them is paid, other(s) are cancelled. In such case you don't need to worry, your paid order will be shipped as usual and the notification email is regarding the other order(s). You can compare the order token in your user account and notification email.
+
+Are you sure you created and paid only one order and it still got cancelled? This can happen for various reasons:
+
+**Insufficient amount:**
+
+The service you used to send the payment deducts fees from the final amount (typically exchange services) and we received insufficient amount. In such case you need to contact our support and request refund.
+
+**Paid after timeout:**
+
+Currently our system accepts payments if received within 3 hours since the payment request. If the transaction is accepted later, you need to contact our support and request refund.
+
+**Unconfirmed transaction:**
+
+It can also happen that you sent the payment transaction with low transaction fee and it has not been confirmed. Please check the payment and eventually create another order.
+
+
 Can I change my order?
 ----------------------
 
@@ -74,7 +98,7 @@ Simply leave it unpaid and create a new order as you desire. All unpaid orders a
 
 **For an order already paid but not shipped yet:**
 
-Contact our support at `support@trezor.io <mailto:support@trezor.io>`_ to help you change your order.
+Contact our support via `Support Center <https://trezor.io/support>`_ to help you change your order.
 
 
 What is in the package?
@@ -86,7 +110,7 @@ Your TREZOR will be delivered with a micro USB cable and a user manual. You can 
 Do you ship to my country?
 --------------------------
 
-If your country is not listed in the Delivery Address Form, let us know at `support@trezor.io <mailto:support@trezor.io>`_.
+If your country is not listed in the Delivery Address Form, let us know via `Support Center <https://trezor.io/support>`_.
 We will try to include it as soon as possible.
 
 
@@ -162,5 +186,5 @@ Investigation process takes up to 6 weeks since your request due to the processi
 I want to start the investigation. What should I do?
 ----------------------------------------------------
 
-In that case we will need you to contact us via support email `support@trezor.io <mailto:support@trezor.io>`_ to initiate the investigation process.
+In that case we will need you to contact us via `Support Center <https://trezor.io/support>`_ to initiate the investigation process.
 

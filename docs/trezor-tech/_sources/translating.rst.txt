@@ -4,7 +4,7 @@ Weblate.org - Tool for translating
 1. Register
 --------------------
 
-Please register by sending a request email to `support@trezor.io <mailto:support@trezor.io>`_ with the subject “Translation TREZOR Wallet (Language)”. Should we need your help, we would ask you to register at `Weblate.org <https://hosted.weblate.org>`_ and provide you with access to the translation project of TREZOR Wallet.
+Please register by sending a request email to `Support Center <https://trezor.io/support>`_ with the subject “Translation TREZOR Wallet (Language)”. Should we need your help, we would ask you to register at `Weblate.org <https://hosted.weblate.org>`_ and provide you with access to the translation project of TREZOR Wallet.
 
 
 2. Log into Weblate & Choose language
@@ -40,7 +40,7 @@ It's easy to translate plaintext strings, however if you find strings with place
 
 .. image:: images/weblate-copy.png
 
-In case of any issues, difficulties or questions please check the `Weblate Documentation <https://docs.weblate.org/en/latest/>`_ or contact us at `support@trezor.io <mailto:support@trezor.io>`_
+In case of any issues, difficulties or questions please check the `Weblate Documentation <https://docs.weblate.org/en/latest/>`_ or contact us via `Support Center <https://trezor.io/support>`_
 
 
 
