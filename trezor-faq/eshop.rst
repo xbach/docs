@@ -27,8 +27,8 @@ Sure, Another great place for customers is `amazon.com <https://www.amazon.com/s
 How can I pay?
 --------------
 
-We only accept **Bitcoin** as a payment method at `TREZOR Shop <https://shop.trezor.io>`_.
-Our product prices are fixed in US dollars and converted to BTC at the Bitcoinpay exchange rate.
+We accept **Bitcoin** or **Credit cards** as a payment method at `TREZOR Shop <https://shop.trezor.io>`_.
+Our product prices are fixed in EUR and converted to BTC at the Bitcoinpay exchange rate.
 
 .. note:: Please do not use exchange withdrawals to pay for the order! We have experienced some issue with such payments as exchanges often deduct the transaction fee from the withdrawal amount and also process the payments in bulk once per period of time, therefore your order can get cancelled due to **insufficient amount** or because they are **paid after timeout**
 
@@ -36,7 +36,7 @@ Our product prices are fixed in US dollars and converted to BTC at the Bitcoinpa
 I don't have any bitcoins. Can I pay with credit card, PayPal or wire transfer?
 -------------------------------------------------------------------------------
 
-At the moment **no other payment methods are accepted at TREZOR Shop**. However getting bitcoins is not difficult anymore!
+Yes! At the moment you can pay either with BTC or Credit card. However getting bitcoins is not difficult anymore!
 
 1. Buy from local traders:
 
