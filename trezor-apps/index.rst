@@ -59,7 +59,6 @@ Service                                              Feature(s)                 
 `Bitex <bitex.html>`_                                :icon:`lock`                          Real time bitcoin exchange.
 `Bitstamp <bitstamp.html>`_                          :icon:`exchange`                      Real time bitcoin exchange.
 `Bitwala <bitwala.html>`_                            :icon:`exchange`                      Payment processor. Pay your Euro bills with Bitcoin.
-`Cashila <cashila.html>`_                            :icon:`lock` :icon:`exchange`         Payment processor. Pay your Euro bills with Bitcoin.
 `Coinmap <coinmap.html>`_                            :icon:`lock` :icon:`umbrella`         Map of bitcoin shops and businesses.
 `Coinpayments <coinpayments.html>`_                  :icon:`lock`                          Payment processor service supporting various cryptocurrencies.
 `Osclass <osclass.html>`_                            :icon:`lock`                          Open-source platform for easy creation of classifieds sites.
@@ -119,7 +118,6 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    bitwala
    blockonomics
    extension
-   cashila
    coinmap
    coinpayments
    copay
