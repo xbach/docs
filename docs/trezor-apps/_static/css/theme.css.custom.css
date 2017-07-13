@@ -1,34 +1,409 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url("../fonts/OpenSans-Light.woff2") format('woff2'), url("../fonts/OpenSans-Light.ttf") format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url("../fonts/OpenSans-Regular.woff2") format('woff2'), url("../fonts/OpenSans-Regular.ttf") format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
 .share-buttons {
-	list-style: none;
+    list-style: none;
 }
 
 .share-buttons li {
-	display: inline;
-	opacity: 0.25;
+    display: inline;
+    opacity: 0.25;
 }
 
 .share-buttons li:hover {
-	display: inline;
-	opacity: 0.75;
+    display: inline;
+    opacity: 0.75;
 }
 
 .fa-user-secret:before {
-  content: "\f21b";
+    content: "\f21b";
 }
 
 .fa-paint-brush:before {
-  content: "\f1fc";
+    content: "\f1fc";
 }
 
 .fa-eyedropper:before {
-  content: "\f1fb";
+    content: "\f1fb";
 }
 
 .back_to_top {
-  text-align: right;
+    text-align: right;
 }
 
 /* fix side navigation scrolling - remove after proper fix */
 .wy-nav-side {
-  overflow-y: auto !important;
+    overflow-y: auto !important;
 }
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body.wy-body-for-nav {
+    min-height: 100%;
+    overflow: auto;
+    overflow-y: scroll;
+    background: #fff;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar
+}
+
+.wy-nav-content-wrap {
+    background: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+    .wy-nav-content-wrap {
+        margin-left: 340px;
+    }
+}
+
+div.wy-nav-content {
+    padding: 1.618em 1.236em
+}
+
+li.wy-breadcrumbs-aside {
+    display: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #373a3c;
+}
+
+p {
+    font-size: 15px;
+    line-height: 26px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    color: #5A616D;
+}
+
+hr {
+    border-color: #eee;
+    opacity: .5;
+}
+
+.wy-nav-content a {
+    color: #4cc148;
+    cursor: pointer;
+}
+
+.wy-nav-content a:hover, .wy-nav-content a:focus {
+    color: #4cc148;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wy-nav-content a:visited {
+    color: #44AE5A
+}
+
+/* SIDE NAV */
+nav.wy-nav-side {
+    background: #f6f7f8;
+    border-right: 1px solid #eee;
+}
+
+@media only screen and (min-width: 768px) {
+    nav.wy-nav-side {
+        width: 340px;
+        padding-left: 30px;
+    }
+}
+
+div.wy-side-nav-search {
+    background-color: #f6f7f8;
+    color: #373a3c;
+    width: 310px;
+    padding: 0;
+    text-align: left;
+}
+
+div.wy-side-nav-search a li {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.wy-side-nav-search a {
+    display: block;
+    position: relative;
+    margin-top: -15px;
+    font-size: 1.5em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #373a3c;
+    margin-bottom: 10px;
+}
+
+div.wy-side-nav-search form.wy-form {
+    position: relative;
+    display: block;
+}
+
+div.wy-side-nav-search input[type=text] {
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #f6f7f8;
+    font-size: 17px;
+    padding: 6px 12px 6px 28px;
+    color: #4c555a;
+    font-weight: bold;
+}
+
+div.wy-side-nav-search input[type=text]:placeholder-shown {
+    color: #939da3;
+    font-weight: normal;
+}
+
+div.wy-side-nav-search input[type=text]::-webkit-input-placeholder {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+div.wy-side-nav-search input[type=text]::-moz-placeholder {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+div.wy-side-nav-search input[type=text]:-moz-placeholder {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+div.wy-side-nav-search input[type=text]:-ms-input-placeholder {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+div.wy-side-nav-search input[type=text]:focus::-webkit-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+div.wy-side-nav-search input[type=text]:focus::-moz-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+div.wy-side-nav-search input[type=text]:focus:-moz-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+div.wy-side-nav-search input[type=text]:focus:-ms-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+div.wy-side-nav-search form.wy-form:before {
+    font-family: 'FontAwesome';
+    color: #939da3;
+    position: absolute;
+    left: 5px;
+    top: 8px;
+    z-index: 201;
+    content: "\f002";
+}
+
+div.wy-menu-vertical {
+    width: 310px;
+}
+
+/* SIDE NAVIGATION DROPDOWNS */
+
+div.wy-menu-vertical li a {
+    font-size: 14px;
+    color: #4c555a;
+    text-decoration: none;
+    min-height: 28px;
+    line-height: 20px;
+    padding: .4045em 1.618em .4045em 2em;
+    -webkit-transition: font-weight .1s ease-in-out;
+    -o-transition: font-weight .1s ease-in-out;
+    transition: font-weight .1s ease-in-out;
+}
+
+div.wy-menu-vertical li span.toctree-expand {
+    margin-left: -1.7em;
+    line-height: 1.8em;
+}
+
+div.wy-menu-vertical li.current {
+    background: #f6f7f8;
+}
+
+div.wy-menu-vertical li.on a, div.wy-menu-vertical li.current a {
+    border: 0;
+    background: transparent;
+    padding: .4045em 1.618em .4045em 2em;
+}
+
+div.wy-menu-vertical li.on a span.toctree-expand, div.wy-menu-vertical li.current a span.toctree-expand {
+    margin-left: -1.7em;
+    line-height: 1.8em;
+}
+
+div.wy-menu-vertical li a:hover,
+div.wy-menu-vertical li a:focus,
+div.wy-menu-vertical li.on a:hover,
+div.wy-menu-vertical li.on a:focus,
+div.wy-menu-vertical li.current a:hover,
+div.wy-menu-vertical li.current a:focus,
+.wy-menu-vertical li.toctree-l2.current > a {
+    background: transparent;
+    font-weight: 500;
+}
+
+div.wy-menu-vertical li.current ul {
+    padding-left: 10px;
+}
+
+div.wy-menu-vertical li ul {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s, opacity .5s linear;
+    -o-transition: visibility 0s, opacity .5s linear;
+    transition: visibility 0s, opacity .5s linear;
+}
+
+div.wy-menu-vertical li.current ul {
+    visibility: visible;
+    height: auto;
+    opacity: 1;
+}
+
+/* CONTENT */
+
+div.rst-content img {
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    -o-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.wy-alert, .rst-content .note, .rst-content .attention, .rst-content .caution, .rst-content .danger, .rst-content .error, .rst-content .hint, .rst-content .important, .rst-content .tip, .rst-content .warning, .rst-content .seealso, .rst-content .admonition-todo {
+    padding: 0;
+}
+
+/* note */
+
+.wy-alert.wy-alert-info, .rst-content .note, .rst-content .wy-alert-info.attention, .rst-content .wy-alert-info.caution, .rst-content .wy-alert-info.danger, .rst-content .wy-alert-info.error, .rst-content .wy-alert-info.hint, .rst-content .wy-alert-info.important, .rst-content .wy-alert-info.tip, .rst-content .wy-alert-info.warning, .rst-content .seealso, .rst-content .wy-alert-info.admonition-todo, .wy-alert.wy-alert-warning, .rst-content .wy-alert-warning.note, .rst-content .attention, .rst-content .caution, .rst-content .wy-alert-warning.danger, .rst-content .wy-alert-warning.error, .rst-content .wy-alert-warning.hint, .rst-content .wy-alert-warning.important, .rst-content .wy-alert-warning.tip, .rst-content .warning, .rst-content .wy-alert-warning.seealso, .rst-content .admonition-todo, .wy-alert.wy-alert-success, .rst-content .wy-alert-success.note, .rst-content .wy-alert-success.attention, .rst-content .wy-alert-success.caution, .rst-content .wy-alert-success.danger, .rst-content .wy-alert-success.error, .rst-content .hint, .rst-content .important, .rst-content .tip, .rst-content .wy-alert-success.warning, .rst-content .wy-alert-success.seealso, .rst-content .wy-alert-success.admonition-todo {
+    background: transparent;
+}
+
+.wy-alert.wy-alert-info .wy-alert-title, .rst-content .note .wy-alert-title, .rst-content .wy-alert-info.attention .wy-alert-title, .rst-content .wy-alert-info.caution .wy-alert-title, .rst-content .wy-alert-info.danger .wy-alert-title, .rst-content .wy-alert-info.error .wy-alert-title, .rst-content .wy-alert-info.hint .wy-alert-title, .rst-content .wy-alert-info.important .wy-alert-title, .rst-content .wy-alert-info.tip .wy-alert-title, .rst-content .wy-alert-info.warning .wy-alert-title, .rst-content .seealso .wy-alert-title, .rst-content .wy-alert-info.admonition-todo .wy-alert-title, .wy-alert.wy-alert-info .rst-content .admonition-title, .rst-content .wy-alert.wy-alert-info .admonition-title, .rst-content .note .admonition-title, .rst-content .wy-alert-info.attention .admonition-title, .rst-content .wy-alert-info.caution .admonition-title, .rst-content .wy-alert-info.danger .admonition-title, .rst-content .wy-alert-info.error .admonition-title, .rst-content .wy-alert-info.hint .admonition-title, .rst-content .wy-alert-info.important .admonition-title, .rst-content .wy-alert-info.tip .admonition-title, .rst-content .wy-alert-info.warning .admonition-title, .rst-content .seealso .admonition-title, .rst-content .wy-alert-info.admonition-todo .admonition-title {
+    background: transparent;
+    color: #6ab0de;
+}
+
+.rst-content .note .last, .rst-content .attention .last, .rst-content .caution .last, .rst-content .danger .last, .rst-content .error .last, .rst-content .hint .last, .rst-content .important .last, .rst-content .tip .last, .rst-content .warning .last, .rst-content .seealso .last, .rst-content .admonition-todo .last {
+    padding: 16px 20px;
+    background: #e7f2fa;
+    border: 1px solid #6ab0de;
+    border-radius: 4px;
+    color: #373e42;
+}
+
+/* warning */
+
+.wy-alert.wy-alert-warning .wy-alert-title, .rst-content .wy-alert-warning.note .wy-alert-title, .rst-content .attention .wy-alert-title, .rst-content .caution .wy-alert-title, .rst-content .wy-alert-warning.danger .wy-alert-title, .rst-content .wy-alert-warning.error .wy-alert-title, .rst-content .wy-alert-warning.hint .wy-alert-title, .rst-content .wy-alert-warning.important .wy-alert-title, .rst-content .wy-alert-warning.tip .wy-alert-title, .rst-content .warning .wy-alert-title, .rst-content .wy-alert-warning.seealso .wy-alert-title, .rst-content .admonition-todo .wy-alert-title, .wy-alert.wy-alert-warning .rst-content .admonition-title, .rst-content .wy-alert.wy-alert-warning .admonition-title, .rst-content .wy-alert-warning.note .admonition-title, .rst-content .attention .admonition-title, .rst-content .caution .admonition-title, .rst-content .wy-alert-warning.danger .admonition-title, .rst-content .wy-alert-warning.error .admonition-title, .rst-content .wy-alert-warning.hint .admonition-title, .rst-content .wy-alert-warning.important .admonition-title, .rst-content .wy-alert-warning.tip .admonition-title, .rst-content .warning .admonition-title, .rst-content .wy-alert-warning.seealso .admonition-title, .rst-content .admonition-todo .admonition-title {
+    background: transparent;
+    color: #f0b37e;
+}
+
+.rst-content .attention .last, .rst-content .caution .last, .rst-content .danger .last, .rst-content .error .last, .rst-content .important .last, .rst-content .tip .last, .rst-content .warning .last, .rst-content .seealso .last, .rst-content .admonition-todo .last {
+    border-color: #f0b37e;
+    background-color: #ffedcc;
+}
+
+/* hint */
+
+.wy-alert.wy-alert-success .wy-alert-title, .rst-content .wy-alert-success.note .wy-alert-title, .rst-content .wy-alert-success.attention .wy-alert-title, .rst-content .wy-alert-success.caution .wy-alert-title, .rst-content .wy-alert-success.danger .wy-alert-title, .rst-content .wy-alert-success.error .wy-alert-title, .rst-content .hint .wy-alert-title, .rst-content .important .wy-alert-title, .rst-content .tip .wy-alert-title, .rst-content .wy-alert-success.warning .wy-alert-title, .rst-content .wy-alert-success.seealso .wy-alert-title, .rst-content .wy-alert-success.admonition-todo .wy-alert-title, .wy-alert.wy-alert-success .rst-content .admonition-title, .rst-content .wy-alert.wy-alert-success .admonition-title, .rst-content .wy-alert-success.note .admonition-title, .rst-content .wy-alert-success.attention .admonition-title, .rst-content .wy-alert-success.caution .admonition-title, .rst-content .wy-alert-success.danger .admonition-title, .rst-content .wy-alert-success.error .admonition-title, .rst-content .hint .admonition-title, .rst-content .important .admonition-title, .rst-content .tip .admonition-title, .rst-content .wy-alert-success.warning .admonition-title, .rst-content .wy-alert-success.seealso .admonition-title, .rst-content .wy-alert-success.admonition-todo .admonition-title {
+    color: #1abc9c;
+    background: transparent;
+}
+
+.rst-content .attention .last, .rst-content .caution .last, .rst-content .danger .last, .rst-content .error .last, .rst-content .hint .last, .rst-content .important .last, .rst-content .tip .last, .rst-content .seealso .last, .rst-content .admonition-todo .last {
+    border-color: #1abc9c;
+    background: #dbfaf4;
+}
+
+/* CONTENT FOOTER BTNS */
+
+div.rst-footer-buttons a,
+div.rst-footer-buttons a:hover,
+div.rst-footer-buttons a:focus {
+    background: transparent !important;
+    border: 0;
+    box-shadow: none;
+}
+
+div.rst-footer-buttons a span.fa {
+    padding: 5px
+}
+
+div.rst-footer-buttons a:hover {
+    text-decoration: none;
+    color: #4cc148 !important;
+    cursor: pointer;
+}
+
+/* MOBILE STYLES */
+
+.wy-nav-top {
+    color: #373a3c;
+    background: #f6f7f8;
+    border-bottom: 1px solid #eee;
+}
+
+.wy-nav-top a {
+    color: #373a3c;
+}
+
