@@ -75,7 +75,7 @@ You can use your TREZOR together with other BIP32, BIP39 and BIP44 `compatible w
 What if I run the TREZOR recovery process on an infected computer?
 ==================================================================
 
-During `the TREZOR recovery process <../trezor-user/recovery.html>`_ you are asked to enter your recovery seed into the computer with the words in a random order.  By default, the TREZOR uses a 24-word recovery seed.
+During `the TREZOR's standard recovery process <../trezor-user/recovery.html>`_ you are asked to enter your recovery seed into the computer with the words in a random order. By default, the TREZOR uses a 24-word recovery seed.
 
 If your computer has a keylogger installed on it, then the randomly ordered words may be stolen. One might try to re-arrange these words until they found the correct word ordering.  They can check the order of the words, by generating a bitcoin address using each ordering and checking if the address belongs to you.
 
@@ -98,6 +98,38 @@ If we wave our hands a bit, we can claim that SHA-512 and SHA-256 are the same d
 (24! ÷ 256 × 8096) ÷ 176 537 883 000 000 000 ÷ 60 ÷ 60 ÷ 24 ÷ 365 = 3.5 years
 
 for the **ENTIRE BITCOIN NETWORK** to crack the seed.  If you have that kind of hashing power, you'd make better money mining at `Slush Pool <https://mining.bitcoin.cz/>`_ than trying to steal bitcoins. :-) On a normal botnet cracking a TREZOR seed would take millennia.
+
+.. note:: This does not apply to the `Advanced Recovery <https://doc.satoshilabs.com/trezor-user/advancedrecovery.html>`_ method, during which you do not input the seed words on the computer. More information is available in the `User Manual <https://doc.satoshilabs.com/trezor-user/advancedrecovery.html>`_.
+
+
+Why is the device not covered in epoxy?
+=======================================
+
+There are three reasons why one should use epoxy:
+
+First is to increase the durability of the device. We feel that TREZOR is durable enough even without the epoxy.
+
+Second, to obfuscate components you are using in your design. This is not needed as the design is open source.
+
+Thirdly, to make access to the MCU harder. If you are highly motivated, epoxy will just slow you down, not stop you. Also MCU has a disabled JTAG, so there is no need to block access to MCU pins.
+
+
+Why didn't you use Secure Element or Secure Chip?
+=================================================
+
+We want to keep TREZOR as open as possible (both firmware and hardware are completely open source and available on our `GitHub <https://github.com/trezor>`_). If we used Secure Element, we would limit hobbyist and hackers in creating their `own clones <http://www.stellaw.info/blog/2015/12/22/i-built-my-own-trezor-clone-dinosaur-hiphop-zero>`_, because you cannot use Secure Element in your design unless you sign a non-disclosure agreement with the vendor. By using standard off-the-shelf components, we make that really easy. We are aware of Secure Element's advantages, but we are trying to fix most disadvantages of generic MCU in the software (see below).
+
+
+What's up with the side channel attacks?
+=========================================
+
+Side channel attacked `described by Jochen Hoenicke <https://jochen-hoenicke.de/trezor-power-analysis/>`_ were fixed by rewriting all crypto functions to use constant time. Jochen did almost all of the fixing and we've been collaborating ever since on various security and non-security related improvements. We love our community! Also we ask PIN before every operation involving a private key (e.g. generating of the public key), so even if there was some side channel attack left, you would still need to know the PIN to trigger it.
+
+
+How about MCU glitching?
+========================
+
+We did our best to protect the MCU against glitching (e.g. when we check the PIN, we first increase the PIN failure count, write it to flash, verify that write was OK, then check whether the PIN was correct and if it was correct then we reset the PIN failure count). That way you cannot glitch the PIN increase write.
 
 
 What doesn't TREZOR protect against (yet)?
